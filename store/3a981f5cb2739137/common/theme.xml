@@ -19957,4 +19957,5 @@
 	<effect id="ncc_transition03b.swf" type="ANIME" resize="false" move="false" name="Transition out - vertical squares" enable="Y" is_premium="N" aid="12337" money="0" sharing="0" display_order="1011" />
 	<effect id="ncc_transition04.swf" type="ANIME" resize="false" move="false" name="Transition in - horizontal squares" enable="Y" is_premium="N" aid="12338" money="0" sharing="0" display_order="1012" />
 	<effect id="ncc_transition04b.swf" type="ANIME" resize="false" move="false" name="Transition out - horizontal squares" enable="Y" is_premium="N" aid="12339" money="0" sharing="0" display_order="1013" />
+		<sound id="Cujo_Popsicle.mp3" name="Cujo - Popsicle" downloadtype="progressive" subtype="bgmusic" duration="277655" enable="Y" is_premium="N" aid="450785" money="0" sharing="0"/>
 </theme>
