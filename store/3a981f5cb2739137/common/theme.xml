@@ -17052,6 +17052,7 @@
 		<state id="msp_offprojector02_ncc_offprojector02_sideon.swf" name="side - on" enable="Y" />
 	</prop>
 	<prop id="ncc_oldnorthbridge.swf" name="Old bridge" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11920" money="0" sharing="0" />
+	<prop id="elevator_guy.swf" name="Guy with suitcase" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11920" money="0" sharing="0" />
 	<prop id="ncc_penstand.swf" name="Pen stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11924" money="0" sharing="0" />
 	<prop id="ncc_rehouse.swf" name="Wooden house" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11925" money="0" sharing="0" />
 	<prop id="ncc_revodrum.swf" name="Drum" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11926" money="0" sharing="0" />
