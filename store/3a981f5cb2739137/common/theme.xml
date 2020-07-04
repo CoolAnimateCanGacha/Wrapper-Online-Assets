@@ -17973,6 +17973,18 @@
 	</sound>
 	<sound id="FunkyBeat.mp3" name="Funky Beat" downloadtype="progressive" subtype="bgmusic" duration="35600" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
 	<sound id="toytitle.mp3" name="Toy Story (Sega Genesis) Title Theme" downloadtype="progressive" subtype="bgmusic" duration="152000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 1.mp3" name="Moog Statement 1" downloadtype="progressive" subtype="bgmusic" duration="8000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 5.mp3" name="Moog Statement 5" downloadtype="progressive" subtype="bgmusic" duration="12000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 6.mp3" name="Moog Statement 6" downloadtype="progressive" subtype="bgmusic" duration="7000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 8.mp3" name="Moog Statement 8" downloadtype="progressive" subtype="bgmusic" duration="6000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 9.mp3" name="Moog Statement 9" downloadtype="progressive" subtype="bgmusic" duration="6000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 10.mp3" name="Moog Statement 10" downloadtype="progressive" subtype="bgmusic" duration="7000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 11.mp3" name="Moog Statement 11" downloadtype="progressive" subtype="bgmusic" duration="5000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 12.mp3" name="Moog Statement 12" downloadtype="progressive" subtype="bgmusic" duration="8000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 13.mp3" name="Moog Statement 13" downloadtype="progressive" subtype="bgmusic" duration="7000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 14.mp3" name="Moog Statement 14" downloadtype="progressive" subtype="bgmusic" duration="9000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Moog Statement 15.mp3" name="Moog Statement 15" downloadtype="progressive" subtype="bgmusic" duration="7000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
+	<sound id="Everybody Knows Shit's Fucked.mp3" name="Everybody Knows Sh*t's F*cked" downloadtype="progressive" subtype="bgmusic" duration="194000" enable="Y" is_premium="N" aid="6046" money="0" sharing="0" />
 	<sound id="recipe_for_riches.mp3" name="Recipe For Riches" downloadtype="progressive" subtype="bgmusic" duration="227500" enable="Y" is_premium="N" aid="6047" money="0" sharing="0" />
 	<sound id="tibetan_monks.mp3" name="Tibetan Monks" downloadtype="progressive" subtype="bgmusic" duration="217400" enable="Y" is_premium="N" aid="6048" money="0" sharing="0" />
 	<sound id="swimming.mp3" name="Swimming" downloadtype="progressive" subtype="bgmusic" duration="301400" enable="Y" is_premium="N" aid="6049" money="0" sharing="0" />
