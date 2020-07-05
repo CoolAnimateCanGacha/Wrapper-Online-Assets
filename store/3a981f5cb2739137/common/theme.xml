@@ -15470,7 +15470,8 @@
 	<prop id="flash_light.swf" name="Flash Light" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3288" money="0" sharing="0" />
 	<prop id="jail_crocroach.swf" name="Cockroach" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3198" money="0" sharing="0" />
 	<prop id="jail_prisoner.swf" name="Prisoner" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3199" money="0" sharing="0" />
-	<prop id="elevator_guy.swf" name="Guy With Suitcase" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3199" money="0" sharing="0" />
+	<prop id="elevator_guy.swf" name="Guy with suitcase" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3199" money="0" sharing="0" />
+	<prop id="action_figure.swf" name="Action figure" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3199" money="0" sharing="0" />
 	<prop id="jail_gatedoor.swf" name="Cell Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3200" money="0" sharing="0" />
 	<prop id="jail_frontgate.swf" name="Cell Gate" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3201" money="0" sharing="0" />
 	<prop id="jail_frontgate_v1.swf" name="Cell Gate" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3202" money="0" sharing="0" />
