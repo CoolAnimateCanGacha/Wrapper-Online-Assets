@@ -184,3 +184,36 @@ font importing
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* ... */
+
+tr>:nth-child(4) {
+	font-family: 'GlyphiconsRegular';
+	text-decoration: none;
+	padding-top: 5px;
+	font-size: 14px;
+	width: 80px;
+}
+
+tr>:nth-child(4)>a {
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 10px;
+	color: #474747;
+}
+
+tr>:nth-child(4)>a:hover {
+	color: #d85e27;
+}
+
+tr>:nth-child(4)>:nth-child(1)::before {
+	content: '\E174';
+}
+
+tr>:nth-child(4)>:nth-child(2)::before {
+	content: '\E235';
+}
+
+tr>:nth-child(4)>:nth-child(3)::before {
+	content: '\E182';
+}
