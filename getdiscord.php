@@ -1,7 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	
+  <head>    <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport" />
 <meta name="description" content="Check out the Wrapper: Online &amp; Retro community on Discord - hang out with 290 other members and enjoy free voice and text chat." />
 <meta name="twitter:card" content="summary_large_image" />
