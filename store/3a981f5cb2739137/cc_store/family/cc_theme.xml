@@ -915,6 +915,12 @@
 			<selection type="skeleton" state_id="stand"/>
 			<selection type="upper_body" state_id="run"/>
 		</action>
+		<action id="punch" name="Punch" loop="Y" totalframe="1" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_angry"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="punch"/>
+			<selection type="upper_body" state_id="run"/>
+    </action>
 		<action id="dance" name="Dance" loop="Y" totalframe="23" enable="Y" is_motion="N">
 			<selection type="facial" facial_id="head_happy"/>
 			<selection type="lower_body" state_id="dance"/>
@@ -961,7 +967,8 @@
 			<state id="lie_down" filename="lie_down.swf"/>
 			<state id="point_at" filename="point_at.swf"/>
 			<state id="run" filename="run.swf"/>
-						<state id="sprint" filename="sprint.swf"/>
+			<state id="sprint" filename="sprint.swf"/>
+			<state id="punch" filename="punch.swf"/>
 			<state id="sad" filename="sad.swf"/>
 			<state id="sit" filename="sit.swf"/>
 			<state id="stand" filename="stand.swf"/>
