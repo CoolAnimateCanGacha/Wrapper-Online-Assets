@@ -275,6 +275,17 @@
         <selection type="hair" state_id="default"/>
         <selection type="mouth" state_id="angry"/>
         <selection type="nose" state_id="default"/>
+    </facial>  
+    <facial id="head_angry2" name="Scheming" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="nose" state_id="default"/>
     </facial>
     <facial id="head_sad" name="Sad" enable="Y">
         <selection type="ear" state_id="default"/>
@@ -285,28 +296,6 @@
         <selection type="glasses" state_id="default"/>
         <selection type="hair" state_id="default"/>
         <selection type="mouth" state_id="sad"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
-    <facial id="head_confused2" name="Suspicious" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="broken01"/>
-        <selection type="eyebrow" state_id="confused"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="confused"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
-    <facial id="head_laugh2" name="Evil laugh" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="angry"/>
-        <selection type="eyebrow" state_id="angry"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="laugh"/>
         <selection type="nose" state_id="default"/>
     </facial>
     <facial id="head_cry" name="Crying" enable="Y">
@@ -320,6 +309,17 @@
         <selection type="mouth" state_id="cry"/>
         <selection type="nose" state_id="default"/>
     </facial>
+	<facial id="head_cry2" name="Tears of joy" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="nose" state_id="default"/>
+    </facial>>
     <facial id="head_think" name="Thinking" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="confused"/>
@@ -364,6 +364,17 @@
         <selection type="mouth" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
+	<facial id="head_sleep2" name="Dreamy" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="closed_eye"/>
+        <selection type="eyebrow" state_id="happyt"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_ko" name="Knocked out" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="desperate"/>
@@ -386,6 +397,28 @@
         <selection type="mouth" state_id="sick"/>
         <selection type="nose" state_id="default"/>
     </facial>
+    <facial id="head_sick2" name="Tired" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="confused"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+	<facial id="head_sick3" name="Bored" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="confused"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sick"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_laugh" name="Laugh" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="laugh"/>
@@ -397,9 +430,31 @@
         <selection type="mouth" state_id="laugh"/>
         <selection type="nose" state_id="default"/>
     </facial>
+	<facial id="head_laugh2" name="Evil laugh" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_confused" name="Confused" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="confused"/>
+        <selection type="eyebrow" state_id="confused"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="confused"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_confused2" name="Suspicious" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="broken01"/>
         <selection type="eyebrow" state_id="confused"/>
         <selection type="facedecoration" state_id="default"/>
         <selection type="faceshape" state_id="default"/>
@@ -474,50 +529,6 @@
         <selection type="mouth" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
-    <facial id="head_sick2" name="Tired" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="sick"/>
-        <selection type="eyebrow" state_id="sad"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="confused"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
-	<facial id="head_sick3" name="Bored" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="confused"/>
-        <selection type="eyebrow" state_id="sad"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="sick"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
-    <facial id="head_angry2" name="Scheming" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="angry"/>
-        <selection type="eyebrow" state_id="angry"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="happy"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
-    <facial id="head_sleep2" name="Dreamy" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="closed_eye"/>
-        <selection type="eyebrow" state_id="happyt"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="happy"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
     <facial id="head_sing" name="Sing" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="closed_eye"/>
@@ -574,17 +585,6 @@
         <selection type="mouth" state_id="happy02"/>
         <selection type="nose" state_id="default"/>
     </facial>
-	<facial id="head_cry2" name="Tears of joy" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="cry"/>
-        <selection type="eyebrow" state_id="sad"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="laugh"/>
-        <selection type="nose" state_id="default"/>
-    </facial>>
     <facial id="head_happy2" name="Pleased" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="default"/>
@@ -605,28 +605,6 @@
         <selection type="glasses" state_id="default"/>
         <selection type="hair" state_id="default"/>
         <selection type="mouth" state_id="run03"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
-    <facial id="head_angry3" name="Badass" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="default"/>
-        <selection type="eyebrow" state_id="default"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="angry"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
-    <facial id="head_angry4" name="Serious" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="default"/>
-        <selection type="eyebrow" state_id="angry"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="angry"/>
         <selection type="nose" state_id="default"/>
     </facial>
     <facial id="head_cool" name="Look cool" enable="Y">
@@ -697,8 +675,9 @@
     </facial>
 
 
+
     <bodyshape id="default" name="Default" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y">
-        <default_char>
+<default_char>
 		<color r="ccSkinColor">0xE2C294</color>
 		<color r="ccEyeLib">0xBD8764</color>
 		<color r="ccEyeIris">0x003333</color>
@@ -712,13 +691,13 @@
 		<color r="ccHairMajor">0x7E4D1B</color>
 		<component type="bodyshape" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="eyebrow" component_id="002" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="ear" component_id="003" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="hair" component_id="058" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="nose" component_id="007" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="mouth" component_id="008" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="eye" component_id="003" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="faceshape" component_id="007" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="eyebrow" component_id="002" theme_id="cc2" x="-1" y="1" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="ear" component_id="003" theme_id="cc2" x="-3" y="-7" xscale="1" yscale="1" offset="0" rotation="6" gobucks="0" gopoints="0"/>
+		<component type="hair" component_id="058" theme_id="cc2" x="1" y="7" xscale="0.97" yscale="1.08" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="nose" component_id="007" theme_id="cc2" x="0" y="-4" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="mouth" component_id="008" theme_id="cc2" x="-2" y="-3" xscale="0.83" yscale="0.79" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="eye" component_id="003" theme_id="cc2" x="0" y="-1" xscale="0.92" yscale="0.76" offset="-3" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="faceshape" component_id="007" theme_id="cc2" x="-1" y="0" xscale="0.92" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<library type="GoHands" component_id="001" theme_id="cc2" gobucks="0" gopoints="0"/>
 		<library type="GoLower" component_id="001" theme_id="cc2" gobucks="10" gopoints="0"/>
 		<library type="GoUpper" component_id="221" theme_id="cc2" gobucks="40" gopoints="0"/>
@@ -2426,15 +2405,7 @@
 		
 <!-- BODY OUTFITS START HERE -->
 
-                <library type="GoUpper" id="000" path="000" name="000" thumb="000_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoUpper" id="3001" path="3001" name="3001" thumb="3001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoUpper" id="3002" path="3002" name="3002" thumb="3002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoUpper" id="3003" path="3003" name="3003" thumb="3003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoUpper" id="3004" path="3004" name="3004" thumb="3004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoUpper" id="3005" path="3005" name="3005" thumb="3005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoUpper" id="3006" path="3006" name="3006" thumb="3006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoUpper" id="3007" path="3007" name="3007" thumb="3007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoUpper" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+		<library type="GoUpper" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="1002" path="1002" name="1002" thumb="1002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="1004" path="1004" name="1004" thumb="1004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2782,6 +2753,13 @@
         <library type="GoUpper" id="245" path="245" name="245" thumb="245_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="246" path="246" name="246" thumb="246_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="247" path="247" name="247" thumb="247_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+	<library type="GoUpper" id="3001" path="3001" name="3001" thumb="3001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3002" path="3002" name="3002" thumb="3002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3003" path="3003" name="3003" thumb="3003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3004" path="3004" name="3004" thumb="3004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3005" path="3005" name="3005" thumb="3005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3006" path="3006" name="3006" thumb="3006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3007" path="3007" name="3007" thumb="3007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		
 <!-- FEET START HERE -->
         <library type="GoLower" id="000" path="000" name="000" thumb="000_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -3196,6 +3174,26 @@
         <state id="desperate" filename="desperate.swf"/>
         <state id="hang_up_phone" filename="hang_up_phone.swf"/>
         <state id="laugh" filename="laugh.swf"/>
+        <state id="look_down" filename="look_down.swf"/>
+        <state id="phone_ringing" filename="phone_ringing.swf"/>
+        <state id="pick_up_phone" filename="pick_up_phone.swf"/>
+        <state id="sad" filename="sad.swf"/>
+        <state id="shock" filename="shock.swf"/>
+        <state id="sick" filename="sick.swf"/>
+        <state id="broken01" filename="broken01.swf"/>
+        <state id="broken02" filename="broken02.swf"/>
+        <state id="up" filename="up.swf"/>
+        <state id="wink" filename="wink.swf"/>
+   </component>
+    <component type="eye" id="2009" path="2009" name="2009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="angry" filename="angry.swf"/>
+        <state id="closed_eye" filename="closed_eye.swf"/>
+        <state id="confused" filename="thinking.swf"/>
+        <state id="cry" filename="cry.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="desperate" filename="get_hit.swf"/>
+        <state id="hang_up_phone" filename="hang_up_phone.swf"/>
+        <state id="laugh" filename="happy.swf"/>
         <state id="look_down" filename="look_down.swf"/>
         <state id="phone_ringing" filename="phone_ringing.swf"/>
         <state id="pick_up_phone" filename="pick_up_phone.swf"/>
@@ -4042,9 +4040,6 @@
 	
 <!-- FACES START HERE -->
 
-    <component type="faceshape" id="3001" path="3001" name="3001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>
     <component type="faceshape" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
@@ -4358,18 +4353,6 @@
 	
 <!-- HAIR START HERE -->
 
-    <component type="hair" id="3001" path="3001" name="3001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>
-    <component type="hair" id="3002" path="3002" name="3002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>
-    <component type="hair" id="3003" path="3003" name="3003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>
-    <component type="hair" id="3004" path="3004" name="3004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>
     <component type="hair" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
@@ -5053,6 +5036,18 @@
         <state id="default" filename="default.swf"/>
     </component>
     <component type="hair" id="125" path="125" name="125" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+    <component type="hair" id="3001" path="3001" name="3001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <state id="default" filename="default.swf"/>
+    </component>
+    <component type="hair" id="3002" path="3002" name="3002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+    <component type="hair" id="3003" path="3003" name="3003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+    <component type="hair" id="3004" path="3004" name="3004" money="0" thumb="thumbnail.swf" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
 
