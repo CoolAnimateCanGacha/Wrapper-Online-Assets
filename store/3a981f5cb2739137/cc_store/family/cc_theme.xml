@@ -12321,6 +12321,9 @@
     <component type="faceshape" id="2005" path="2005" name="2005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
+	<component type="faceshape" id="2011" path="2011" name="2011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
     <component type="faceshape" id="2006" path="2006" name="2006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
