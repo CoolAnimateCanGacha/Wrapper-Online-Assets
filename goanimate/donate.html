@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0148)https://archive.org/includes/donate.php?as_page=1&transpiled=0&referer=http%3A//web.archive.org/web/20140228083745/http%3A//goanimate.com/videomaker -->
+<html lang="en"><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function(namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].responseRules = {};
+
+  let open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method) {
+    this.addEventListener('readystatechange', function() {
+      if (this.readyState === 4 && window[namespace].responseRules.hasOwnProperty(this.responseURL)) {
+        const responseRule = window[namespace].responseRules[this.responseURL];
+        const {response, id} = responseRule;
+        const responseType = this.responseType;
+        let customResponse;
+
+        customResponse = response.type === 'code' ? responseRule.evaluator({
+            method,
+            url: this.responseURL,
+            requestHeaders: this.requestHeaders,
+            requestData: this.requestData,
+            responseType: this.responseType,
+            response: this.response
+          }) : response.value;
+
+        Object.defineProperty(this, 'response', {
+          get: function () {
+            if (response.type === 'static' && responseType === 'json') {
+              return JSON.parse(customResponse);
+            }
+            return customResponse;
+          }
+        });
+
+        if (responseType === '' || responseType === 'text') {
+          Object.defineProperty(this, 'responseText', {
+            get: function () {
+              return customResponse;
+            }
+          });
+        }
+
+        window.postMessage({
+          from: 'requestly',
+          type: 'response_rule_applied',
+          id
+        }, window.location.href);
+      }
+    }, false);
+    open.apply(this, arguments);
+  };
+
+  let send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function(data) {
+    this.requestData = data;
+    send.apply(this, arguments);
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  }
+})('__REQUESTLY__')</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style><title>Donate</title><style>body{margin:0}</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="./jquery-1.10.2.min.js.download"></script>
+      <script src="./polyfill.min.js.download"></script>
+      <script src="./ie-dom-node-remove-polyfill.min.js.download"></script>
+      <script src="./analytics.js.download"></script>
+          <script src="./webcomponents-bundle.js.download" type="text/javascript"></script>
+    <script src="./more-facets.min.js.download" type="text/javascript"></script>
+    <script src="./radio-player-controller.min.js.download" type="text/javascript"></script>
+    </head>
+    <body class="js-ia-iframe" style="margin: 0px;">
+                            <meta property="braintree_token" content="production_w3jccm3z_pqd7hz44swp6zvvw">
+                      <meta property="environment" content="production">
+                      <meta property="venmo_id" content="2878003111190856236">
+                  
+  
+</body></html>
