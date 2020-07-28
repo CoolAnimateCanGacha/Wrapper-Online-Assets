@@ -319,7 +319,7 @@
         <selection type="hair" state_id="default"/>
         <selection type="mouth" state_id="laugh"/>
         <selection type="nose" state_id="default"/>
-    </facial>>
+    </facial>
     <facial id="head_think" name="Thinking" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="confused"/>
