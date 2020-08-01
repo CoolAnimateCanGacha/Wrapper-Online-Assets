@@ -1,0 +1,5527 @@
+
+/* Node display */
+.field .field-label,
+.field .field-label-inline,
+.field .field-label-inline-first {
+  font-weight:bold;
+}
+.field .field-label-inline,
+.field .field-label-inline-first {
+  display:inline;
+}
+.field .field-label-inline {
+  visibility:hidden;
+}
+
+/* Node form display */
+.node-form .content-multiple-table td.content-multiple-drag {
+  width:30px;
+  padding-right:0;/*LTR*/
+}
+.node-form .content-multiple-table td.content-multiple-drag a.tabledrag-handle{
+  padding-right:.5em;/*LTR*/
+}
+
+.node-form .content-add-more .form-submit{
+  margin:0;
+}
+
+.node-form .number {
+  display:inline;
+  width:auto;
+}
+.node-form .text {
+  width:auto;
+}
+
+/* CSS overrides for Views-based autocomplete results.
+  - #autocomplete uses "white-space:pre", which is no good with
+    Views' template-based rendering
+  - Field titles are rendered with <label> in default templates,
+    but we don't want the 'form' styling it gets under .form-item
+*/
+.form-item #autocomplete .reference-autocomplete {
+  white-space:normal;
+}
+
+.form-item #autocomplete .reference-autocomplete label {
+  display:inline;
+  font-weight:normal;
+}
+
+/* 'Manage fields' overview */
+#content-field-overview-form .advanced-help-link,
+#content-display-overview-form .advanced-help-link {
+  margin: 4px 4px 0 0;/*LTR*/
+}
+#content-field-overview-form .label-group,
+#content-display-overview-form .label-group,
+#content-copy-export-form .label-group {
+  font-weight: bold;
+}
+table#content-field-overview .label-add-new-field,
+table#content-field-overview .label-add-existing-field,
+table#content-field-overview .label-add-new-group {
+  float: left;/*LTR*/
+}
+table#content-field-overview tr.content-add-new .tabledrag-changed {
+  display: none;
+}
+table#content-field-overview tr.content-add-new .description {
+  margin-bottom: 0;
+}
+table#content-field-overview .content-new {
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+/* 'Advanced help' pages */
+.advanced-help-topic h3,
+.advanced-help-topic h4,
+.advanced-help-topic h5,
+.advanced-help-topic h6  {
+  margin:1em 0 .5em 0;
+}
+.advanced-help-topic dd {
+  margin-bottom: .5em;
+}
+.advanced-help-topic span.code {
+  background-color:#EDF1F3;
+  font-family:"Bitstream Vera Sans Mono",Monaco,"Lucida Console",monospace;
+  font-size:0.9em;
+  padding:1px;
+}
+.advanced-help-topic .content-border {
+  border:1px solid #AAA
+}/* Force from/to dates to float using inline-block, where it works, otherwise inline. */
+.container-inline-date {
+  width:auto;
+  clear:both;
+  display: inline-block;
+  vertical-align:top;
+  margin-right: 0.5em; /* LTR */
+}
+.container-inline-date .form-item {
+  float:none;
+  padding:0;
+  margin:0;
+}
+.container-inline-date .form-item .form-item {
+  float: left; /* LTR */
+}
+.container-inline-date .form-item,
+.container-inline-date .form-item input {
+  width:auto;
+}
+.container-inline-date .description {
+  clear: both;
+}
+
+.container-inline-date .form-item input,
+.container-inline-date .form-item select,
+.container-inline-date .form-item option {
+  margin-right: 5px; /* LTR */
+}
+
+.container-inline-date .date-spacer {
+  margin-left: -5px; /* LTR */
+}
+.views-right-60 .container-inline-date div {
+  padding:0;
+  margin:0;
+}
+
+.container-inline-date .date-timezone .form-item {
+  float:none;
+  width:auto;
+  clear:both;
+}
+
+/* Fixes for date popup css so it will behave in Drupal */
+#calendar_div, #calendar_div td, #calendar_div th {
+  margin:0;
+  padding:0;
+}
+#calendar_div,
+.calendar_control,
+.calendar_links,
+.calendar_header,
+.calendar {
+  width: 185px;
+  border-collapse: separate;
+  margin: 0;
+}
+.calendar td {
+  padding: 0;
+}
+
+/* formatting for from/to dates in nodes and views */
+span.date-display-single {
+}
+span.date-display-start {
+}
+span.date-display-end {
+}
+span.date-display-separator {
+}
+
+.date-repeat-input {
+  float: left; /* LTR */
+  width:auto;
+  margin-right: 5px; /* LTR */
+}
+.date-repeat-input select {
+  min-width:7em;
+}
+.date-repeat fieldset {
+  clear:both;
+  float:none;
+}
+
+.date-views-filter-wrapper {
+  min-width:250px;
+}
+.date-views-filter input {
+  float: left !important; /* LTR */
+  margin-right: 2px !important; /* LTR */
+  padding:0 !important;
+  width:12em;
+  min-width:12em;
+}
+
+.date-nav {
+  width:100%;
+}
+.date-nav div.date-prev {
+  text-align: left; /* LTR */
+  width:24%;
+  float: left; /* LTR */
+}
+.date-nav div.date-next {
+  text-align: right; /* LTR */
+  width:24%;
+  float: right; /* LTR */
+}
+.date-nav div.date-heading {
+  text-align:center;
+  width:50%;
+  float: left; /* LTR */
+}
+.date-nav div.date-heading h3 {
+  margin:0;
+  padding:0;
+}
+
+.date-clear {
+  float:none;
+  clear:both;
+  display:block;
+}
+
+.date-clear-block {
+  float:none;
+  width:auto;
+  clear:both;
+}
+
+/*
+ ** Markup free clearing that fixes unwanted scrollbars
+ ** @see http://drupal.org/node/232959
+ */
+ .date-clear-block:after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+ }
+ .date-clear-block {
+   display: inline-block;
+ }
+ /* Hides from IE-mac \*/
+ * html .date-clear-block {
+   height: 1%;
+ }
+ .date-clear-block {
+   display: block;
+ }
+ /* End hide from IE-mac */
+
+.date-container .date-format-delete {
+  margin-top: 1.8em;
+  margin-left: 1.5em;
+  float: left;
+}
+.date-container .date-format-name {
+  float: left;
+}
+.date-container .date-format-type {
+  float: left;
+  padding-left: 10px;
+}
+
+.date-container .select-container {
+  clear: left;
+  float: left;
+}
+
+/* Calendar day css */
+div.date-calendar-day {
+  line-height: 1;
+  width: 40px;
+  float: left;
+  margin: 6px 10px 0 0;
+  background: #F3F3F3;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  color: #999;
+  text-align: center;
+  font-family: Georgia, Arial, Verdana, sans;
+}
+div.date-calendar-day span {
+  display: block;
+  text-align: center;
+}
+div.date-calendar-day span.month {
+  font-size: .9em;
+  background-color: #B5BEBE;
+  color: white;
+  padding: 2px;
+  text-transform: uppercase;
+}
+div.date-calendar-day span.day {
+  font-weight: bold;
+  font-size: 2em;
+}
+div.date-calendar-day span.year {
+  font-size: .9em;
+  padding: 2px;
+}
+.og-picture-wrapper {
+  border-bottom:1px dotted;
+  padding:5px 0px;
+  text-align:center;
+}
+
+.og-picture-wrapper .picture {
+  float: none;
+}
+
+#block-og-5 div.item-list ul { padding: 0; margin: 0;  }
+#block-og-5 div.item-list ul ul li {margin:0}
+
+/*tighter search button on group details block*/
+#block-og-0 .form-item {
+  margin-bottom: .4em;
+}
+
+/*no link on group title in group details block*/
+#block-og-0 h2 a {
+  text-decoration:none;
+}
+
+/*used in node-og-group-post.tpl.php*/
+.groups .links  {
+  display: inline;
+}
+
+.view-id-og_members_faces table td, .view-id-og_members_block {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.view-id-og_members_block .item-list ul li {
+  border-top: #CCCCCC 1px dotted;
+  padding-top: 4px;
+  list-style: none;
+  background: none;
+  margin-left: 0;
+  padding-left: 0em;
+  text-indent: -1em;
+}
+
+.view-id-og_members_faces tr.row-first td, .view-id-og_members_block ul li:first-child {
+  border-top: none;
+}
+
+.view-id-og_members_faces div.picture, .view-id-og_members_block div.picture {
+  float: none;
+}
+
+.views-field-is-admin {
+  font-style: italic;
+}
+
+/* $Id: pollfield.css,v 1.2.6.4 2009/10/22 23:45:29 marioprkos Exp $ */
+/*
+.poll .bar {
+  height: 1em;
+  margin: 1px 0;
+  background-color: #ddd;
+}
+.poll .bar .foreground {
+  background-color: #000;
+  height: 1em;
+  float: left;
+}
+.poll .links {
+  text-align: center;
+}
+.poll .percent {
+  text-align: right;
+}
+.poll .total {
+  text-align: center;
+}
+.poll .vote-form {
+  text-align: center;
+}
+.poll .vote-form .choices {
+  text-align: left;
+  margin: 0 auto;
+  display: table;
+}
+.node-form .poll-form fieldset {
+  display: block;
+}
+
+.pollfield-form{
+
+}
+.pollfield-form fieldset legend + .form-item{
+width:70%;
+}
+.pollfield-form fieldset .form-item{
+float:left;
+width:25%;
+}
+
+*/
+/*style pollfield*/
+/*
+#pollfield{
+max-width:800px;
+display:table;
+}
+.pollfield-row{
+margin:10px 0;
+padding:0;
+overflow:visible;
+display:table-row;
+width:100%;
+}
+.pollfield-row .text{
+display:table-cell;
+vertical-align:middle;
+padding:0.2em 3px 0.2em 0;
+min-width:4em;
+overflow:visible;
+text-align:right;
+}
+
+.barcell{
+display:table-cell;
+width:240px;
+vertical-align:middle;
+}
+*/
+
+/*.pollfield-bar-holder{
+position:relative;
+background:olive;
+width:100%;
+height:100%;
+}*/
+
+/*
+.barcell .bar{
+height:1em;
+border:#F0F0F0 solid 1px;
+background:#FFFFFF url(themes/garland/images/bg-bar-white.png) repeat-x scroll 0 0;
+width:240px;
+}
+.barcell .bar .pollfield-foreground{
+background:#71A7CC url(themes/garland/images/bg-bar.png) repeat-x scroll 0 100%;
+height:1em;
+}
+.pollfield-percent{
+display:table-cell;
+vertical-align:middle;
+padding:0.2em;
+min-width:20em;
+overflow:visible;
+}
+
+*/
+/* this class is used to show what is user choice in the poll*/
+
+/*
+.pollfield-chosen{font-weight:bold;font-style:italic;}*/
+
+/**
+ * @file
+ * Styles for uc_order module.
+ */
+.order-overview-form {
+  float: left;
+  padding: 0em 2em 0em 0em;
+}
+
+.order-overview-form .form-item {
+  margin-bottom: 0em;
+}
+
+.order-overview-form #uc-order-select-form,
+.order-overview-form #uc-order-admin-sort-form {
+  margin-bottom: 0em;
+}
+
+.uc-orders-table {
+  clear: both;
+  width: 100%;
+}
+
+.uc-orders-table td,
+.uc-orders-table thead th {
+  white-space: nowrap;
+}
+
+.uc-orders-table tr.odd:hover,
+.uc-orders-table tr.even:hover {
+  background-color: #ddd;
+}
+
+.uc-orders-table img {
+  float: left;
+  margin-right: .5em;
+}
+
+.order-admin-icons {
+  margin-left: 2px;
+}
+
+.order-admin-icons img {
+  padding: 0px 3px;
+  position: relative;
+  top: 3px;
+}
+
+.order-pane {
+  border-color: #bbb;
+  border-style: solid;
+  border-width: 1px;
+  line-height: 1.1em;
+  margin: .5em;;
+  padding: .5em;
+  width: auto;
+}
+
+.order-pane thead {
+  background-color: #ddd;
+}
+
+.order-pane tbody {
+  border-top: 0px;
+}
+
+.order-pane-title {
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+.pos-left {
+  float: left;
+}
+
+.abs-left {
+  /*float: left;*/
+  clear: left;
+}
+
+.pos-right {
+  float: right;
+}
+
+.abs-right {
+  clear: right;
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.order-pane-table th {
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+.order-pane-table td {
+  padding: 4px 8px;
+  vertical-align: top;
+}
+
+.order-pane-table td.qty,
+.order-pane-table td.sku {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.order-pane-table td.product {
+  width: 80%;
+}
+
+.order-pane-table td.cost,
+.order-pane-table td.price,
+.order-pane-table td.total {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.uc-order-comments td {
+  vertical-align: top;
+}
+
+.uc-order-comments td.date,
+.uc-order-comments td.status {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.uc-order-comments td.message {
+  width: 100%;
+ }
+
+.order-edit-table {
+  width: auto;
+}
+
+.order-edit-table .oet-label {
+  font-weight: bold;
+  text-align: right;
+}
+
+.order-edit-table .form-item {
+  display: inline;
+}
+
+.address-select-box {
+  background-color: #ddd;
+  border: solid 1px #999;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  width: auto;
+}
+
+.customer-select-box {
+  background-color: #ddd;
+  border: solid 1px #999;
+  padding: 1em;
+  margin-top: 1em;
+  width: auto;
+}
+
+.product-select-box {
+  background-color: #ddd;
+  border: solid 1px #999;
+  margin-right: auto;
+  margin-bottom: 1em;
+  width: auto;
+}
+
+.product-select-box2 {
+  background-color: #ddd;
+  border: solid 1px #999;
+  margin-right: auto;
+  margin-bottom: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: auto;
+}
+
+.line-item-table {
+  width: 100%;
+}
+
+.line-item-table td {
+  padding: 2px;
+}
+
+.line-item-table .li-title {
+  font-weight: bold;
+  text-align: right;
+  width: 100%;
+}
+
+.line-item-table .li-amount {
+  text-align: right;
+}
+
+.line-item-table .form-item {
+  display: inline;
+}
+
+.order-review-table tbody {
+  border-top: 0px;
+}
+
+.order-pane-table .product-description {
+  font-size: .7em;
+}
+
+/* Move to uc_credit.css eventually... */
+.order-pane #uc-credit-order-view-form {
+  margin-top: .5em;
+  margin-bottom: 0em;
+}
+
+#uc-credit-order-view-form .form-submit {
+  margin: 0em;
+}
+
+.order-pane #uc-order-view-update-form {
+  margin-bottom: 1em;
+}
+
+.update-controls {
+  padding-top: 1em;
+}
+
+.update-controls div {
+  padding-right: 1em;
+}
+
+.update-controls div,
+.update-controls label {
+  display: inline;
+}
+
+.update-controls .form-submit {
+  margin: 0em;
+}
+
+.address-select-box #uc-order-address-book-form {
+  margin-bottom: 0em;
+}
+
+.order-pane.abs-left .form-submit {
+  margin: 0.5em 0.5em 0.5em 0em;
+}
+
+.order-pane #customer-select form {
+  margin-bottom: 0em;
+}
+/**
+ * @file
+ * Styles for uc_product module.
+ */
+.product-image {
+  clear: right;
+  float: right;
+  margin-left: 4px;
+  padding-left: 4px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+.uc-price-display {
+  clear: right;
+  float: right;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  text-align: center;
+  width: 100px;
+}
+
+.display-price {
+  clear: right;
+  float: right;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  text-align: center;
+}
+
+.model {
+  display: inline;
+  font-weight: bold;
+  margin-right: 2em;
+}
+
+.node-form .product-field table {
+  margin: 0;
+  width: auto;
+}
+
+.node-form .product-field td {
+  padding: 3px 6px 0 0;
+}
+
+.node-form .product-field tbody {
+  border: none;
+  margin: 0;
+}
+
+.node-form .product-field table .form-item {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.node-form .product-field .form-text {
+  display: inline;
+  width: auto;
+}
+
+#products-selector table {
+  margin: 0em 0em;
+}
+
+#products-selector td {
+  padding: 0em .5em;
+}
+
+div#products-selector form {
+  margin-bottom: 0em;
+}
+
+#products-selector div.form-item {
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+table.product-list {
+  clear: both;
+}
+
+.uc-product-features td {
+  vertical-align: top;
+}
+
+.add-feature div {
+  padding-right: 1em;
+}
+
+.add-feature div,
+.add-feature label {
+  display: inline;
+}
+/**
+ * @file
+ * Styles for uc_roles module.
+ */
+.expiration {
+  display: inline;
+}
+
+.expiration .form-item {
+  display: inline;
+}
+/**
+ * @file
+ * Styles for uc_store module.
+ */
+.uc-price {
+  white-space: nowrap;
+}
+
+.uc-store-admin-table {
+  margin: 1em auto;
+  border: 1px dashed #bbb;
+}
+
+.uc-store-admin-table tbody {
+  border-top: 0px;
+}
+
+.uc-store-admin-panel {
+  margin: 1em;
+  padding: 1em;
+}
+
+.uc-store-admin-panel .uc-store-icon {
+  float: left;
+  margin-right: 1em;
+}
+
+.uc-store-admin-panel .panel-title {
+  padding-top: 4px;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.uc-store-admin-panel .panel-show-link a {
+  cursor: pointer;
+}
+
+.uc-customer-table .uc-store-icon {
+  float: left;
+  margin-right: .5em;
+}
+
+.uc-customer-table tr.odd:hover,
+.uc-customer-table tr.even:hover {
+  background-color: #ddd;
+}
+
+.uc-cust-orders-table tr.odd:hover,
+.uc-cust-orders-table tr.even:hover {
+  background-color: #ddd;
+}
+
+.uc-cust-orders-table .uc-store-icon {
+  float: left;
+  margin-right: .5em;
+}
+
+#store-footer {
+  width: 100%;
+  text-align: center;
+  font-size: x-small;
+  clear: both;
+}
+
+.uc-default-submit {
+  height: 0px;
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+  width: 0px;
+}
+
+.uc-store-status td {
+  vertical-align: top;
+}
+
+.uc-store-status td.title {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.uc-store-status td.message {
+  width: 100%;
+}
+
+table.section-items {
+  width: auto;
+}
+
+table.section-items td {
+  padding: .25em;
+}
+
+#uc-country-import-form .form-item,
+#uc-country-import-form .form-item label {
+  display: inline;
+  float: left;
+  margin-right: 1em;
+}
+
+#uc-country-import-form .form-submit {
+  float: left;
+  margin-top: 1em;
+}
+
+#uc-country-import-form table {
+  clear: left;
+}
+
+/**
+ * CSS enhancements for Ubercart summary overviews.
+ */
+
+.summary-overview {
+  padding: .5em;
+  border: 1px dashed #bbb;
+  margin-bottom: -1px;
+}
+
+.summary-title {
+  font-weight: bold;
+}
+
+.summaryOnclick-processed {
+  cursor: pointer;
+}
+
+.summaryOnclick-processed:hover {
+  background-color: #ddd;
+}
+
+.summary-edit-icon {
+  float: left;
+  margin-right: .5em;
+  position: relative;
+  top: 2px;
+}
+
+.summaryOnclick-processed .item-list {
+  margin-left: 1.75em;
+}
+
+.summaryOnclick-processed .summary-link {
+  display: none;
+}
+
+.ubercart-throbber {
+  background-image: url(all/modules/contrib/ubercart/uc_store/images/throbber.gif);
+  background-repeat: no-repeat;
+  background-position: 100% -20px;
+}
+
+/* Add icon support for admin (http://drupal.org/project/admin). */
+.path-admin-store-orders span.icon {
+  background: transparent url('all/modules/contrib/ubercart/uc_store/images/menu_orders.gif') no-repeat !important;
+}
+.path-admin-store-customers span.icon {
+  background: transparent url('all/modules/contrib/ubercart/uc_store/images/menu_customers.gif') no-repeat !important;
+}
+.path-admin-store-products span.icon {
+  background: transparent url('all/modules/contrib/ubercart/uc_store/images/menu_products.gif') no-repeat !important;
+}
+.path-admin-store-settings span.icon {
+  background: transparent url('all/modules/contrib/ubercart/uc_store/images/menu_store_settings.gif') no-repeat !important;
+}
+.path-admin-store-attributes span.icon {
+  background: transparent url('all/modules/contrib/ubercart/uc_store/images/menu_store_settings.gif') no-repeat !important;
+}
+.path-admin-store-reports span.icon {
+  background: transparent url('all/modules/contrib/ubercart/uc_store/images/menu_reports.gif') no-repeat !important;
+}
+.path-admin-store-ca span.icon {
+  background: transparent url('all/modules/contrib/ubercart/uc_store/images/menu_store_settings.gif') no-repeat !important;
+}
+.path-admin-store-help span.icon {
+  background: transparent url('all/modules/contrib/ubercart/uc_store/images/menu_help.gif') no-repeat !important;
+}
+
+div.fieldgroup {
+  margin:.5em 0 1em 0;
+}
+div.fieldgroup .content {
+  padding-left:1em;/*LTR*/
+}
+.views-exposed-form .views-exposed-widget {
+  float: left; /* LTR */
+  padding: .5em 1em 0 0; /* LTR */
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.6em;
+}
+
+.views-exposed-form .form-item,
+.views-exposed-form .form-submit {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.views-exposed-form label {
+  font-weight: bold;
+}
+
+.views-exposed-widgets {
+  margin-bottom: .5em;
+}
+
+html.js a.views-throbbing,
+html.js span.views-throbbing {
+  background:url(all/modules/contrib/views/images/status-active.gif) no-repeat right center;
+  padding-right:18px;
+}
+
+/* administrative hover links */
+
+div.view div.views-admin-links {
+  font-size: xx-small;
+  margin-right: 1em;
+  margin-top: 1em;
+/*  width: 95%; */
+}
+
+.block div.view div.views-admin-links {
+  margin-top: 0;
+}
+
+div.view div.views-admin-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.view div.views-admin-links li {
+  margin: 0;
+  padding: 0 0 2px 0;
+  z-index: 201;
+}
+
+div.view div.views-admin-links li a {
+  padding: 0;
+  margin: 0;
+  color: #ccc;
+}
+
+div.view div.views-admin-links li a:before {
+  content: "[";
+}
+div.view div.views-admin-links li a:after {
+  content: "]";
+}
+
+div.view div.views-admin-links-hover a,
+div.view div.views-admin-links:hover a {
+  color: #000;
+}
+
+div.view div.views-admin-links-hover,
+div.view div.views-admin-links:hover {
+  background: transparent;
+}
+
+div.view div.views-hide {
+  display: none;
+}
+
+/** For IE we add the class via js; for other browsers we rely on :hover **/
+div.view div.views-hide-hover,
+div.view:hover div.views-hide {
+  display: block;
+  position: absolute;
+  z-index: 200;
+}
+
+/* don't do this one in IE */
+div.view:hover div.views-hide {
+  margin-top: -1.5em;
+}
+
+/* Remove the border on tbody that system puts in */
+.views-view-grid tbody {
+  border-top: none;
+}
+
+/**
+ * Brown:  #39260B (Dark)
+ *         #66430F (Medium Shadow)
+ *         #734C11 (Medium)
+ *         #CCA65A (Light)
+ * 
+ * Yellow: #BF7000 (Dark)
+ *         #FFAA00 (Medium)
+ *
+ * Green:  #899A00 (Dark)
+ *         #B6CA06 (Light)
+ *
+ * Red:    #993600 (Medium Shadow)
+ *         #CC4700
+ *
+ * Blue:   #205B80 (Medium Shadow)
+ *         #2D7FB3 (Medium)
+ *
+ */
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Reset
+
+------------------------------------------------------------------------ 
+*/
+a,abbr,acronym,address,applet,blockquote,body,caption,cite,code,dd,dfn,div,dl,dt,em,embed,fieldset,form,h1, h2, h3, h4, h5, h6,html,iframe,img,label,legend,li,object,ol,p,pre,span,strike,strong,sub,sup,table,tbody,tfoot,td,th,thead,tr,ul { 
+  border: 0;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  text-align: left; }
+  
+ol,ul {
+  list-style: none; }
+  
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+q:before,q:after {
+  content: ''; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Typography
+
+------------------------------------------------------------------------ 
+*/
+
+body {
+  font-family: 'Lucida Grande', 'Arial', 'Lucida Sans Unicode', sans-serif;
+  font-size: 12px;
+  line-height: 1.5em; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Support
+
+------------------------------------------------------------------------ 
+*/
+
+.clear-block:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+  
+.corners {
+  display: block; }
+  
+.corners:before,
+.corners:after {
+  background: no-repeat;
+  display: block;
+  height: 10px;
+  font-size: 10px;
+  line-height: 10px;
+  position: relative;
+  text-align: left;
+  visibility: visible;
+  z-index: 1; }
+
+.corners:before {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/corner-tr.png);
+  background-position: top right;
+  content: url(zimmertwins.com/themes/zimmertwins/images/corner-tl.png);
+  height: 10px;
+  margin-bottom: -10px; }
+
+.corners:after {
+  clear: both;
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/corner-br.png);
+  background-position: bottom right;
+  content: url(zimmertwins.com/themes/zimmertwins/images/corner-bl.png);
+  margin-top: -10px; }
+  
+.flash-replaced .alt {
+  left: -1000px;
+  position: absolute; }
+  
+.handle { 
+  display: inline; }
+  
+img.badge {
+  margin: 0 0.2em;
+  vertical-align: bottom; }
+  
+.nowrap {
+  white-space: nowrap; }
+  
+.locale-untranslated {
+  color: #CC4700; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Layout
+
+------------------------------------------------------------------------ 
+*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+  
+body {
+  /*background: #39260B url(zimmertwins.com/themes/zimmertwins/images/baseline-grid.gif);*/
+  background: #39260B;
+  color: #B3762D;
+  color: #CC8F33; }
+
+#wrapper {
+  height: 100%;
+  position: relative;
+  width: 990px; }
+
+/* Use min-height and min-width for standards-compliant browsers. */
+html > body #wrapper {
+  height: auto;
+  min-height: 100%;
+  min-width: 990px;
+  overflow: hidden;
+  width: auto; }
+
+/* Using overflow:hidden on #wrapper prevents the footer from 
+sticking to the bottom of the viewport in FF 2.x, so unset it 
+for versions 2.x and lower */
+html > body #wrapper, x:-moz-any-link { overflow: visible; }
+html > body #wrapper, x:-moz-any-link, x:default { overflow: hidden; }
+
+#main {
+  float: left;
+  margin-bottom: 36px;
+  margin-left: 210px;
+  width: 760px; }
+
+#sidebar {
+  color: #474E04;
+  float: left;
+  margin-bottom: 36px;
+  margin-left: -970px;
+  width: 175px; }
+
+#sidebar * {
+  position: relative;
+  z-index: 1; }
+  
+#sidebar-bg {
+  background: #899A00;
+  border-right: 1px solid #33220A;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 150px;
+  width: 175px;
+  z-index: 0; }
+
+#footer {
+  background: #C6D637 url(zimmertwins.com/themes/zimmertwins/images/footer-bg.gif) repeat-x left top;
+  bottom: 0;
+  color: #474E04;
+  font-size: 11px;
+  left: 0;
+  line-height: 18px;
+  padding: 9px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1; }
+
+#site-logo {
+  background: url(zimmertwins.com/themes/zimmertwins/images/logo.png) no-repeat left top;
+  height: 108px;
+  display: block;
+  margin-right: -25px;
+  position: relative;
+  text-indent: -999em;
+  width: 200px; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Navigation
+
+------------------------------------------------------------------------ 
+*/
+
+#nav {
+  margin-top: -1px;
+  margin-right: -5px;
+  position: relative;
+  width: 180px;
+  z-index: 1; }
+
+#nav li,
+#nav li a {
+  display: block;
+  height: 36px;
+  line-height: 36px; }
+
+#nav li {
+  background: url(zimmertwins.com/themes/zimmertwins/images/nav-bg.png) no-repeat left center; }
+
+#nav li:hover {
+  background-position: right center; }
+
+#nav li.first {
+  background-position: left top; }
+
+#nav li.first:hover {
+  background-position: right top; }
+
+#nav li.last {
+  background-position: left bottom; }
+
+#nav li.last:hover {
+  background-position: right bottom; }
+
+#nav li a {
+  background: url(zimmertwins.com/themes/zimmertwins/images/nav-icons.gif) no-repeat 0px 0px;
+  color: #FFFFFF;
+  padding-left: 54px;
+  text-decoration: none;
+  text-shadow: #666666 0px 0px 2px;}
+
+#nav #nav-watch { 
+  background-position: 0px -36px; }
+  
+#nav #nav-make { 
+  background-position: 0px -72px; }
+  
+#nav #nav-spotlight {
+  background-position: 0px -108px; }
+  
+#nav #nav-extras { 
+  background-position: 0px -144px; }
+  
+#nav #nav-help { 
+  background-position: 0px -180px; }
+/* 
+------------------------------------------------------------------------
+
+Theme - Sidebar
+
+------------------------------------------------------------------------ 
+*/
+
+#sidebar a {
+  color: #CAD941;
+  font-weight: bold; }
+
+#sidebar .block {
+  background: url(zimmertwins.com/themes/zimmertwins/images/sidebar-block-bg.gif) repeat-x left bottom;
+  font-size: 10px;
+  line-height: 18px;
+  padding: 18px 20px;
+  width: 135px; }
+
+#sidebar .block h2 {
+  color: #FFF;
+  font-size: 1.1em; /* 11px */
+  font-weight: bold;
+  text-shadow: #666 0px 0px 2px;
+  text-transform: uppercase; }
+  
+#sidebar .block-user-1 .vip {
+  background: #CAD941;
+  border-radius: 5px;
+  color: #444d00;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 3px;
+  text-shadow: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#sidebar .form-text,
+#sidebar .form-password {
+  background: #B6CA06;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-weight: bold;
+  margin: -1px;
+  width: 139px; }
+
+#sidebar .form-submit {
+  background: #B6CA06;
+  border: 1px solid;
+  border-bottom-color: #A9BC06;
+  border-left-color: #C1D22D;
+  border-right-color: #A9BC06;
+  border-top-color: #C1D22D;
+  color: #FFF;
+  font-weight: bold;
+  margin: -1px;
+  margin-top: 8px;
+  text-shadow: #666666 0px 0px 2px; }
+  
+#sidebar .form-required {
+  color: #B6CA06;
+  font-size: 1.636em;
+  font-weight: bold;
+  line-height: 0;
+  position: relative;
+  top: 0.35em; }
+  
+#sidebar .item-list {
+  margin-top: 1.8em; }
+
+#sidebar .menu li,
+#sidebar .item-list li {
+  padding-left: 1.8em; }
+  
+#sidebar .block-sponsor-site-switcher {
+  padding-top: 0;
+  padding-bottom: 0; }
+  
+#sidebar .block-sponsor-site-switcher a {
+  background: url(zimmertwins.com/themes/zimmertwins/images/sidebar-site-switcher-icon.gif) no-repeat left center;
+  display: block;
+  line-height: 3.6em;
+  padding-left: 45px; }
+  
+/* 
+------------------------------------------------------------------------
+
+Theme - Footer
+
+------------------------------------------------------------------------ 
+*/
+
+#footer .copyright {
+  font-weight: bold;
+  margin-left: 9px; }
+  
+#footer .links,
+#footer .links li {
+  display: inline; }
+  
+#footer .links li {
+  border-left: 1px solid #EAF687;
+  margin-left: 0.9em;
+  padding-left: 0.9em; }
+
+#footer .links a {
+  color: #474E04;
+  text-decoration: none; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Content
+
+------------------------------------------------------------------------ 
+*/
+
+#content-header {
+  min-height: 3em;
+  position: relative;
+  z-index: 1; }
+
+#content-header .block-block {
+  background: url(zimmertwins.com/themes/zimmertwins/images/ad-label-leaderboard.gif) 0 9px no-repeat;
+  padding: 9px 0 18px 12px; }
+  
+#content {
+  }
+
+#content-footer {
+  min-height: 3em;
+  padding-bottom: 3em; }
+  
+#content a {
+  color: #B6CA06;
+  font-weight: bold; }
+  
+#content .page-title {
+  color: #CC4700;
+  font-size: 3em;
+  letter-spacing: -3px;
+  line-height: 36px;
+  margin: 0 0 18px 0;
+  padding: 9px 0 9px 76px;
+  position: relative; }
+  
+#content .page-icon {
+  background: url(zimmertwins.com/themes/zimmertwins/images/page-default.gif) no-repeat left center;
+  display: block;
+  height: 72px;
+  left: -10px;
+  position: absolute;
+  top: -9px;
+  width: 86px; }
+  
+#content h2 {
+  color: #B6CA06;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: normal; }
+  
+#content h3 {
+  background: #734C11;
+  color: #D9A04C;
+  font-size: 11px;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 18px;
+  margin: 18px 0px;
+  padding: 0 10px;
+  position: relative;
+  text-shadow: #56390E 0px 0px 3px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+  
+#content h3 .more {
+  color: #FFF;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+  padding: 0 12px 0 9px;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  text-transform: none;
+  top: 0; }
+  
+#content h3 .more:before {
+  color: #FA0;
+  content: '+';
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 0;
+  padding-right: 5px; } 
+  
+#content p {
+  margin: 1.5em 0; }
+  
+#content em {
+  font-style: italic; }
+  
+#content strong {
+  font-weight: bold; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - ???
+
+------------------------------------------------------------------------ 
+*/
+
+#content .krumo-root a {
+  color: blue;
+}
+
+#content .two-column .column {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 370px; }
+  
+#content .three-column .column {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 240px; }
+  
+#content .four-column .column {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 175px; }
+
+#content .two-column .column-last,
+#content .three-column .column-last,
+#content .four-column .column-last {
+  margin-right: 0; }
+
+#content .group {
+  display: block;
+  margin: 0 0 36px 0; }
+  
+#content .group h4 {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 18px 0; }
+  
+#content .group strong {
+  color: #FFAA00;
+  font-weight: bold; }
+  
+#content .group dl dt {
+  color: #FFFFFF;
+  font-weight: bold;
+  margin: 0 0 0 0; }
+  
+#content .group dl dd + dt {
+  margin: 18px 0 0 0; }
+  
+#content .group dl,
+#content .group ol,
+#content .group ul {
+  margin: 18px 2.0em 18px 0; }
+  
+#content .group ul li {
+  list-style-type: disc;
+  margin-left: 2.0em; }
+
+#content .group ol li {
+  list-style-type: decimal;
+  margin-left: 2.0em; }
+
+#content .group a.download {
+  background: #CC4700;
+  color: #FFFFFF;
+  display: -moz-inline-box;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+  vertical-align: bottom; }
+
+#content .group a.download span {
+  display: block;
+  line-height: 18px;
+  margin: 0;
+  padding: 18px 36px;
+  vertical-align: bottom; }
+  
+#content .group a.download acronym {
+  color: #872F00;
+  font-size: 12px;
+  vertical-align: bottom; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Messages
+
+------------------------------------------------------------------------ 
+*/
+
+.messages li {
+  background: #734C11 url(zimmertwins.com/themes/zimmertwins/images/message-icons.gif) no-repeat 0px 0px;
+  color: #FFFFFF;
+  margin: 18px 0;
+  text-shadow: #666666 0px 0px 3px; }
+  
+.messages li span {
+  display: block;
+  font-weight: bold !important;
+  padding: 9px 36px; }
+  
+.messages li.error {
+  background-color: #CC4700;
+  background-position: 0px -360px; }
+  
+.messages li.status {
+  background-color: #B6CA06;
+  background-position: 0px -180px; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Tabs
+
+------------------------------------------------------------------------ 
+*/
+
+#content ul.tabs-primary {
+  border-bottom: 0.5em solid #CC4700;
+  margin: 1.5em 0; }
+
+#content ul.tabs-primary li {
+  background: #734C11;
+  float: left;
+  margin: 0.25em 1px 0 0;
+  padding: 0.5em 1.5em 0.25em;
+  text-align: center; }
+
+#content ul.tabs-primary li a {
+  color: #B3762D; }
+
+#content ul.tabs-primary li.active {
+  background: #CC4700;
+  margin-top: 0;
+  padding-top: 0.75em;
+  padding-bottom: 0.25em; }
+
+#content ul.tabs-primary li.active a {
+  color: #FFF; }
+  
+/* 
+------------------------------------------------------------------------
+
+Theme - Links
+
+------------------------------------------------------------------------ 
+*/
+  
+.links li {
+  display: inline;
+  font-size: 11px;
+  font-weight: bold; }
+  
+.links li + li {
+  border-left: 1px solid #734C11;
+  padding-left: 0.5em; }
+  
+/* 
+------------------------------------------------------------------------
+
+Theme - Tables
+
+------------------------------------------------------------------------ 
+*/
+
+table {
+  border-collapse: collapse;
+  margin: 18px 0;
+  padding: 0; }
+  
+tr.odd {
+  background: #4D330F; }
+
+th, td {
+  padding: 9px;
+  text-align: left;
+  vertical-align: top; }
+  
+th {
+  color: #FFF;
+  font-weight: bold; }
+  
+#permissions td.module {
+  background: #39260B;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-top: 36px;
+}
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Forms
+
+------------------------------------------------------------------------ 
+*/
+
+#content form {
+  /*width: 540px;*/ }
+  
+#content fieldset {
+  border: 1px solid #4D330F;
+  border-width: 1px 0 0 0;
+  margin: 18px 0;
+  padding: 0 18px; }
+  
+#content legend {
+  color: #734C11;
+  display: block;
+  font-size: 15px;
+  margin: 0 0 0 -18px;
+  padding: 0 9px 0 0;
+  text-transform: capitalize; }
+  
+#content legend a {
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize; }
+
+.js #content fieldset.collapsed * {
+  display: none; }
+  
+.js #content fieldset.collapsed legend,
+.js #content fieldset.collapsed legend * {
+  display: block; }
+
+#content label {
+  color: #FFF;
+ display: block;
+  font-weight: bold; }
+  
+#content .form-required {
+  color: #CC4700;
+  font-size: 18px;
+  line-height: 0;
+  position: relative;
+  top: 6px; }
+  
+#content .form-item {
+  margin: 18px 0; }
+  
+#content .form-item .description {
+  font-size: 11px; }
+  
+#content .form-text,
+#content .form-password,
+#content textarea {
+  border: 1px solid #734C11;
+  display: block;
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0; }
+  
+#content textarea {
+  height: 178px; }
+  
+#content .form-text,
+#content .form-password {
+  width: 20em; }
+  
+  
+#content .form-checkboxes,
+#content .form-radios {
+  margin: 18px 0; }
+  
+#content label + .form-checkboxes,
+#content label + .form-radios {
+  margin-top: 0; }
+
+#content .form-checkboxes .form-item, 
+#content .form-radios .form-item {
+  margin: 0; }
+  
+#content .form-submit {
+  margin: 0; }
+  
+#content .form-submit + .form-submit {
+  margin: 0 0 0 18px; }
+  
+#content td .form-item {
+  margin: 0; }
+  
+#content .container-inline .form-item {
+  display: inline; }
+  
+#content .password-strength .ok,
+#content .password-confirm .ok {
+  color: #B6CA06; }
+  
+#content .password-strength .warning,
+#content .password-confirm .warning {
+  color: #FFAA00; }
+  
+#content .password-strength .error,
+#content .password-confirm .error {
+  color: #CC4700; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Node
+
+------------------------------------------------------------------------ 
+*/
+  
+#content .submitted span {
+  display: block; }
+  
+#content .submitted em {
+  color: #FFFFFF;
+  font-style: normal; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Pager
+
+------------------------------------------------------------------------ 
+*/
+  
+#content .pager {
+  background: #734C11;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 0;
+  text-align: center; }
+
+#content .pager li {
+  display: -moz-inline-box;
+  display: inline-block;
+  font-size: 12px;
+  margin: 9px 0;
+  padding: 0 9px; }
+  
+#content .pager li {
+  border-left: 1px solid #66430F; }
+  
+#content .pager li.first {
+  border-left: 0; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Blog & Poll 
+Updated by Miriam Verburg June, 2011
+------------------------------------------------------------------------ 
+*/
+
+#page-blog-index .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-blog-index.gif); }
+
+#content .node-blog, #content .node-poll {
+  margin: 3em 0 3em 86px; }
+
+#content .node-blog .picture, #content .node-poll .picture {
+  float: left;
+  margin-left: -86px;
+  margin-top: -5px; }
+  
+#content .node-blog a, #content .node-poll a {
+  color: #FFAA00; }
+
+#content .node-blog .node-title, #content .node-poll .node-title  {
+  color: #FFAA00;
+  letter-spacing: -1px; }
+  
+#content .node-blog .node-title a, #content .node-poll .node-title a {
+  text-decoration: none; }
+  
+#content .node-blog .submitted, #content .node-poll .submitted {
+  margin: 9px 0; }
+  
+#content .node-blog .submitted em, #content .node-poll .submitted em {
+  color: #FFAA00; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Comments
+
+------------------------------------------------------------------------ 
+*/
+
+#content #comments {
+  margin: 18px 0; }
+  
+#content #comments .box {
+  border-top: 6px solid #4D330F;
+  background: url(zimmertwins.com/themes/zimmertwins/images/comment.gif) no-repeat 0 27px;
+  margin: 12px 0 18px;
+  padding: 36px 0 0 86px; }
+  
+#content #comments .box h2 {
+  color: #FFAA00;
+  margin 0;
+  top 0; }
+
+#content .comment {
+  background: url(zimmertwins.com/themes/zimmertwins/images/comment.gif) no-repeat 0 0;
+  list-style: none;
+  margin: 0;
+  padding: 18px 86px 18px 86px; }
+  
+/*#content .comment-unpublished {
+  border-color: #CC4700 !important;
+  border-left: 5px solid #CC4700;
+  margin-bottom: 18px;
+  padding-left: 81px; }*/
+  
+#content .comment-unpublished {
+  background: none; }
+  
+#wrapper #content .comment-unpublished *,
+#wrapper #content .comment-unpublished *:first-line {
+  color: #66430F; }
+  
+#content .comment + .comment {
+  border-top: 1px solid #4D330F;
+  margin-top: -1px; }
+  
+#content .comment .body p {
+  margin-top: 0; }
+  
+#content .comment .body p:first-child:first-line {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px; }
+  
+#content .comment .title {
+  display: none; }
+  
+#content .comment .links {
+  float: right;
+  line-height: 18px;
+  margin: 0 -86px 18px 18px;
+  white-space: nowrap; }
+
+/* 
+------------------------------------------------------------------------
+
+Admin - Block
+
+------------------------------------------------------------------------ 
+*/
+
+#blocks td {
+  line-height: 27px;
+  padding: 0 4px 0 5px; }
+
+#blocks td.region {
+  color: #B6CA06;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 27px; }
+  
+#blocks tr + tr td.region {
+  padding-top: 36px; }
+  
+#blocks td.block {
+  color: #FFF; }
+
+#blocks tr.region-message {
+  font-weight: normal; }
+
+#blocks tr.region-populated {
+  display: none; }
+
+#blocks tr.draggable a.tabledrag-handle {
+  margin-top: 4px;
+  margin-bottom: 5px; }
+  
+.block-region {
+  display: none; }
+
+tr.draggable a.tabledrag-handle {
+  background: url(zimmertwins.com/themes/zimmertwins/images/drag-handle.gif) no-repeat 0% 0%;
+  display: block;
+  float: left;
+  height: 18px;
+  margin: 0 9px 0 0;
+  text-decoration: none;
+  /*text-indent: 9999px;*/
+  width: 18px; }
+  
+tr.draggable a.tabledrag-handle-hover {
+  background-position: 0% 100%; }
+  
+tr.drag {
+  border: 1px solid #B6CA06;
+  border-width: 1px 0; }
+  
+span.tabledrag-changed {
+  color: #CC4700;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0 3px;
+  position: relative;
+  top: 6px; }
+
+body.drag {
+  cursor: move; }
+
+div.indentation {
+  display: block;
+  float: left;
+  padding: 0 0 0 20px; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Fivestar Widget
+
+------------------------------------------------------------------------ 
+*/
+#content div.fivestar-static-form-item,
+#content div.fivestar-static-form-item .form-item {
+  margin: 0;
+  padding: 0; }
+  
+#content div.fivestar-static-form-item .description,
+#content div.fivestar-static-form-item .description * {
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  width: 132px;  }
+
+#content div.fivestar-widget-static {
+  background: url(zimmertwins.com/themes/zimmertwins/images/fivestar-bg.gif) no-repeat 0 0;
+  height: 36px;
+  overflow: hidden;
+  padding: 18px 18px 0;
+  width: 96px; }
+  
+#content div.fivestar-widget-static .star {
+  float: left;
+  height: 18px;
+  margin-top: -2px;
+  width: 18px; }
+  
+#content div.fivestar-widget-static .star span {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 100%; }
+  
+#content div.fivestar-widget-static .star span.off {
+  background: url(zimmertwins.com/themes/zimmertwins/images/fivestar-star.gif) no-repeat 0 0; }
+  
+#content div.fivestar-widget-static .star span.on {
+  background: url(zimmertwins.com/themes/zimmertwins/images/fivestar-star.gif) no-repeat 0 -18px; }
+  
+#content form.fivestar-widget {
+  background: url(zimmertwins.com/themes/zimmertwins/images/fivestar-bg.gif) no-repeat 0 0;
+  padding: 0;
+  width: 132px; }
+
+#content form.fivestar-widget .form-item,
+#content form.fivestar-widget input,
+#content form.fivestar-widget select {
+  margin: 0; }
+
+#content form.fivestar-widget .description,
+#content form.fivestar-widget .description * {
+  font-size: 11px;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap; }
+
+.js #content div.fivestar-widget {
+  height: 18px;
+  margin: 0 auto;
+  padding: 17px 0;
+  width: 90px; }
+
+.js #content div.fivestar-widget .cancel, 
+.js #content div.fivestar-widget .star {
+  float: left;
+  height: 18px;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 18px; }
+
+.js #content div.fivestar-widget .cancel, 
+.js #content div.fivestar-widget .cancel a {
+  background: url(zimmertwins.com/themes/zimmertwins/images/fivestar-cancel.gif) no-repeat 0 -18px; }
+
+.js #content div.fivestar-widget .star, 
+.js #content div.fivestar-widget .star a {
+  background: url(zimmertwins.com/themes/zimmertwins/images/fivestar-star.gif) no-repeat 0 0px; }
+
+.js #content div.fivestar-widget .cancel a,
+.js #content div.fivestar-widget .star a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: 0 0px;
+  cursor: pointer; }
+
+.js #content div.fivestar-widget .on a {
+  background-position: 0 -18px; }
+
+.js #content div.fivestar-widget .hover a {
+  background-position: 0 -36px; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Search Results
+
+------------------------------------------------------------------------ 
+*/
+
+dl.script {
+  margin: 18px 0; }
+
+dl.script dt {
+  clear: left;
+  color: #FFFFFF;
+  float: left;
+  font-weight: bold;
+  margin: 0 0.5em 0 0; }
+  
+dl.script br {
+  display: none; }
+  
+#content .movie-clip-search-results {
+  margin: 18px 0; }
+
+#content .movie-clip-search-results li.movie-clip {
+  margin: 0;
+  min-height: 108px;
+  padding: 0 0 0 144px; }
+
+#content .movie-clip-search-results li.movie-clip + li.movie-clip {
+  border-top: 1px solid #4D330F;
+  margin-top: 17px;
+  padding-top: 18px; }
+  
+#content .movie-clip-search-results h2,
+#content .movie-clip-search-results p {
+  margin: 0; }
+  
+#content .movie-clip-search-results .thumbnail img {
+  border: 5px solid #4D330F;
+  display: block;
+  float: left;
+  height: 85px;
+  margin-left: -144px;
+  width: 122px; }
+  
+#content .movie-clip-search-results .movie-clip-types {
+  float: right; }
+  
+#wrapper #content .movie-clip-search-results li.node-unpublished * {
+  color: #66430F; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Movie Clip Lists, Movie Starter Lists
+
+------------------------------------------------------------------------ 
+*/
+
+#content ul.movie-clip-list,
+#content ul.movie-starter-list {
+  margin-right: -20px; }
+
+#content ul.movie-clip-list li,
+#content ul.movie-starter-list li {
+  background: #734C11;
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0 20px 18px 0;
+  padding: 0;
+  width: 132px; }
+
+#content ul.movie-clip-list li .thumbnail,
+#content ul.movie-starter-list li .thumbnail {
+  display: block; }
+  
+#content ul.movie-clip-list li,
+#content ul.movie-starter-list li {
+  width: 132px; }
+  
+#content ul.movie-clip-list li .title,
+#content ul.movie-starter-list li .title {
+  color: #FFF;
+  display: block;
+  line-height: 31px;
+  margin: 0 9px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap; }
+  
+#content ul.movie-clip-list li.medium .title,
+#content ul.movie-starter-list li.medium .title {
+  line-height: 42px; }
+
+#content ul.movie-clip-list li .thumbnail:after,
+#content ul.movie-starter-list li .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-small-movie-clip.png);
+  display: block;
+  height: 95px;
+  margin-top: -95px;
+  width: 132px; }
+
+#content ul.movie-clip-list li .thumbnail img,
+#content ul.movie-starter-list li .thumbnail img {
+  border: 5px solid #FFF;
+  display: block;
+  height: 85px;
+  width: 122px; } 
+  
+#content ul.movie-clip-list li.medium,
+#content ul.movie-starter-list li.medium {
+  width: 284px; }
+  
+#content ul.movie-clip-list li.medium .thumbnail:after,
+#content ul.movie-starter-list li.medium .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-medium-movie-clip.png);
+  height: 192px;
+  margin-top: -192px;
+  width: 284px; }
+
+#content ul.movie-clip-list li.medium .thumbnail img,
+#content ul.movie-starter-list li.medium .thumbnail img {
+  border: 5px solid #FFF;
+  display: block;
+  height: 182px;
+  width: 274px; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Broadcast Spot Lists
+
+------------------------------------------------------------------------ 
+*/
+  
+#content ul.broadcast-spot-list li {
+  background: #CC4700; }
+
+#content ul.broadcast-spot-list li .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-small-broadcast-spot.png); }
+
+#content ul.broadcast-spot-list li.medium .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-medium-broadcast-spot.png); }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Crowd Pleaser Lists
+
+------------------------------------------------------------------------ 
+*/
+
+#content ul.crowd-pleaser-list li {
+  background: #FA0; }
+
+#content ul.crowd-pleaser-list li .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-small-crowd-pleaser.png); }
+
+#content ul.crowd-pleaser-list li.medium .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-medium-crowd-pleaser.png); }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Movie Starter Lists
+
+------------------------------------------------------------------------ 
+*/
+
+#content ul.movie-starter-list li .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-small-movie-starter.png); }
+
+#content ul.movie-starter-list li.medium .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-medium-movie-starter.png); }
+
+#content ul.new-starter-list li {
+  background: #2D7FB3; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Must See Lists
+
+------------------------------------------------------------------------ 
+*/
+
+#content ul.must-see-list li {
+  background: #CC4700; }
+
+#content ul.must-see-list li .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-small-must-see.png); }
+
+#content ul.must-see-list li.medium .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-medium-must-see.png); }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Now Showing Lists
+
+------------------------------------------------------------------------ 
+*/
+
+#content ul.now-showing-list li {
+  background: #734C11; }
+
+#content ul.now-showing-list li .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-small-now-showing.png); }
+
+#content ul.now-showing-list li.medium .thumbnail:after {
+  content: url(zimmertwins.com/themes/zimmertwins/images/frame-medium-now-showing.png); }
+  
+/* 
+------------------------------------------------------------------------
+
+Theme - Movie Clip Actions
+
+------------------------------------------------------------------------ 
+*/
+
+#content .movie-clip-actions {
+  background: url(zimmertwins.com/themes/zimmertwins/images/movie-clip-actions-bg.gif) repeat-x 10px 0; }
+
+#content .movie-clip-actions li {
+  float: left;
+  height: 81px;
+  margin: -10px -10px 0 0;
+  position: relative;
+  text-align: center;
+  width: 86px; }
+
+#content .movie-clip-actions li a {
+  background: url(zimmertwins.com/themes/zimmertwins/images/movie-clip-actions.gif) no-repeat 0 0;
+  color: #CCA65A;
+  display: block;
+  font-size: 11px;
+  padding-top: 63px;
+  width: 86px;
+  text-align: center; }
+
+#content .movie-clip-actions .edit a {
+  background-position: 0 0; }
+
+#content .movie-clip-actions .delete a {
+  background-position: -86px 0; }
+
+#content .movie-clip-actions .collabowrite a {
+  background-position: -172px 0; }
+
+#content .movie-clip-actions .add-comment a {
+  background-position: -258px 0; }
+
+#content .movie-clip-actions .add-favourite a {
+  background-position: -344px 0; }
+
+#content .movie-clip-actions .remove-favourite a {
+  background-position: -688px 0; }
+
+#content .movie-clip-actions .share a {
+  background-position: -430px 0; }
+
+#content .movie-clip-actions .original a {
+  background-position: -516px 0; }
+
+#content .movie-clip-actions .flag a {
+  background-position: -602px 0; }
+
+#content .movie-clip-actions .history a {
+  background-position: -774px 0; }
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Movie Clip Statistics
+
+------------------------------------------------------------------------ 
+*/
+  
+#content .movie-clip-statistics dt,
+#content .movie-clip-statistics dd {
+  display: inline; }
+  
+#content .movie-clip-statistics dd {
+  font-weight: bold;
+  margin-right: 0.5em; }
+  
+/* 
+------------------------------------------------------------------------
+
+Theme - Movie Clip Types
+
+------------------------------------------------------------------------ 
+*/
+
+#content .movie-clip-types li {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/movie-clip-types.gif);
+  background-repeat: no-repeat; }
+  
+#content .movie-clip-types li {
+  display: -moz-inline-box;
+  display: inline-block;
+  height: 54px;
+  line-height: 54px;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  width: 54px; }
+  
+#content .movie-clip-types li span {
+  display: none; }
+
+#content .movie-clip-types .must-see {
+  background-position: 50% 0; }
+
+#content .movie-clip-types .crowd-pleaser {
+  background-position: 50% -90px; }
+
+#content .movie-clip-types .now-showing {
+  background-position: 50% -180px; }
+
+#content .movie-clip-types .broadcast-spot {
+  background-position: 50% -270px; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Movie Front Page
+
+------------------------------------------------------------------------ 
+*/
+
+#page-zt-frontpage #animation {
+  background: repeat-x 210px 0px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0; }
+  
+#page-zt-frontpage #animation object,
+#page-zt-frontpage #animation embed {
+  display: block;
+  height: 335px;
+  margin: 0 0 0 210px;
+  width: 760px; }
+  
+#page-zt-frontpage #content-header {
+  display: none; }
+  
+#page-zt-frontpage #main {
+  margin-top: 342px; }
+  
+#page-zt-frontpage .page-title,
+#page-zt-frontpage #sponsor-logo {
+  position: absolute;
+  left: -1000px; }
+  
+#page-zt-frontpage #movie-links {
+  left: -9px;
+  margin: 18px 0;
+  position: relative;
+  top: -10px; }
+
+#page-zt-frontpage #movie-links li {
+  background: no-repeat left center;
+  display: block;
+  float: left;
+  font-size: 18px;
+  line-height: 72px;
+  text-indent: 84px;
+  width: 33%; }
+
+#page-zt-frontpage #movie-links li a {
+  border-bottom: 2px solid transparent;
+  color: #FFF;
+  text-decoration: none;
+  white-space: nowrap; }
+
+#page-zt-frontpage #movie-links li#movie-links-make {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-zt-frontpage-make.gif); }
+  
+#page-zt-frontpage #movie-links li#movie-links-make a{
+  border-color: #2D7FB3; }
+
+#page-zt-frontpage #movie-links li#movie-links-watch {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-zt-frontpage-watch.gif); }
+
+#page-zt-frontpage #movie-links li#movie-links-watch a {
+  border-color: #CC4700; }
+
+#page-zt-frontpage #movie-links li#movie-links-user {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-zt-frontpage-user.gif); }
+
+#page-zt-frontpage #movie-links li#movie-links-user a {
+  border-color: #FFAA00; }
+
+#page-zt-frontpage #blogs {
+  float: left;
+  margin: 0 0 18px 0;
+  width: 440px; }
+
+#page-zt-frontpage #ads,
+#page-zt-frontpage #movies,
+#page-zt-frontpage #promos,
+#page-zt-frontpage #coppa {
+  float: right;
+  width: 300px; }
+  
+#page-zt-frontpage #blogs h3,
+#page-zt-frontpage #movies h3,
+#page-zt-frontpage #promos h3 {
+/* because the parent elements are floated, the top margin 
+  doesn't collapse, so explicitly set it to zero. */
+  margin-top: 0; }
+  
+#page-zt-frontpage #ads .block-block {
+  /*
+  background: url(zimmertwins.com/themes/zimmertwins/images/ad-label-square.gif) left top no-repeat;
+  padding-top: 12px;
+  */
+  margin-bottom: 18px;
+  width: 300px; }
+  
+#page-zt-frontpage #promos .promo {
+  margin-bottom: 18px;
+  margin-left: 8px;
+  margin-right: 8px; }
+
+#page-zt-frontpage #promos .promo img {
+  display: block;
+  position: relative;
+  z-index: 0; }
+  
+#page-zt-frontpage #movies .movie-clip-list {
+  margin-left: 8px; }
+  
+#page-zt-frontpage #coppa p {
+  margin: 18px 8px; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Movie Clip Index
+
+------------------------------------------------------------------------ 
+*/
+
+#page-movie-clip-index .page-icon {
+  /*background-image: url(zimmertwins.com/themes/zimmertwins/images/page-movie-clip-index.gif); */
+  
+background-image: url(zimmertwins.com/themes/zimmertwins/images/page-zt-frontpage-watch.gif);
+
+  }
+
+#page-movie-clip-index #content {
+  width: 762px; }
+
+#page-movie-clip-index #content .group h3 {
+  clear: both;
+  margin-top: 0;
+  width: 722px; }
+
+#page-movie-clip-index #content .group .movie-clip-list:after {
+  clear: none;
+  content: '';
+  display: none; }
+
+#page-movie-clip-index #content .group .teaser {
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 20px; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Movie Clip View
+
+------------------------------------------------------------------------ 
+*/
+
+#content .node-movie-clip {
+  background: #734C11;
+  color: #CCA65A; }
+  
+#content .node-movie-clip .summary {
+  border: 0;
+  float: left;
+  margin: 9px 10px;
+  padding: 0;
+  width: 282px;
+  text-align: center; }
+  
+#content .node-movie-clip .title {
+  color: #FFFFFF;
+  font-size: 21px;
+  margin: 18px 0;
+  line-height: 18px;
+  text-align: center;
+  text-shadow: #36260B 0 0 3px; }
+  
+#content .node-movie-clip .description {
+  text-align: center; }
+  
+#content .node-movie-clip .submitted * {
+  text-align: center; }
+  
+#content .node-movie-clip .separator {
+  background: url(zimmertwins.com/themes/zimmertwins/images/movie-clip-panel-bg.gif) repeat-x 0 0;
+  clear: both;
+  display: block;
+  height: 2px;
+  margin: 0 0 16px;
+  width: 100%; }
+
+#content .node-movie-clip .movie-clip-player {
+  border: 0;
+  float: left;
+  height: 330px;
+  margin: 0;
+  padding: 9px 10px 3px;
+  width: 436px; }
+  
+#content .node-movie-clip .movie-clip-types {
+  border: 1px solid #66430F;
+  border-width: 1px 0;
+  margin: 16px 0;
+  padding: 9px 0;
+  text-align: center; }
+  
+#content .node-movie-clip .movie-clip-statistics {
+  font-size: 11px;
+  margin: 18px 0;
+  text-align: center; }
+
+#content .node-movie-clip .movie-clip-actions {
+  float: left;
+  margin: 0 10px -1px 0;
+  padding: 0;
+  position: relative;
+  width: 608px; }
+  
+#content .node-movie-clip .movie-clip-rating {
+  float: left;
+  margin: 0 0 -1px; }
+  
+#content .moviepicks-form {
+  background: #734C11;
+  margin: 18px 0;
+  padding: 0;
+  width: 760px; }
+
+#content .moviepicks-form fieldset {
+  border-color: #66430F;
+  border-width: 0 1px 0 0;
+  float: left;
+  margin: 18px 0 8px;
+  padding: 0 18px; }
+  
+#content .moviepicks-form legend {
+  color: #FFAA00;
+  margin-left: 0; }
+  
+#content .moviepicks-form .form-item,
+#content .moviepicks-form .form-checkboxes {
+  margin: 9px 0; }
+  
+#content .moviepicks-form .form-checkboxes .form-item {
+  margin: 0; }
+  
+#content .moviepicks-form .form-checkboxes input {
+  vertical-align: bottom; }
+  
+/* 
+------------------------------------------------------------------------
+
+Page - Movie Starter Index
+
+------------------------------------------------------------------------ 
+*/
+  
+#page-movie-starter-index .page-icon {
+ /* background-image: url(zimmertwins.com/themes/zimmertwins/images/page-movie-starter-index.gif); */
+ background-image: url(zimmertwins.com/themes/zimmertwins/images/page-zt-frontpage-make.gif);
+
+}
+#page-movie-starter-index #teaser {
+  float: right;
+  position: relative;
+  width: 304px; }
+  
+#page-movie-starter-index #teaser-content {
+  background: url(zimmertwins.com/themes/zimmertwins/images/page-movie-starter-index-bg.gif) no-repeat 0 0;
+  font-size: 18px;
+  height: 108px;
+  line-height: 27px;
+  margin: -80px -98px 18px;
+  padding: 350px 98px 0;
+  position: relative;
+  text-align: center;
+  z-index: 0; }
+
+/* Use min-height instead of height in standards-compliant browsers. */
+#page-movie-starter-index > body #teaser-content {
+  height: auto;
+  min-height: 108px; }
+  
+#page-movie-starter-index #teaser-content strong {
+  color: #FFFFFF; }
+  
+#page-movie-starter-index #teaser-links li {
+  background: #CC4700 no-repeat 9px 50%;
+  display: block;
+  position: relative;
+  zoom: 1; }
+  
+#page-movie-starter-index #teaser-links li.first {
+  margin: 0 0 18px 0; }
+  
+#page-movie-starter-index #teaser-links li a {
+  border-bottom: 1px solid #993600;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 54px;
+  margin: 0 0 0 72px;
+  padding: 0 0 2px 0;
+  text-decoration: none; }
+  
+#page-movie-starter-index #teaser-links li#from-scratch {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-movie-starter-index-from-scratch.gif); }
+
+#page-movie-starter-index #teaser-links li#how-to {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-movie-starter-index-how-to.gif); }
+
+#page-movie-starter-index #current-starter {
+  background: #734C11;
+  float: left;
+  position: relative;
+  width: 436px;
+  z-index: 1; }
+  
+#page-movie-starter-index #current-starter .movie-starter-player {
+  height: 330px; }
+  
+#page-movie-starter-index #current-starter-link {
+  color: #FFF;
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 12px 0 18px 0;
+  text-align: center;
+  text-decoration: none; }
+  
+#page-movie-starter-index #current-starter-link strong {
+  color: #FFAA00;
+  font-weight: bold;
+  text-decoration: underline; }
+  
+#page-movie-starter-index #new-starters {
+  float: left;
+  margin: 0;
+  width: 436px; }
+  
+#page-movie-starter-index #new-starters h3 {
+  display: none; }
+  
+#page-movie-starter-index #past-starters {
+  clear: both; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Movie User Index
+
+------------------------------------------------------------------------ 
+*/
+#page-movie-user-index #content .page-icon{
+	background-image: url(zimmertwins.com/themes/zimmertwins/images/page-zt-frontpage-user.gif);
+}
+
+
+/*
+#page-movie-user-index h1.page-title {
+  position: relative;
+  z-index: 1; }
+  
+#page-movie-user-index #summary {  
+  background: #734C11;
+  margin: 18px 0;
+  padding: 18px 20px;
+  text-align: center;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; }
+  
+#page-movie-user-index .node-profile .featured-question {
+  margin-top: -108px;
+  margin-left: -40px;
+  margin-right: -40px;
+  position: relative;
+  top: -18px; }
+  
+#page-movie-user-index .node-profile .node-links {
+  margin-left: -29px;
+  margin-right: -29px;
+  position: relative;
+  top: -18px; }
+  
+#page-movie-user-index #summary-moderation {
+  border-bottom: 1px solid #66430F;
+  line-height: 18px;
+  margin: 0 0 18px;
+  padding: 0 0 17px;
+  text-align: center; }
+  
+#page-movie-user-index #summary-moderation h2 {
+  line-height: 27px;
+  margin: 0; }
+  
+#page-movie-user-index #summary-moderation h2 a {
+  color: #FFFFFF;
+  font-weight: normal;
+  text-decoration: none; }
+  
+#page-movie-user-index #summary-moderation dl {
+  line-height: 27px;
+  margin: 0; }
+
+#page-movie-user-index #summary-moderation dt,
+#page-movie-user-index #summary-moderation dd {
+  display: inline; }
+  
+#page-movie-user-index #summary-moderation dd {
+  font-weight: bold;
+  margin-right: 0.5em; }
+  
+#page-movie-user-index #summary-badges {
+  border: 0;
+  margin: 0 auto;
+  padding: 0; }
+  
+#page-movie-user-index #summary-badges th,
+#page-movie-user-index #summary-badges td {
+  padding: 0 18px;
+  text-align: center;
+  vertical-align: middle; }
+  
+#page-movie-user-index #summary-badges th {
+  text-shadow: #39260B 0px 0px 2px; }
+  
+#page-movie-user-index #summary-badges th + th,
+#page-movie-user-index #summary-badges td + td {
+  border-left: 1px solid #66430F; }
+  
+#page-movie-user-index #summary-badges img {
+  margin: 0;
+  vertical-align: bottom; }
+*/
+/* 
+------------------------------------------------------------------------
+
+Page - Moviepicks Index
+
+------------------------------------------------------------------------ 
+*/
+
+#page-moviepick-index .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-moviepick-index.gif); }
+
+#page-moviepick-index #promo {
+  background: #2D7FB3;
+  color: #D8E4F9;
+  width: 760px; }
+  
+#page-moviepick-index #promo-illustration {
+  border-bottom: 5px solid #39260B;
+  display: block;
+  margin-bottom: 0px; }
+  
+#page-moviepick-index #promo-text p {
+  color: #FFF;
+  font-size: 27px;
+  margin: 0;
+  text-align: center; }
+  
+#page-moviepick-index #promo-text p img {
+  vertical-align: middle; }
+  
+#page-moviepick-index #movies,
+#page-moviepick-index #movies .movie-clip-list, 
+#page-moviepick-index #info .column * {
+  margin: 0; }
+
+#page-moviepick-index #movies h3 {
+  margin-top: 0; /* The margin doesn't collapse properly in IE6.0 */ }
+
+#page-moviepick-index #movies .movie-clip-list {
+  left: 10px;
+  position: relative; }
+  
+/* 
+------------------------------------------------------------------------
+
+Page - Moviepicks Info
+
+------------------------------------------------------------------------ 
+*/
+
+#page-moviepick-info #teaser {
+  background: #734C11; }
+  
+#page-moviepick-info #teaser p {
+  font-size: 22.5px;
+  letter-spacing: -1px;
+  line-height: 36px;
+  margin: 36px;
+  padding: 0; }
+  
+#page-moviepick-info #teaser p:first-line {
+  color: #FFFFFF; }
+  
+#page-moviepick-info #download-release-form {
+  margin: 36px;
+  text-align: center; }
+
+#page-moviepick-info #info h4 {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0; }
+  
+#page-moviepick-info #info p {
+  margin: 0; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Moviepicks Contest Finalists
+
+------------------------------------------------------------------------ 
+*/
+
+#content .moviepicks-contest-finalist-list {
+  margin-right: -20px;
+  width: 780px; }
+  
+#content .moviepicks-contest-finalist-list .wrap {
+  border-right: 1px solid #402A0C;
+  margin: 18px 19px 36px 0;
+  clear: left; }
+
+#content .moviepicks-contest-finalist {
+  border: none;
+  float: left;
+  margin: 18px 20px 36px 0;
+  padding: 0 20px 0 80px;
+  width: 240px; }
+  
+#content .moviepicks-contest-finalist img {
+  border: 1px solid #2E1E09;
+  display: block;
+  float: left;
+  margin: -1px -1px -1px -81px; }
+  
+#content .moviepicks-contest-finalist p {
+  margin: 0; }
+  
+#content .moviepicks-contest-finalist .movie,
+#content .moviepicks-contest-finalist .location {
+  margin-bottom: 9px; }
+  
+#content .moviepicks-contest-finalist .movie a {
+  color: #FFAA00;
+  font-size: 23px;
+  font-weight: normal;
+  letter-spacing: -1px; }
+  
+#content .moviepicks-contest-finalist .movie a,
+#content .moviepicks-contest-finalist .user a {
+  color: #FFAA00;
+  text-decoration: none; }
+  
+#content .moviepicks-contest-finalist .age,
+#content .moviepicks-contest-finalist .location {
+  color: #FFFFFF;
+  font-weight: bold; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Extra Index
+
+------------------------------------------------------------------------ 
+*/
+
+#page-extra-index .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-extra-index.gif); }
+
+#page-extra-index .extra-list {
+  margin-right: -20px;
+  width: 780px; }
+  
+#page-extra-index .extra-list li.wrap {
+  clear: left; }
+
+#page-extra-index .extra-list li.extra {
+  float: left;
+  height: 180px;
+  margin: 0 20px 36px 0;
+  width: 240px; }
+  
+html > body #page-extra-index .extra-list li.extra {
+  height: auto;
+  min-height: 180px; }
+  
+#page-extra-index .extra-list li.extra a.thumbnail {
+  display: block;
+  height: 120px;
+  margin: 0 0 6px 0;
+  width: 240px; }
+  
+#page-extra-index .extra-list li.extra img {
+  display: block;
+  height: 120px;
+  width: 240px; }
+  
+#page-extra-index .extra-list li.extra p {
+  margin : 0; }
+  
+#page-extra-index .extra-list li.extra p strong {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none; }
+  
+#page-extra-index .extra-list li.extra p span {
+  color: #FFF;
+  white-space: nowrap; }
+  
+#page-extra-13 #graphic {
+  height: 240px;
+  width: 760px; }
+
+
+#page-extra-activity-pages .node-content *,
+#page-extra-recipes .node-content *,
+#page-extra-tarot-cards .node-content * {
+  text-align: center; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Contest View
+
+------------------------------------------------------------------------ 
+*/
+
+#content .node-content {
+  width: 100%; }
+  
+#content .node-contest a {
+  color: #FFAA00; }
+  
+#content .contest-entry-list-container p {
+  background: #FFAA00;
+  color: #FFFFFF;
+  font-size: 18px;
+  letter-spacing: -1px;
+  line-height: 54px;
+  margin: 18px 0;
+  text-align: center;
+  text-shadow: #805500 0px 0px 3px; }
+
+#content .contest-entry-list {
+  margin: 0 0 36px;
+  padding: 0; }
+
+#content .contest-entry {
+  float: left;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  width: 360px; }
+  
+#content .contest-entry-list .last {
+  border-left: 1px solid #452E0D;
+  margin-left: 20px;
+  padding-left: 19px; }
+  
+#content .contest-entry * {
+  text-align: center; }
+  
+#content .contest-entry .flash {
+  height: 306px;
+  width: 360px; }
+  
+#content .contest-entry .action {
+  border-bottom: 1px solid #B6CA06;
+  color: #B6CA06;
+  font-size: 21px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  line-height: 54px;
+  margin: 18px 10px;
+  text-decoration: none;
+  text-shadow: #222222 0px 0px 3px; }
+
+#content .contest-entry .action .title {
+  color: #FFFFFF;
+  font-style: italic; }
+  
+#content .contest-entry .form-submit {
+  display: block;
+  margin: 0 auto; }
+  
+#content .contest-details-container {
+  background: #452E0D;
+  color: #E5AB45;
+  margin: 18px 0; }
+
+#content .contest-details-container p {
+  margin: 0;
+  padding: 18px 20px; }
+  
+#content .contest-results {
+  background: #734C11;
+  clear: left;
+  margin: 18px 0;
+  width: 760px; }
+  
+#content .contest-results table {
+  margin: 18px 20px;
+  width: 720px; }
+  
+#content .contest-results tr {
+  background: none;
+  padding: 0; }
+  
+#content .contest-results tbody tr td {
+  border-top: 1px solid #66430F;
+  line-height: 26px; }
+  
+#content .contest-results tbody tr.first td {
+  border: 0; }
+  
+#content .contest-results th,
+#content .contest-results td {
+  line-height: 27px;
+  padding: 0 10px; }
+  
+#content .contest-results th {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: normal;
+  padding-bottom: 9px;
+  text-shadow: #39260B 0px 0px 3px; }
+  
+#content .contest-results th.votes,
+#content .contest-results td.votes {
+  text-align: right; }
+  
+#content .contest-results .description {
+  color: #FFFFFF; }
+  
+#content .contest-results .description a {
+  color: #FFBB18;
+  font-weight: normal; }
+  
+#content .contest-results td.votes {
+  color: #FFBB18; }
+  
+#content .contest-results .leader .description {
+  color: #FFBB18; }
+  
+#content .contest-results .leader .description a {
+  color: #FFFFFF;
+  font-weight: bold; }
+  
+#content .contest-results .leader .description img {
+  margin: -18px 0 0 0;
+  vertical-align: bottom;
+  position: relative; }
+  
+#content .contest-results .leader .votes {
+  color: #FFFFFF; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Abuse
+
+------------------------------------------------------------------------ 
+*/
+
+#page-abuse-index .page-icon{
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-abuse-index.gif); }
+
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Abuse Tickets
+
+------------------------------------------------------------------------ 
+*/
+
+.js #content .abuse-report fieldset.collapsible {
+  border: 0;
+  border-top: 1px solid #8C5D15;
+  margin-bottom: 18px; }
+  
+.js #content .abuse-report fieldset.collapsible legend {
+  display: none; }
+  
+.js #content .abuse-report fieldset.collapsed {
+  display: none; }
+  
+#content .abuse-report-warning-templates {
+  display: none; }
+  
+#content .abuse-report-list-controls {
+  background: #4C330D;
+  padding: 1em; }
+  
+#content .abuse-report-list-controls a {
+  background: #CC4700;
+  border: 1px outset #CC4700;
+  color: #FFFFFF;
+  margin: 0 10px 0 0;
+  padding: 4px 10px; }
+  
+#content .abuse-report {
+  background: #734C11;
+  color: #CCA65A;
+  margin: 18px 0;
+  padding: 18px 20px;
+  width: 720px; }
+  
+#content .abuse-report:before {
+  margin: -18px -20px 9px; }
+  
+#content .abuse-report:after {
+  margin: 18px -20px -18px; }
+  
+#content .abuse-report a {
+  color: #FFAA00; }
+  
+#content .abuse-report .summary h2 {
+  font-size: 27px;
+  line-height: 36px;
+  margin: 0; }
+  
+#content .abuse-report .summary h4 {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 27px;
+  margin: 18px 0 0 0; }
+  
+#content .abuse-report .summary p {
+  margin: 0; }
+  
+#content .abuse-report .summary dl {
+  margin: 0; }
+  
+#content .abuse-report .summary dt,
+#content .abuse-report .summary dd {
+  display: inline; }
+
+#content .abuse-report .summary dd {
+  font-weight: bold;
+  margin-right: 0.5em; }
+  
+#content .abuse-report .actions {
+  border: 1px solid #8C5D15;
+  border-width: 1px 0;
+  margin: 18px 0;
+  padding: 18px 0; }
+
+#content .abuse-report .actions a.button {
+  background: #CC4700;
+  border: 1px outset #CC4700;
+  color: #FFF;
+  margin: 0 10px 0 0;
+  padding: 3px 10px; }
+  
+#content .abuse-report .actions a.button-active {
+  background-color: #FFAA00;
+  border-color: #FFAA00;
+  border-style: inset;
+  color: #39260B; }
+  
+#content .abuse-report .column {
+  display: block;
+  float: left;
+  margin: 0 20px 0 0;
+  width: 350px; }
+
+#content .abuse-report .column-last {
+  margin-right: 0; }
+  
+#content .abuse-report .details dl {
+  margin: 18px 0; }
+  
+#content .abuse-report .details dt,
+#content .abuse-report .details dd {
+  display: block; }
+  
+#content .abuse-report .details dt {
+  color: #FFFFFF;
+  font-weight: bold; }
+  
+#content .abuse-report .details dd strong {
+  color: #FFAA00;
+  font-weight: bold; }
+  
+#content .abuse-report .details .script {
+  margin: 0; }
+  
+#content .abuse-report .details .history {
+  margin-top: 0;
+  max-height: 180px;
+  overflow: auto; }
+  
+#content .abuse-report .details .flags {
+  margin-bottom: 0;
+  max-height: 180px;
+  overflow: auto; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Help
+
+------------------------------------------------------------------------ 
+*/
+
+#page-help-index .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index.gif); }
+  
+#page-help-index li.topic {
+  background: url(zimmertwins.com/themes/zimmertwins/images/page-help-index.gif) no-repeat -10px 8px;
+  margin: 18px 0;
+  padding: 18px 0 0 81px;
+  position: relative;
+  top: -18px; }
+  
+#page-help-index li.topic h2,
+#page-help-index li.topic p {
+  margin-top: 0; }
+  
+#page-help-index li.topic h2 {
+  color: #FFFFFF;
+  font-size: 14px; }
+  
+#page-help-index li.topic h3 {
+  margin-top: 0; }
+  
+#page-help-index li.topic dfn {
+  border-bottom: 1px dotted #B6CA06;
+  color: #FFFFFF;
+  font-style: normal;
+  padding-bottom: 1px; }
+  
+#page-help-index li.topic dl {
+  margin: 18px 0;
+  padding: 0 0 0 18px; }
+  
+#page-help-index li.topic dt {
+  clear: left;
+  color: #FFAA00;
+  float: left;
+  font-weight: bold;
+  margin: 0 12px 0 0; }
+  
+#page-help-index li.topic dd {
+  margin: 0 0 18px 0; } 
+  
+#page-help-index li#topic-quick-start {
+  background: none;
+  padding-left: 0; }
+  
+#page-help-index li#topic-quick-start li {
+  background: #CC4700;
+  float: left;
+  margin: 0 2% 0 0;
+  text-align: center;
+  width: 49%; }
+  
+#page-help-index li#topic-quick-start li.column-last {
+  margin-right: 0; }
+  
+#page-help-index li#topic-quick-start li a {
+  border-bottom: 1px solid #993600;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 54px;
+  padding: 0 0 2px 0;
+  text-decoration: none; }
+  
+#page-help-index li#toc li {
+  float: left;
+  font-size: 15px;
+  line-height: 27px;
+  margin: 0 20px;
+  padding: 0;
+  width: 180px; }
+
+#page-help-index li#toc li a {
+  color: #B6CA06;
+  font-weight: normal; }
+  
+#page-help-index li#topic-getting-started {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-getting-started.gif); }
+  
+#page-help-index li#topic-movies {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-movies.gif); }
+  
+#page-help-index li#topic-comments {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-comments.gif); }
+  
+#page-help-index li#topic-ratings {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-ratings.gif); }
+  
+#page-help-index li#topic-favourites {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-favourites.gif); }
+  
+#page-help-index li#topic-moviepicks {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-moviepicks.gif); }
+  
+#page-help-index li#topic-search {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-search.gif); }
+  
+#page-help-index li#topic-flagging {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-flagging.gif); }
+  
+#page-help-index li#topic-site-requirements {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-site-requirements.gif); }
+  
+#page-help-index li#topic-feedback {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-feedback.gif); }
+  
+#page-help-index li#topic-zimmerspeak {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-help-index-zimmerspeak.gif); }
+  
+#page-help-index ul.rules {
+  margin: 18px 0 18px 1.5em; }
+  
+#page-help-index ul.rules li {
+  background: url(zimmertwins.com/themes/zimmertwins/images/page-code-of-conduct-rule.gif) no-repeat 0% 0%;
+  font-weight: bold;
+  line-height: 18px;
+  list-style: none;
+  margin: 0 0 9px;
+  max-width: 36em;
+  padding: 0 0 0 30px; }
+  
+/* 
+------------------------------------------------------------------------
+
+Page - Terms Of Use
+
+------------------------------------------------------------------------ 
+*/
+
+#page-terms-of-use .page-icon,
+#page-privacy-policy .page-icon,
+#page-code-of-conduct .page-icon,
+#page-parents .page-icon,
+#page-credits .page-icon,
+#page-teachers .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-about-index.gif); }
+  
+#page-terms-of-use .group,
+#page-privacy-policy .group,
+#page-code-of-conduct .group,
+#page-credits .group {
+  background: url(zimmertwins.com/themes/zimmertwins/images/page-about-index.gif) no-repeat -10px 8px;
+  margin: 0;
+  padding: 18px 0 0 81px;
+  position: relative;
+  top: -18px; }
+  
+#page-terms-of-use .group h3, 
+#page-privacy-policy .group h3, 
+#page-code-of-conduct .group h3,  
+#page-parents .group h3,  
+#page-credits .group h3 {
+  margin-top: 0; }
+  
+/* 
+------------------------------------------------------------------------
+
+Page - Teachers
+
+------------------------------------------------------------------------ 
+*/
+
+#page-teachers .group h2 {
+  color: #FFAA00;
+  margin: 18px 0 0; }
+
+#page-teachers .group h2 + p {
+  margin-top: 0; }
+  
+#page-teachers .group ul li {
+  margin-bottom: 9px; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Conduct
+
+------------------------------------------------------------------------ 
+*/
+#page-code-of-conduct .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-blog-index.gif); }
+  
+#page-code-of-conduct ul.rules li {
+  background: url(zimmertwins.com/themes/zimmertwins/images/page-code-of-conduct-rule.gif) no-repeat 0% 50%;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 27px;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 30px; }
+  
+#page-code-of-conduct #general {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-about-index.gif); }
+  
+#page-code-of-conduct #rules {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-blog-index.gif); }
+  
+/* 
+------------------------------------------------------------------------
+
+Page - Moviepicks Contest Index
+
+------------------------------------------------------------------------ 
+*/
+
+#page-moviepick-contest-index .page-icon,
+#page-moviepick-contest-vote .page-icon,
+#page-moviepick-contest-finalists .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-moviepick-contest-index.gif); }
+
+#page-moviepick-contest-index .node-content a {
+  color: #FFAA00; }
+
+#page-moviepick-contest-index .node-content h2 {
+  color: #FFFFFF;
+  font-size: 27px;
+  font-weight: normal;
+  letter-spacing: -2px;
+  line-height: 27px;
+  margin: 18px 0;
+  text-align: center; }
+
+#page-moviepick-contest-index .node-content h3 {
+  background: none;
+  color: #CCA65A;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin: -9px 0 18px 0;
+  padding: 0;
+  text-align: center;
+  text-transform: none; }
+
+#page-moviepick-contest-index .node-content strong {
+  color: #FFFFFF;
+  font-weight: bold; }
+  
+#page-moviepick-contest-index .node-content .deck {
+  background: #734C11; }
+  
+#page-moviepick-contest-index .node-content .column p {
+  margin: 0; }
+  
+#page-moviepick-contest-index .node-content .two-column {
+  margin: 27px 0;}
+  
+#page-moviepick-contest-index .node-content .column-first {
+  border-right: 1px solid #66430F;
+  margin-right: 0;
+  margin-left: 20px;
+  padding-right: 20px;
+  width: 339px; }
+  
+#page-moviepick-contest-index .node-content .column-last {
+  border-left: 1px solid #66430F;
+  margin-left: -1px;
+  margin-right: 20px;
+  padding-left: 20px;
+  width: 340px; }
+  
+#page-moviepick-contest-index img.moviepicks-contest-illustration {
+  display: block;
+  margin: 18px 0 9px; }
+  
+#page-moviepick-contest-index img.moviepicks-contest-idol {
+  display: none;
+  float: left;
+  margin: 0 18px 0 0;
+  position: relative;
+  z-index: 2; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Credits
+
+------------------------------------------------------------------------ 
+*/  
+#page-credits a.partner-logo {
+  display: block;
+  float: left;
+  height: 105px;
+  margin: 0 30px;
+  width: 160px; }
+
+#page-credits #team dl {
+  float: left;
+  margin: 18px 30px;
+  width: 160px; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Advanced Search
+
+------------------------------------------------------------------------ 
+*/
+
+#movie-search-movie-form,
+#movie-search-comment-form,
+#movie-search-users-form {
+  margin: 36px 0; }
+
+#movie-search-movie-form fieldset legend,
+#movie-search-comment-form fieldset legend,
+#movie-search-users-form fieldset legend {
+  font-size: 18px; }
+  
+#movie-search-movie-form fieldset fieldset legend,
+#movie-search-movie-form fieldset fieldset legend a,
+#movie-search-comment-form fieldset fieldset legend,
+#movie-search-comment-form fieldset fieldset legend a,
+#movie-search-users-form fieldset fieldset legend,
+#movie-search-users-form fieldset fieldset legend a {
+  color: #B3762D;
+  font-size: 15px; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - Error 404
+
+------------------------------------------------------------------------ 
+*/
+
+#page-404 body {
+  background: #F6B3D0 url(zimmertwins.com/themes/zimmertwins/images/page-404-bg.gif) repeat-x 0 100%; 
+  color: #751734; }
+  
+#page-404 .page-title {
+  color: #FFFFFF; }
+  
+#page-404 .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-404.gif);
+  color: #FFF; }
+  
+#page-404 #content {
+  width: 436px; }
+  
+#page-404 #content ul.tabs-primary {
+  border-color: #751734;
+  margin-bottom: 18px; }
+  
+#page-404 #content ul.tabs-primary li {
+  background-color: #A74669; }
+  
+#page-404 #content ul.tabs-primary li a {
+  color: #FF8C98; }
+  
+#page-404 #content ul.tabs-primary li.active {
+  background-color: #751734; }
+  
+#page-404 #content ul.tabs-primary li.active a {
+  color: #FFFFFF; }
+  
+#page-404 .deck p {
+  font-weight: bold;
+  margin: 0; }
+  
+#page-404 .node {
+  padding-bottom: 100px; }
+
+#page-404 .help li {
+  background: url(zimmertwins.com/themes/zimmertwins/images/page-404-bullet.gif) no-repeat left 18px;
+  border-top: 1px dotted #F5D0E0;
+  margin: 18px 0;
+  padding: 18px 0 0 20px; }
+  
+#page-404 .help li a {
+  color: #FFFFFF; }
+  
+/* 
+------------------------------------------------------------------------
+
+Page - Error 403
+
+------------------------------------------------------------------------ 
+*/
+
+#page-403 .page-icon {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/page-403.gif); }
+
+#page-403 .node-content {
+  padding-left: 86px; }
+  
+#page-403 .node-content h2 {
+  color: #FFFFFF; }
+
+/* 
+------------------------------------------------------------------------
+
+Page - User Register Confirmation
+
+------------------------------------------------------------------------ 
+*/
+
+#page-user-register-confirm .group {
+  margin: 0;
+  padding: 0 30px;
+}
+
+#page-user-register-confirm .group h3 {
+  margin: 18px -40px;
+}
+
+#page-user-register-confirm .group h2 {
+  line-height: 18px;
+  margin: 36px 0 9px;
+}
+
+#page-user-register-confirm .group p {
+  margin: 9px 0;
+}
+
+#page-user-register-confirm #group-email img.graphic {
+  display: block;
+  float: right;
+  margin-top: -9px;
+}
+
+#page-user-register-confirm #group-membership-options {
+  margin: 18px 0;
+}
+
+#page-user-register-confirm #group-membership-options .node-product {
+  float: left;
+  text-align: left;
+}
+
+#page-user-register-confirm #group-membership-options .view .node-product {
+  border-left: 1px solid #533911;
+  margin-left: 18px;
+  padding-left: 18px;
+}
+
+
+
+/* 
+------------------------------------------------------------------------
+
+Theme - L10n Client
+
+------------------------------------------------------------------------ 
+*/
+
+#user-login #edit-membership-wrapper {
+  background: #3E2A0B;
+  float: right;
+  margin: 0;
+  padding: 18px;
+  width: 180px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#user-login #edit-membership-wrapper * {
+  margin: 0;
+  padding: 0;
+}
+
+#user-login #edit-membership-wrapper strong {
+  color: white;
+}
+
+
+/* 
+------------------------------------------------------------------------
+
+Theme - L10n Client
+
+------------------------------------------------------------------------ 
+*/
+
+#l10n-client {
+  background: #FFFFFF;
+  bottom: 0;
+  color: #333333;
+  float: left;
+  height: 23.25em;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999; }
+  
+#l10n-client .labels {
+  background: #444D00;
+  height: 27px;
+  position: relative; }
+
+/* Use min-height instead of height for standards compliant browsers. */  
+html > body #l10n-client .labels {
+  height: auto;
+  min-height: 27px; }
+  
+#l10n-client .labels .label {
+  border-right: 1px solid #5A6600;
+  float: left;
+  width: 33%; }
+  
+#l10n-client .labels .toggle {
+  background: #000000;
+  border-left: 1px solid #5A6600;
+  float: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto; }
+  
+#l10n-client .labels .label h2,
+#l10n-client .labels .toggle {
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 0 1em; }
+  
+#l10n-client-string-select {
+  border-right: 1px solid #EEEEEE;
+  float: left;
+  margin-right: -1px;
+  width: 33%; }
+  
+#l10n-client-string-select .string-list {
+  height: 21em;
+  overflow: auto; }
+  
+#l10n-client-string-select .string-list li {
+  border-top: 1px dotted #DDDDDD;
+  list-style: none;
+  margin: -1px 0 0 0;
+  padding: 0 1em; }
+  
+#l10n-client-string-select .string-list li.translated {
+  color: #899A00; }
+  
+#l10n-client-string-select #l10n-client-search-form {
+  display: none; }
+  
+#l10n-client-string-editor {
+  float: left;
+  width: 65.9%; }
+  
+#l10n-client-string-editor .source,
+#l10n-client-string-editor .translation {
+  float: left;  
+  width: 49.9%; }
+  
+#l10n-client-string-editor .source {
+  border-right: 1px solid #EEEEEE;
+  margin-right: -1px; }
+  
+#l10n-client-string-editor .source-text {
+  height: 18em;
+  overflow: auto;
+  padding: 1.5em 1em; }
+  
+#l10n-client-string-editor #l10n-client-form {
+  margin: 1.5em; }
+  
+#l10n-client-string-editor #l10n-client-form .form-item {
+  margin: 1.5em 0; }
+  
+#l10n-client-string-editor #l10n-client-form .form-submit {
+  margin: 0 1em 0 0; }
+  
+#l10n-client-string-editor #l10n-client-form textarea {
+  margin: 0;
+  width: 100%; }
+  
+#l10n-client-data {
+  display: none; }
+
+
+
+#l10n-client.hidden {
+  height: 2em;
+  overflow: hidden; }
+
+#l10n-client.hidden .labels .label,
+#l10n-client.hidden #l10n-client-string-select,
+#l10n-client.hidden #l10n-client-string-editor {
+  display: none; }
+
+/* 
+------------------------------------------------------------------------
+
+Page – Checkout /cart/checkout
+
+------------------------------------------------------------------------ 
+*/
+
+#uc-cart-checkout-form .change-my-order {
+  text-align: center;
+}
+
+/* 
+------------------------------------------------------------------------
+
+Page – Checkout /cart/checkout/review
+
+------------------------------------------------------------------------ 
+*/
+
+.order-review-table .change-my-order {
+  text-align: center;
+}
+
+/* 
+------------------------------------------------------------------------
+
+Page – Get A Membership – /membership
+Page – You're A Member – /membership/confirmation
+
+------------------------------------------------------------------------ 
+*/
+
+#page-membership .group-wrapper,
+#page-membership-confirmation .group-wrapper,
+#page-membership-renewal .group-wrapper,
+#page-membership-renewal-confirm .group-wrapper
+{
+  width: 760px;
+}
+
+#page-membership .group-wrapper .group ul,
+#page-membership-confirmation .group-wrapper .group ul,
+#page-membership-renewal .group-wrapper .group ul,
+#page-membership-renewal-confirm .group-wrapper .group ul
+{
+  margin: 0 -20px 0 0;
+}
+
+#page-membership .group-wrapper .group li,
+#page-membership-confirmation .group-wrapper .group li,
+#page-membership-renewal .group-wrapper .group li,
+#page-membership-renewal-confirm .group-wrapper .group li
+{
+  float: left;
+  list-style: none;
+  margin: 0 20px 27px 0;
+  padding: 0 10px;
+  width: 220px;
+}
+
+#page-membership .group-wrapper .group h4,
+#page-membership-confirmation .group-wrapper .group h4,
+#page-membership-renewal .group-wrapper .group h4,
+#page-membership-renewal-confirm .group-wrapper .group h4
+{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 9px 0;
+  position: relative;
+  top: 2px;
+}
+
+#page-membership .group-wrapper .group p,
+#page-membership-confirmation .group-wrapper .group p,
+#page-membership-renewal .group-wrapper .group p,
+#page-membership-renewal-confirm .group-wrapper .group p
+{
+  margin: 9px 0;
+}
+
+#page-membership .group-wrapper .group .icon,
+#page-membership-confirmation .group-wrapper .group .icon,
+#page-membership-renewal .group-wrapper .group .icon,
+#page-membership-renewal-confirm .group-wrapper .group .icon
+{
+  color: white;
+  font-size: 14px;
+  line-height: 12px;
+  position: relative;
+  top: 1px;
+}
+
+#page-membership #group-overview,
+#page-membership-renewal #group-overview
+{
+  background: #452E0C;
+  color: #CC9747;
+  font-size: 13px;
+  margin: 0 10px;
+  /*  padding: 18px 320px 18px 30px;*/
+  padding: 18px 300px 18px 30px;
+  position: relative;
+/*width: 390px;*/
+  width: 410px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#page-membership-confirmation #group-overview,
+#page-membership-renewal-confirm #group-overview
+{
+  background: #452E0C;
+  border-radius: 10px;
+  color: #CC9747;
+  font-size: 13px;
+  margin: 0 10px;
+  /*padding: 18px 270px 18px 30px;*/
+  padding: 18px 250px 18px 30px;
+  position: relative;
+  /*width: 440px;*/
+  width: 460px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#page-membership #group-overview img.graphic,
+#page-membership-renewal #group-overview img.graphic
+{
+  display: block;
+  left: 100%;
+  margin-top: -338px;
+  margin-left: -300px;
+  position: absolute;
+  top: 100%;
+}
+
+#page-membership #group-overview .view-membership-product-list .views-row,
+#page-membership-renewal #group-overview .view-membership-product-list .views-row
+{
+  float: left;
+  margin: 9px -1px 9px 0;
+  padding: 0;
+  text-align: center;
+  width: 50%;
+}
+
+#page-membership #group-overview .view-membership-product-list .views-row + .views-row,
+#page-membership-renewal #group-overview .view-membership-product-list .views-row + .views-row
+{
+  border-left: 1px solid #56390E;
+}
+
+
+#page-membership-confirmation #group-overview img.graphic,
+#page-membership-renewal-confirm #group-overview img.graphic
+{
+  position: absolute;
+  left: 100%;
+  margin-top: -216px;
+  margin-left: -226px;
+  top: 100%;
+}
+
+#page-membership #group-content-wrapper,
+#page-membership-confirmation #group-content-wrapper,
+#page-membership-renewal #group-content-wrapper,
+#page-membership-renewal-confirm #group-content-wrapper
+{
+  overflow: hidden;
+}
+
+#page-membership #group-content-wrapper .group,
+#page-membership-confirmation #group-content-wrapper .group,
+#page-membership-renewal #group-content-wrapper .group,
+#page-membership-renewal-confirm #group-content-wrapper .group
+{
+  float: left;
+}
+
+#page-membership #group-content-wrapper .group img.graphic,
+#page-membership-confirmation #group-content-wrapper .group img.graphic
+{
+  border: 0;
+  display: block;
+  margin: -27px;
+  padding: 0;
+  position: relative;
+}
+
+#page-membership #group-content-wrapper #group-primary,
+#page-membership-confirmation #group-content-wrapper #group-primary
+{
+  margin: 0 20px -999em 0;
+  width: 500px;
+  _margin-right: 0; /* fix wrapping bug in IE6.0 */
+}
+
+#page-membership #group-content-wrapper #group-primary ul,
+#page-membership-confirmation #group-content-wrapper #group-primary ul
+{
+  background: url(zimmertwins.com/themes/zimmertwins/images/column-dividers-3-column.png) repeat-y 0 0;
+  padding-bottom: 999em;
+}
+
+#page-membership #group-content-wrapper #group-primary li.nth-child-odd,
+#page-membership-confirmation #group-content-wrapper #group-primary li.nth-child-odd
+{
+  clear: left;
+}
+
+#page-membership #group-content-wrapper #group-secondary,
+#page-membership-confirmation #group-content-wrapper #group-secondary
+{
+  width: 240px;
+  _overflow: hidden; /* fix wrapping bug in IE 6.0 */
+}
+
+#page-membership #group-secondary .award
+{
+  margin: 18px 10px 27px;
+}
+
+#page-membership #group-secondary .award img
+{
+  border: 0;
+  display: block;
+  float: left;
+  margin: -3px 7px -3px -3px;
+  padding: 0;
+}
+
+#page-membership #group-secondary .award span,
+#page-membership #group-secondary .award strong,
+#page-membership #group-secondary .award em
+{
+  display: block;
+  line-height: 18px;
+}
+
+#page-membership #group-secondary .award span
+{
+  color: #FFAA00;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#page-membership #group-secondary .award strong
+{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  position: relative;
+  top: -1px;
+}
+
+#page-membership #group-secondary .award em
+{
+  font-size: 15px;
+  font-style: normal;
+}
+
+#page-membership #group-secondary .review
+{
+  margin: 9px 0;
+}
+
+#page-membership #group-secondary .review blockquote
+{
+  background: #48300D;
+  margin: 0 10px;
+  padding: 9px 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#page-membership #group-secondary .review cite
+{
+  background: url(zimmertwins.com/themes/zimmertwins/images/talk-bubble-tail.png) no-repeat 18px top;
+  display: block;
+  font-style: normal;
+  margin: 0 10px;
+  padding: 9px 0 9px 45px;
+}
+
+#page-membership #group-secondary .review cite strong
+{
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#page-membership #group-secondary .review cite em
+{
+  color: #FFAA00;
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+
+
+/* 
+------------------------------------------------------------------------
+
+Page – Educational Discounts – /educational-discounts 
+Updated by Miriam Verburg June, 2011
+------------------------------------------------------------------------ 
+*/
+
+#page-educational-discounts .submitted{
+  visibility: hidden;
+}
+
+
+#page-educational-discounts .group-wrapper
+{
+  width: 760px;
+}
+
+#page-educational-discounts #group-overview, #page-Edu_ToS #group-overview
+{
+  background: #452E0C;
+  color: #CC9747;
+  font-size: 13px;
+  margin: 0 10px;
+  padding: 18px 30px 18px 30px;
+  position: relative;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#page-educational-discounts .group-wrapper .group ul
+{
+  margin: 0 -20px 0 0;
+}
+
+#page-educational-discounts .group-wrapper .group li
+{
+  float: left;
+  list-style: none;
+  margin: 0 20px 27px 0;
+  padding: 0 10px;
+  width: 220px;
+}
+
+#page-educational-discounts .group-wrapper .group h4{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 9px 0;
+  position: relative;
+  top: 2px;
+}
+
+#page-educational-discounts .group-wrapper .group p
+{
+  margin: 9px 0;
+}
+
+#page-educational-discounts .group-wrapper .group .icon
+{
+  color: white;
+  font-size: 14px;
+  line-height: 12px;
+  position: relative;
+  top: 1px;
+}
+
+#page-educational-discounts #group-overview
+{
+  background: #452E0C;
+  color: #CC9747;
+  font-size: 13px;
+  margin: 0 10px;
+  padding: 18px 320px 18px 30px;
+  position: relative;
+  width: 390px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#page-educational-discounts-confirmation #group-overview
+{
+  background: #452E0C;
+  border-radius: 10px;
+  color: #CC9747
+  font-size: 13px;
+  margin: 0 10px;
+  padding: 18px 270px 18px 30px;
+  position: relative;
+  width: 440px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#page-educational-discounts #group-overview img.graphic
+{
+  display: block;
+  left: 100%;
+  margin-top: -342px;
+  margin-left: -300px;
+  position: absolute;
+  top: 100%;
+}
+
+
+#page-educational-discounts-confirmation #group-overview img.graphic,
+#page-educational-discounts-renewal-confirm #group-overview img.graphic
+{
+  position: absolute;
+  left: 100%;
+  margin-top: -216px;
+  margin-left: -226px;
+  top: 100%;
+}
+
+#page-educational-discounts #group-content-wrapper{
+  overflow: hidden;
+}
+
+#page-educational-discounts #group-content-wrapper .group{
+  float: left;
+}
+
+#page-educational-discounts #group-content-wrapper .group img.graphic
+{
+  border: 0;
+  display: block;
+  margin: -27px;
+  padding: 0;
+  position: relative;
+}
+
+#page-educational-discounts #group-content-wrapper #group-top
+{
+  /*margin: 0 20px -999em 0;*/
+  width: 760px;
+  _margin-right: 0; /* fix wrapping bug in IE6.0 */
+}
+
+#page-educational-discounts #group-content-wrapper #group-primary li.nth-child-odd
+{
+  clear: left;
+}
+
+.form_preamble{
+	margin-top: -70px;
+}
+
+#page-educational-discounts .webform-client-form{
+	margin: 30px 0px 0px 0px;
+	width: 760px;
+}
+
+#page-educational-discounts #content #edit-submitted-quantity-1month, 
+#page-educational-discounts #content #edit-submitted-quantity-6month {
+  width:3em;
+ }
+  
+#page-educational-discounts #content #edit-submitted-quantity-1month-wrapper label, #page-educational-discounts #content #edit-submitted-quantity-6month-wrapper label {
+  float:  left; 
+ }
+ 
+ #page-educational-discounts #content #webform-component-quantity-1month, 
+ #page-educational-discounts #content #webform-component-quantity-6month{
+margin-bottom:  12px;  }
+
+.webform-component-markup {
+	margin-bottom:  10px;
+	
+}
+  
+
+
+/* 
+------------------------------------------------------------------------
+Page – Spotlight
+Page – Spotlight Archive
+------------------------------------------------------------------------ 
+*/
+
+#page-spotlight #content h3,
+#page-spotlight-archive #content h3
+{
+  margin: 18px -9px;
+}
+
+#page-spotlight-archive .view-featured-members {
+  margin-right: -20px;
+}
+
+#page-spotlight-archive .view-featured-members .views-row-1,
+#page-spotlight-archive .view-featured-members .views-row-4,
+#page-spotlight-archive .view-featured-members .views-row-7
+{
+  clear: left;
+}
+
+#page-spotlight-archive .view-featured-members .views-row-4:before,
+#page-spotlight-archive .view-featured-members .views-row-7:before
+{
+  background: #734C11;
+  color: #734C11;
+  content: '.';
+  display: block;
+  line-height: 18px;
+  margin: 18px -9px;
+  width: 778px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+/* 
+------------------------------------------------------------------------
+View – Newest Members
+------------------------------------------------------------------------ 
+*/
+
+.view-newest-members
+{
+  margin-right: -20px;
+}
+
+.view-newest-members .views-row 
+{
+  display: block;
+  float: left;
+  margin: 0px 20px 18px 0;
+  width: 110px;
+}
+
+.view-newest-members a
+{
+  color: #FFAA00 !important;
+}
+
+.view-newest-members a.avatar
+{
+  background: no-repeat center 3px;
+  display: block;
+  height: 63px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-indent: -999em;
+}
+
+.view-newest-members .views-field-name 
+{
+  border-top: 1px solid #56390E;
+  line-height: 27px;
+  text-align: center;
+}
+
+/* 
+------------------------------------------------------------------------
+View – Featured Members
+------------------------------------------------------------------------ 
+*/
+.view-featured-members .views-row 
+{
+  float: left;
+  margin: 0 20px 0 0;
+  width: 240px;
+}
+
+.view-featured-members .views-row-last 
+{
+  margin-right: 0;
+}
+
+
+/* 
+------------------------------------------------------------------------
+Node – Featured Member
+------------------------------------------------------------------------ 
+*/
+
+.node-featured-member
+{
+  background: no-repeat top center;
+  width: 240px;
+}
+
+.node-featured-member a.avatar
+{
+  display: block;
+  height: 180px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-indent: -999em;
+  width: 240px;
+}
+
+.node-featured-member .node-submitted
+{
+  border-top: 1px solid #48300D;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 9px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.node-featured-member .node-member,
+#content .node-featured-member .node-member a
+{
+  color: #FFAA00;
+  font-size: 27px;
+  line-height: 27px;
+  margin: 0 0 18px;
+  text-align: center;
+}
+
+.node-featured-member .node-body
+{
+  background: #48300D;
+  color: #D9A04C;
+  margin: 9px 0 0;
+  padding: 9px 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#content .node-featured-member .node-body p {
+  font-weight: bold;
+  margin: 9px 0;
+}
+
+.node-featured-member .node-user
+{
+  background: url(zimmertwins.com/themes/zimmertwins/images/talk-bubble-tail.png) no-repeat 30px top;
+  margin: 0;
+  padding: 27px 0 0 30px;
+}
+
+.node-featured-member .node-user .picture {
+  float: left;
+  margin-top: -18px;
+  margin-bottom: -3px;
+}
+
+.node-featured-member .node-user .role
+{
+  color: white;
+  display: block;
+  font-weight: bold;
+}
+
+
+
+/* 
+------------------------------------------------------------------------
+Node - Profile
+------------------------------------------------------------------------ 
+*/
+
+.node-profile
+{
+  
+}
+
+#content .node-profile h3 
+{
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.node-profile-full .featured-question
+{
+  background: no-repeat top center;
+  margin: -108px -20px 18px;
+  min-height: 90px;
+  padding: 126px 50px 0 50px;
+  position: relative;
+  width: 700px;
+  _height: 90px; /* works like min-height for IE6.0 */
+  
+}
+
+.node-profile-skin-none-full .featured-question
+{
+  margin-top: 0;
+  min-height: 0;
+  padding-top: 0;
+}
+
+.node-profile-full .featured-question .field-label
+{
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 9px 0 0;
+}
+
+.node-profile-full .featured-question .field-items
+{
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 36px;
+  letter-spacing: -2px;
+  margin: 0;
+}
+
+.node-profile .moderation
+{
+  margin-bottom: 36px;
+}
+
+.node-profile .moderation table
+{
+  float: left;
+  margin: 0;
+}
+
+.node-profile .moderation th,
+.node-profile .moderation td
+{
+  border-left: 1px solid #452E0C;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.node-profile .moderation th:first-child,
+.node-profile .moderation td:first-child
+{
+  border-left: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+.node-profile .moderation ul
+{
+  float: right;
+  margin: 0;
+}
+
+.node-profile .badges
+{
+  text-align: center;
+}
+
+.node-profile .badges table
+{
+  margin: 18px auto 36px;
+}
+
+.node-profile .badges th,
+.node-profile .badges td
+{
+  padding: 0 36px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.node-profile .badges th + th,
+.node-profile .badges td + td
+{
+  border-left: 1px solid #452E0C;
+}
+
+.node-profile .movies
+{
+  margin: 18px 0 36px;
+  text-align: center;
+}
+
+.node-profile .movies .movie-clip-list
+{
+  margin: 0 -20px 0 10px;
+  width: 760px;
+}
+
+.node-profile .group-profile-questions .field
+{
+  background: #452E0C;
+  line-height: 18px;
+  margin: 18px 0;
+  padding: 9px 18px;
+  text-align: right;
+  text-shadow: #1C1305 0px 0px 3px;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+}
+
+.node-profile .group-profile-questions .field-items
+{
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
+
+/* 
+------------------------------------------------------------------------
+Node – Product
+------------------------------------------------------------------------ 
+*/
+
+.node-product form,
+.node-product .add-to-cart,
+.node-product .node-title,
+.node-product .product-info
+{
+  display: block;
+}
+
+.node-product-teaser form,
+.node-product-teaser .add-to-cart,
+.node-product-teaser .node-title,
+.node-product-teaser .product-info
+{
+  text-align: center;
+}
+
+.node-product form *,
+.node-product .add-to-cart *,
+.node-product .node-title *,
+.node-product .product-info *
+{
+  display: inline;
+}
+
+#content .node-product .node-title
+{
+  color: #B6CA06;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.node-product .product-info,
+.node-product .product-info *
+{
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.node-product .product-info .price-prefixes {
+  display: none;
+}
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Default
+------------------------------------------------------------------------ 
+*/
+
+.view-newest-members .views-row-skin-default a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-default-avatar-small.png); }
+  
+.node-featured-member-skin-default a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-default-avatar-large.png); }
+
+.node-profile-skin-default .featured-question {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-default-graphic.png);
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-default-graphic.png, sizingMethod='scale'); }
+
+.node-profile-skin-default .featured-question .field-label {
+  color: white; 
+  text-shadow: #8A9905 0px 0px 3px; }
+
+.node-profile-skin-default .featured-question .field-items {
+ color: #DBF20C; 
+ text-shadow: #8A9905 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – 13th Dimension
+------------------------------------------------------------------------ 
+*/
+
+.view-newest-members .views-row-skin-13th-dimension a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-13th-dimension-avatar-small.png); }
+  
+.node-featured-member-skin-13th-dimension a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-13th-dimension-avatar-large.png); }
+
+.node-profile-skin-13th-dimension .featured-question {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-13th-dimension-graphic.png);
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-13th-dimension-graphic.png, sizingMethod='scale'); }
+
+.node-profile-skin-13th-dimension .featured-question .field-label {
+  color: white; 
+  text-shadow: #CC729E 0px 0px 3px; }
+
+.node-profile-skin-13th-dimension .featured-question .field-items {
+ color: #542B3A; 
+ text-shadow: #FFCCE5 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – 17th Parallel
+------------------------------------------------------------------------ 
+*/
+
+.view-newest-members .views-row-skin-17th-parallel a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-17th-parallel-avatar-small.png); }
+
+.node-featured-member-skin-17th-parallel a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-17th-parallel-avatar-large.png); }
+
+.node-profile-skin-17th-parallel .featured-question {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-17th-parallel-graphic.png);
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-17th-parallel-graphic.png, sizingMethod='scale'); }
+
+.node-profile-skin-17th-parallel .featured-question .field-label { 
+  color: white; 
+  text-shadow: #68993D 0px 0px 3px; }
+
+.node-profile-skin-17th-parallel .featured-question .field-items { 
+  color: #68993D; text-shadow: 
+  white 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Delivery Guy
+------------------------------------------------------------------------ 
+*/
+
+.view-newest-members .views-row-skin-delivery-guy a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-delivery-guy-avatar-small.png); }
+  
+.node-featured-member-skin-delivery-guy a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-delivery-guy-avatar-large.png); }
+
+.node-profile-skin-delivery-guy .featured-question {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-delivery-guy-graphic.png); 
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-delivery-guy-graphic.png, sizingMethod='scale');
+  margin-top: -90px; }
+
+.node-profile-skin-delivery-guy .featured-question .field-label {
+  color: white; 
+  text-shadow: #595547 0px 0px 3px; }
+
+.node-profile-skin-delivery-guy .featured-question .field-items {
+ color: #26251f; 
+ text-shadow: #a69e85 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Dinosaur
+------------------------------------------------------------------------ 
+*/
+  
+.view-newest-members .views-row-skin-dinosaur a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-dinosaur-avatar-small.png); }
+  
+.node-featured-member-skin-dinosaur a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-dinosaur-avatar-large.png); }
+
+.node-profile-skin-dinosaur .featured-question {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-dinosaur-graphic.png); 
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-dinosaur-graphic.png, sizingMethod='scale');
+  margin-top: -90px; }
+
+.node-profile-skin-dinosaur .featured-question .field-label {
+  color: white; 
+  text-shadow: #394D08 0px 0px 3px; }
+
+.node-profile-skin-dinosaur .featured-question .field-items {
+ color: #2F4006; 
+ text-shadow: #85B314 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Edgar
+------------------------------------------------------------------------ 
+*/
+  
+.view-newest-members .views-row-skin-edgar a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-edgar-avatar-small.png); }
+  
+.node-featured-member-skin-edgar a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-edgar-avatar-large.png); }
+
+.node-profile-skin-edgar .featured-question {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-edgar-graphic.png); 
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-edgar-graphic.png, sizingMethod='scale');
+  margin-top: -90px; }
+
+.node-profile-skin-edgar .featured-question .field-label {
+  color: white; 
+  text-shadow: #394D08 0px 0px 3px; }
+
+.node-profile-skin-edgar .featured-question .field-items {
+ color: #2F4006; 
+ text-shadow: #85B314 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Eva
+------------------------------------------------------------------------ 
+*/
+  
+.view-newest-members .views-row-skin-eva a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-eva-avatar-small.png); }
+  
+.node-featured-member-skin-eva a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-eva-avatar-large.png); }
+
+.node-profile-skin-eva .featured-question {
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-eva-graphic.png); 
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-eva-graphic.png, sizingMethod='scale');
+  margin-top: -90px; }
+
+.node-profile-skin-eva .featured-question .field-label {
+  color: white; 
+  text-shadow: #205B80 0px 0px 3px; }
+
+.node-profile-skin-eva .featured-question .field-items {
+ color: #142F40; 
+ text-shadow: #4799CC 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Idol
+------------------------------------------------------------------------ 
+*/
+  
+.view-newest-members .views-row-skin-idol a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-idol-avatar-small.png); }
+
+.node-featured-member-skin-idol a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-idol-avatar-large.png); }
+  
+.node-profile-skin-idol .featured-question  { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-idol-graphic.png);
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-idol-graphic.png, sizingMethod='scale'); }
+
+.node-profile-skin-idol .featured-question  .field-label { 
+  color: white; 
+  text-shadow: #9E6D32 0px 0px 3px; }
+
+.node-profile-skin-idol .featured-question  .field-items { 
+  color: #9E6520; 
+  text-shadow: #F7E574 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Psychic
+------------------------------------------------------------------------ 
+*/
+  
+.view-newest-members .views-row-skin-psychic a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-psychic-avatar-small.png); }
+  
+.node-featured-member-skin-psychic a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-psychic-avatar-large.png); }
+
+.node-profile-skin-psychic .featured-question { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-psychic-graphic.png);
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-psychic-graphic.png, sizingMethod='scale'); }
+
+.node-profile-skin-psychic .featured-question .field-label { 
+  color: white; 
+  text-shadow: #302D45 0px 0px 3px; }
+
+.node-profile-skin-psychic .featured-question .field-items { 
+  color: #6EAECF; 
+  text-shadow: #302D45 0px 0px 5px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Thirteen
+------------------------------------------------------------------------ 
+*/
+  
+.view-newest-members .views-row-skin-thirteen a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-thirteen-avatar-small.png); }
+  
+.node-featured-member-skin-thirteen a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-thirteen-avatar-large.png); }
+
+.node-profile-skin-thirteen .featured-question { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-thirteen-graphic.png);
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-thirteen-graphic.png, sizingMethod='scale'); }
+
+.node-profile-skin-thirteen .featured-question .field-label { 
+  color: white; 
+  text-shadow: #872043 0px 0px 3px; }
+
+.node-profile-skin-thirteen .featured-question .field-items { 
+  color: #ffb2cc;
+  text-shadow: #872043 0px 0px 3px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Witch
+------------------------------------------------------------------------ 
+*/
+  
+.view-newest-members .views-row-skin-witch a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-witch-avatar-small.png); }
+  
+.node-featured-member-skin-witch a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-witch-avatar-large.png); }
+
+.node-profile-skin-witch .featured-question { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-witch-graphic.png);
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-witch-graphic.png, sizingMethod='scale'); }
+
+.node-profile-skin-witch .featured-question .field-label { 
+  color: white; 
+  text-shadow: #15131a 0px 0px 3px; }
+
+.node-profile-skin-witch .featured-question .field-items { 
+  color: #BACC33; 
+  text-shadow: #15131a 0px 0px 3px; }
+
+
+
+/* 
+------------------------------------------------------------------------
+Skin – Wizard
+------------------------------------------------------------------------ 
+*/
+.view-newest-members .views-row-skin-wizard a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-wizard-avatar-small.png); }
+  
+.node-featured-member-skin-wizard a.avatar { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-wizard-avatar-large.png); }
+
+.node-profile-skin-wizard .featured-question { 
+  background-image: url(zimmertwins.com/themes/zimmertwins/images/skins/skin-wizard-graphic.png);
+ _background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/sites/zimmertwins.com/themes/zimmertwins/images/skins/skin-wizard-graphic.png, sizingMethod='scale'); }
+
+.node-profile-skin-wizard .featured-question .field-label { 
+  color: white; 
+  text-shadow: #101210 0px 0px 3px; }
+
+.node-profile-skin-wizard .featured-question .field-items { 
+  color: #161A18; 
+  text-shadow: #5B665F 0px 0px 5px; }
+
+
+
+/**/
+#sidebar .block-membership-renewal {
+  color: white;
+  font-weight: bold;
+  text-shadow: #445500 0px 0px 3px;
+}
+
+#sidebar .block-membership-renewal a {
+  display: block;
+  font-size: 10px;
+  margin-top: 9px;
+  white-space: nowrap;
+}
+
+#page-movie-user-index #content .membership {
+  border: 0 solid #452E0C;
+  border-width: 1px 0;
+  padding: 17px 0;
+  margin: 18px 0;
+  text-align: center;
+}
+
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Poll
+Notes: taken from modules>poll>poll.css
+Updated by Miriam Verburg June, 2011
+
+------------------------------------------------------------------------ 
+*/
+
+.poll {
+	
+background: #734C11;
+border-radius: 5px;
+padding: 10px;
+  color:  #FA0;
+}
+	
+
+.poll .bar {
+  height: 1em;
+  margin: 1px 0;
+  background-color:/*#39260B;*/#4D330F;
+}
+.poll .bar .foreground {
+  background-color: #B6CA06;
+  height: 1em;
+  float: left; /* LTR */
+}
+.poll .links {
+  text-align: center;
+}
+
+.poll .percent {
+  text-align: right; /* LTR */
+  
+}
+.poll .total {
+  text-align: center;
+}
+.poll .vote-form {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.poll .vote-form .choices {
+  text-align: left; /* LTR */
+  margin: 0 auto;
+  display: table;
+}
+.poll .vote-form .choices .title {
+  font-weight: bold;
+}
+.node-form #edit-poll-more {
+  margin: 0;
+}
+td.poll-chtext {
+  width: 80%;
+}
+td.poll-chvotes .form-text {
+  width: 85%;
+}
+#poll-cancel-form{
+	padding-bottom: 10px;
+	
+}
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Pollfield
+Notes: taken from modules>poll>poll.css
+Updated by Miriam Verburg June, 2011
+
+------------------------------------------------------------------------ 
+*/
+
+#content .field-field-poll .pollfield-title {
+	
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	
+}
+#content .field-field-poll label {
+  color:  #FA0;
+  }
+  
+ #content .field-field-poll .field-label {
+	display: none;
+}
+
+.field-field-poll {
+	
+background: #734C11;
+border-radius: 5px;
+padding: 20px;
+  color:  #FA0;
+  width: 85%;
+  margin-bottom:3%;
+  margin-top:5%;
+
+}
+
+.poll .bar {
+  height: 1em;
+  margin: 1px 0;
+  background-color: #4D330F;
+  }
+.poll .bar .foreground {
+  background-color:  #B6CA06;
+  height: 1em;
+  float: left;
+}
+.poll .links {
+  text-align: center;
+}
+.poll .percent {
+  text-align: right;
+}
+.poll .total {
+  text-align: center;
+}
+.poll .vote-form {
+}
+.poll .vote-form .choices {
+  text-align: left;
+  margin: 0 auto;
+  
+}
+.node-form .poll-form fieldset {
+}
+
+.pollfield-form{
+
+}
+.pollfield-form fieldset legend + .form-item{
+}
+.pollfield-form fieldset .form-item{
+
+}
+/*style pollfield*/
+#pollfield{
+}
+.pollfield-row{
+margin:0;
+padding:0;
+overflow:visible;
+}
+.pollfield-row .text{
+overflow:visible;
+text-align:left;
+}
+
+.barcell{
+vertical-align:middle;
+}
+/*.pollfield-bar-holder{
+position:relative;
+background:olive;
+width:100%;
+height:100%;
+}*/
+.barcell .bar{
+height:1em;
+background:#4D330F;
+border: 0px solid #F0F0F0;
+}
+.barcell .bar .pollfield-foreground{
+background: #B6CA06;
+height:1em;
+}
+.pollfield-percent{
+vertical-align:middle;
+padding:0.2em;
+overflow:visible;
+text-align: right;
+}
+/* this class is used to show what is user choice in the poll*/
+.pollfield-chosen{font-weight:bold;font-style:italic;}
+
+
+/* 
+------------------------------------------------------------------------
+
+Theme - Splash page
+Notes: these styles apply specifically to the page-splash.tpl.php file and node-splash.tpl.php there should be no other place on the Zimmer Twins site that these styles are expressed.
+Updated by Miriam Verburg March, 2102
+------------------------------------------------------------------------ 
+*/
+
+#splash {
+	  background: #39260B;
+  width: 100%;
+
+}
+
+#splash body {
+	background-image: url('zimmertwins.com/themes/zimmertwins/images/splash/spiral.png');
+ background-repeat: no-repeat;
+ background-position: top 0;
+
+}
+#splash #container {
+ background-image: url('zimmertwins.com/themes/zimmertwins/images/splash/ribbon.png');
+ background-repeat: repeat-x;
+ background-position: top 0;
+ width: 100%;
+	
+	
+}
+#splash #content{
+	width:  900px;
+	padding-top:  60px;
+
+}
+#splash #content #transparent-logo{
+	float: left;
+	margin-right: 30px;	
+	}
+	#splash #content h1{
+	padding-top: 40px;
+	}
+	#splash #content p{
+	font-size:1.25em;
+	font-weight: bold;
+	line-height: 140%;
+	}
+
+#splash #right-column{
+	float:  right;
+	
+	
+}
+#splash #left-column{
+
+float: left;
+width: 500px;	
+}
+
+
+#splash a.button {
+	width:338px;
+	height:  109px;
+	margin: 10px 0px 20px 10px;
+	display: block;
+
+}
+
+	#splash a.button p{
+	display:  none;
+}
+#splash a#kids {
+	
+	background-image: url('zimmertwins.com/themes/zimmertwins/images/splash/button-kids.png');
+	background-position: 0px 0px;
+}
+	#splash	a#kids:hover {
+	
+	background-image: url('zimmertwins.com/themes/zimmertwins/images/splash/button-kids.png');
+	background-position: 0px -109px;
+}
+
+
+#splash a#edu {
+	background-image: url('zimmertwins.com/themes/zimmertwins/images/splash/button-edu.png');
+	background-position: 0px 0px;
+	
+}
+
+	#splash a#edu:hover {
+	background-image: url('zimmertwins.com/themes/zimmertwins/images/splash/button-edu.png');
+	background-position: 0px -109px;
+	
+}
+
+
+.overlay { z-index:10000; bottom:31px; right: 0px; position:absolute; }
+
+
+
+
+
