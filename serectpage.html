@@ -42,7 +42,164 @@
         window.postMessage({
           from: 'requestly',
           type: 'response_rule_applied',
+          id<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0043)http://zimmertwinsatschool.com/movie/create -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-local" lang="en-local" id="" class="js"><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function(namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].responseRules = {};
+
+  let open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method) {
+    this.addEventListener('readystatechange', function() {
+      if (this.readyState === 4 && window[namespace].responseRules.hasOwnProperty(this.responseURL)) {
+        const responseRule = window[namespace].responseRules[this.responseURL];
+        const {response, id} = responseRule;
+        const responseType = this.responseType;
+        let customResponse;
+
+        customResponse = response.type === 'code' ? responseRule.evaluator({
+            method,
+            url: this.responseURL,
+            requestHeaders: this.requestHeaders,
+            requestData: this.requestData,
+            responseType: this.responseType,
+            response: this.response
+          }) : response.value;
+
+        Object.defineProperty(this, 'response', {
+          get: function () {
+            if (response.type === 'static' && responseType === 'json') {
+              return JSON.parse(customResponse);
+            }
+            return customResponse;
+          }
+        });
+
+        if (responseType === '' || responseType === 'text') {
+          Object.defineProperty(this, 'responseText', {
+            get: function () {
+              return customResponse;
+            }
+          });
+        }
+
+        window.postMessage({
+          from: 'requestly',
+          type: 'response_rule_applied',
           id
+        }, window.location.href);
+      }
+    }, false);
+    open.apply(this, arguments);
+  };
+
+  let send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function(data) {
+    this.requestData = data;
+    send.apply(this, arguments);
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  }
+})('__REQUESTLY__')</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Create Movie | Zimmer Twins at School</title>
+    <meta name="keywords" content="Animation, Games, Kids, Children, Storytelling, Stories, Movies, Movie-Maker, Learning, Literacy, Educational, School, Free, Activities, Elementary, Primary, Eva, Edgar, Psychic, Creative, Parents, Family, zinc Roe">
+    <meta name="description" content="The Zimmer Twins at School website invites teachers and students to create and share their own animated stories.">
+    <meta name="copyright" content="©2020 Lost The Plot Productions">
+    
+<link rel="shortcut icon" href="http://zimmertwinsatschool.com/sites/zimmertwinsatschool.com/themes/zimmertwins_education/images/favicon.ico" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" media="all" href="./Create Movie _ Zimmer Twins at School_files/css_b788c334c7e01b3b8f64b522424b4b6f.css">
+    <!--[if IE]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/zimmertwinsatschool.com/themes/zimmertwins_education/ie.css" />
+    <![endif]-->
+    <script type="text/javascript" src="./Create Movie _ Zimmer Twins at School_files/js_07c03e832cff7874f73933d7b2bcd19b.js.pagespeed.jm._dUmlUWnCP.js.download"></script>
+<script type="text/javascript">//<![CDATA[
+jQuery.extend(Drupal.settings,{"basePath":"/","fivestar":{"titleUser":"Your rating: ","titleAverage":"Average: ","feedbackSavingVote":"Saving vote...\r\n","feedbackVoteSaved":"Rating saved.","feedbackDeletingVote":"Removing vote...","feedbackVoteDeleted":"Rating removed."}});
+//]]></script>
+  <link rel="stylesheet" href="./Create Movie _ Zimmer Twins at School_files/jquery-ui.css"><link href="./Create Movie _ Zimmer Twins at School_files/css" rel="stylesheet" type="text/css"></head>
+  <body>
+    <div id="wrapper" class="clear-block">
+
+      <div id="main">
+        
+        <div id="content-header">
+                  </div>
+        
+        <div id="content" class="clear-block">
+        
+          <h1 class="page-title">
+            <span class="page-icon"></span>
+            Create Movie          </h1>
+        
+                
+                  
+          <div id="movie-clip-editor-0" class="movie-clip-editor flash flash-replaced"><embed height="565" flashvars="apiurl=http%3A%2F%2Fzimmertwinsatschool.com%2Fsites%2Fzimmertwinsatschool.com%2Fmovie%2Fassets%2Fapi.paid.xml&amp;asseturl=http%3A%2F%2Fzimmertwinsatschool.com%2Fsites%2Fzimmertwinsatschool.com%2Fmovie%2Fassets&amp;baseurl=http%3A%2F%2Fzimmertwinsatschool.com&amp;lang=en-local&amp;userid=79538" pluginspage="http://www.adobe.com/go/getflashplayer" src="http://zimmertwinsatschool.com/sites/zimmertwinsatschool.com/movie/editor.swf" type="application/x-shockwave-flash" width="760"><div class="alt">
+  
+  
+  
+  
+  
+  
+
+</div></div>          
+        </div>
+        
+        <div id="content-footer" class="clear-block">
+                  </div>
+        
+      </div>
+      
+      <div id="sidebar">
+        
+        <a id="site-logo" href="http://zimmertwinsatschool.com/">
+                  </a>
+        
+                <ul id="nav"><li class="menu-835 first"><a href="http://zimmertwinsatschool.com/" id="nav-home">Home</a></li>
+<li class="menu-837"><a href="http://zimmertwinsatschool.com/gallery" id="nav-gallery">Gallery</a></li>
+<li class="menu-836"><a href="http://zimmertwinsatschool.com/movie/starters" id="nav-make">Make A Movie</a></li>
+<li class="menu-876 last"><a href="http://zimmertwinsatschool.com/help" id="nav-help">Help</a></li>
+</ul>                
+        <div class="block block-user block-user-1">
+		  <h2>
+	    josh111	    	  </h2>
+		<ul class="menu"><li class="leaf first"><a href="http://zimmertwinsatschool.com/group">My Unread</a></li>
+<li class="leaf"><a href="http://zimmertwinsatschool.com/recent-posts" title="">Recent Posts</a></li>
+<li class="leaf"><a href="http://zimmertwinsatschool.com/movie/watch">Class Movies</a></li>
+<li class="collapsed"><a href="http://zimmertwinsatschool.com/profile" title="The current user&#39;s profile page.">My Profile</a></li>
+<li class="leaf"><a href="http://zimmertwinsatschool.com/manage-classroom">My Class</a></li>
+<li class="leaf"><a href="http://zimmertwinsatschool.com/movie/user" title="">My Movies</a></li>
+<li class="leaf"><a href="http://zimmertwinsatschool.com/favourites" title="">My Favourites</a></li>
+<li class="leaf last"><a href="http://zimmertwinsatschool.com/logout">Log out</a></li>
+</ul></div>
+                
+      </div>
+      
+      <div id="sidebar-bg"></div>
+      
+      <div id="footer">
+        <span class="copyright">©2020 Lost The Plot Productions</span>
+                  <ul class="links"><li class="menu-873 first"><a href="http://www.zimmertwins.com/" title="The Zimmer Twins">The Zimmer Twins</a></li>
+<li class="menu-863"><a href="http://zimmertwinsatschool.com/membership" title="Get A Membership">Membership</a></li>
+<li class="menu-870"><a href="http://zimmertwinsatschool.com/about/terms" title="Terms Of Use">Terms Of Use</a></li>
+<li class="menu-871"><a href="http://zimmertwinsatschool.com/about/privacy" title="Privacy Policy">Privacy Policy</a></li>
+<li class="menu-864"><a href="http://zimmertwinsatschool.com/about/conduct" title="Code Of Conduct">Code Of Conduct</a></li>
+<li class="menu-866"><a href="http://zimmertwinsatschool.com/about/credits" title="Credits">Credits</a></li>
+<li class="menu-874"><a href="http://zimmertwinsatschool.com/contact" title="Contact">Contact</a></li>
+<li class="menu-867"><a href="http://zimmertwinsatschool.com/extras" title="Extras">Extras</a></li>
+<li class="menu-839 last"><a href="http://zimmertwinsatschool.com/about" title="About The Zimmer Twins">About</a></li>
+</ul>              </div>
+      
+    </div>
+    
+        
+  
+
+</body></html>
         }, window.location.href);
       }
     }, false);
