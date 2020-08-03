@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api version="1" timelineLength="60">
+  
+  <!-- Actors -->
+  <actor id="edgar" />
+  <actor id="eva" />
+  <actor id="thirteen" />
+  
+  <!-- Actees -->
+  <actee id="none" />
+  <actee id="edgar" />
+  <actee id="eva" />
+  <actee id="thirteen" />
+  <actee id="edgar_eva" />
+  <actee id="edgar_thirteen" />
+  <actee id="eva_thirteen" />
+  
+  <!-- Category: Dialog -->
+  <category id="dialog">
+    <!-- free -->
+    <clip id="announces" />
+    <clip id="cellphone_call" />
+    <clip id="lectures" />
+    <clip id="reads_aloud" />
+    <clip id="reports" />
+    <clip id="sings" />
+    <clip id="talks" />
+    <clip id="talks2" />
+    <clip id="talks3" />
+    <clip id="talks4" />
+    <clip id="thinks" />
+    <clip id="whispers" />
+    <clip id="yells" />
+    <!-- paid -->
+    <clip id="begs" />
+    <clip id="protests" />
+    <clip id="reads2" />
+    <clip id="yells2" />
+  </category>
+  
+  <!-- Category: Action -->
+  <category id="action">
+    <!-- free -->
+    <clip id="celebrates" />
+    <clip id="chases" />
+    <clip id="crowd_surfs" />
+    <clip id="dances" />
+    <clip id="drops" />
+    <clip id="faints" />
+    <clip id="falls" />
+    <clip id="finds" />
+    <clip id="flies" />
+    <clip id="floats" />
+    <clip id="gives" />
+    <clip id="hides" />
+    <clip id="hugs" />
+    <clip id="lands" />
+    <clip id="laughs" />
+    <clip id="leaves" />
+    <clip id="levitates" />
+    <clip id="meets" />
+    <clip id="plays" />
+    <clip id="ride_wagon" />
+    <clip id="rocks" />
+    <clip id="runs" />
+    <clip id="sits" />
+    <clip id="sneaks" />
+    <clip id="sleeps" />
+    <clip id="stands" />
+    <clip id="steals" />
+    <clip id="struts" />
+    <clip id="teleports" />
+    <clip id="wakes" />
+    <clip id="walks" />
+    <!-- paid -->
+    <clip id="admires" />
+    <clip id="annoys" />
+    <clip id="blushes" />
+    <clip id="dances2" />
+    <clip id="discovers" />
+    <clip id="eats" />
+    <clip id="exercises" />
+    <clip id="fetches" />
+    <clip id="films" />
+    <clip id="karatechop" />
+    <clip id="panics" />
+    <clip id="photographs" />
+    <clip id="sleep_walks" />
+    <clip id="teleports_out" />
+    <clip id="texts" />
+    <clip id="throws" />
+    <clip id="uses_computer" />
+    <clip id="watches_tv" />
+    <clip id="cooking" />
+  </category>
+  
+  <!-- Category: Closeup -->
+  <category id="closeup">
+    <!-- free -->
+    <clip id="agrees" />
+    <clip id="angry" />
+    <clip id="bored" />
+    <clip id="calls" />
+    <clip id="confused" />
+    <clip id="disagrees" />
+    <clip id="dizzy" />
+    <clip id="examines" />
+    <clip id="happy" />
+    <clip id="impressed" />
+    <clip id="plots" />
+    <clip id="plugs_ears" />
+    <clip id="relieved" />
+    <clip id="scared" />
+    <clip id="seeks" />
+    <clip id="surprised" />
+    <clip id="suspicious" />
+    <clip id="tease" />
+    <clip id="zimmerizes" />
+    <!-- paid -->
+  <clip id="crying" />
+    <clip id="preens" />
+    <clip id="writes" />
+  </category>
+  
+  <!-- Category: Other -->
+  <category id="other">
+    <!-- free -->
+    <clip id="boom" />
+    <clip id="card" />
+    <clip id="clapboard" />
+    <clip id="clock" />
+    <clip id="cookie" />
+    <clip id="crash" />
+    <clip id="earlier" />
+    <clip id="idolbase" />
+    <clip id="later" />
+    <clip id="map" />
+    <clip id="meanwhile" />
+    <clip id="newspaper" />
+    <clip id="sandwich" />
+    <clip id="textcard1" />
+    <clip id="textcard2" />
+    <clip id="textcard3" />
+    <clip id="ticket" />
+    <clip id="topsecret" />
+    <clip id="zimmercircles" />
+    <!-- paid -->
+    <clip id="alien" />
+    <clip id="blimp" />
+    <clip id="cellphone" />
+    <clip id="changing_channels" />
+    <clip id="computer" />
+    <clip id="crowd" />
+    <clip id="crystalball" />
+    <clip id="deliveryboy" />
+    <clip id="mmepsycho" />
+    <clip id="notepad" />
+    <clip id="package" />
+    <clip id="poster" />
+    <clip id="tv" />
+    <clip id="wizard" />
+  </category>
+  
+  <!-- Locations -->
+  <location id="alley" />
+  <location id="backstage" />
+  <location id="backyard" />
+  <location id="cave" />
+  <location id="desert" />
+  <location id="forest" />
+  <location id="jungle" />
+  <location id="living_room" />
+  <location id="museum" />
+  <location id="store" />
+  <location id="outerspace" />
+  <location id="park" />
+  <location id="restaurant" />
+  <location id="salon" />
+  <location id="sky" />
+  <location id="stage" />
+  <location id="street" />
+  <location id="thirteenth_dimension" />
+  <location id="seventeenth_parallel" />
+  <!-- paid -->
+  <location id="planet" />
+  <location id="edgar_bedroom" />
+  <location id="eva_bedroom" />
+  <location id="kitchen" />
+  
+  <!-- Props -->
+  <prop id="none" />
+  <prop id="book" />
+  <prop id="bunny" />
+  <prop id="card" />
+  <prop id="crystal" />
+  <prop id="flowers" />
+  <prop id="helmet" />
+  <prop id="idol" />
+  <prop id="letter" />
+  <prop id="map" />
+  <prop id="mystery_box" />
+  <prop id="newspaper" />
+  <prop id="potion" />
+  <prop id="present" />
+  <prop id="stinky_sack" />
+  <prop id="trophy" />
+  <prop id="camera" />
+  
+  <!-- Clip Settings: Dialog -->
+  <clip id="announces" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="begs" duration="1">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="cellphone_call" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="lectures" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="protests" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+    <clip id="reads_aloud" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="reads2" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="reports" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="sings" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="talks" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="talks2" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="talks3" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="talks4" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="thinks" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="whispers" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="yells" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  <clip id="yells2" duration="1">
+    <default-actors />
+    <default-locations />
+    <text id="bubble_txt" />
+  </clip>
+  
+  <!-- Clip Settings: Dialog -->
+  <clip id="admires" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+  </clip>
+  <clip id="annoys" duration="2">
+    <default-actors />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <default-locations />
+  </clip>
+  <clip id="blushes" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+  </clip> 
+  <clip id="celebrates" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="chases" duration="2">
+    <default-actors />
+    <actee id="eva" />
+    <actee id="edgar" />
+    <actee id="thirteen" />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="crowd_surfs" duration="3">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="dances" duration="3">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="dances2" duration="3">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="discovers" duration="2">
+    <default-actors />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <actee id="edgar_eva" />
+    <actee id="edgar_thirteen" />
+    <actee id="eva_thirteen" />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="drops" duration="1">
+    <default-actors />
+    <default-locations />
+    <prop id="camera" />
+    <prop id="stinky_sack" />
+    <prop id="potion" />
+    <prop id="trophy" />
+    <prop id="present" />
+    <prop id="crystal" />
+    <prop id="mystery_box" />
+    <prop id="bunny" />
+    <prop id="book" />
+    <prop id="helmet" />
+    <prop id="flowers" />
+    <prop id="idol" />
+    <prop id="letter" />
+    <prop id="card" />
+    <prop id="map" />
+    <prop id="newspaper" />
+  </clip>
+  <clip id="eats" duration="2">
+    <default-actors />
+    <default-locations />
+    <default-actees />
+  </clip>
+  <clip id="examines" duration="1">
+    <default-actors />
+    <default-locations />
+    <prop id="camera" />
+    <prop id="stinky_sack" />
+    <prop id="potion" />
+    <prop id="trophy" />
+    <prop id="present" />
+    <prop id="crystal" />
+    <prop id="mystery_box" />
+    <prop id="bunny" />
+    <prop id="book" />
+    <prop id="helmet" />
+    <prop id="flowers" />
+    <prop id="idol" />
+    <prop id="letter" />
+    <prop id="card" />
+    <prop id="map" />
+    <prop id="newspaper" />
+  </clip>
+  <clip id="exercises" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="faints" duration="2">
+    <default-actors />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="falls" duration="1">
+    <default-actors />
+    <default-actees />
+    <location id="sky" />
+    <location id="outerspace" />
+    <location id="thirteenth_dimension" />
+    <location id="seventeenth_parallel" />
+    <default-props />
+  </clip>
+  <clip id="fetches" duration="2">
+    <default-actors />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <actee id="edgar_eva" />
+    <actee id="edgar_thirteen" />
+    <actee id="eva_thirteen" />
+    <default-locations />
+  </clip>
+  <clip id="films" duration="2">
+    <default-actors />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <default-locations />
+  </clip>
+  <clip id="finds" duration="2">
+    <default-actors />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="flies" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="floats" duration="1">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="gives" duration="2" joint="true">
+    <actor id="edgar" />
+    <actor id="eva" />
+    <actor id="thirteen" />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="hides" duration="2">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="hugs" duration="3" joint="true">
+    <actor id="edgar" />
+    <actor id="eva" />
+    <actor id="thirteen" />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <default-locations /> 
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="karatechop" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+  </clip>
+  <clip id="lands" duration="3">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="laughs" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="leaves" duration="3">
+    <default-actors />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <actee id="edgar_eva" />
+    <actee id="edgar_thirteen" />
+    <actee id="eva_thirteen" />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="levitates" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="meets" duration="3" joint="true">
+    <actor id="edgar" />
+    <actor id="eva" />
+    <actor id="thirteen" />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <default-locations />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="panics" duration="3">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="photographs" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="plays" duration="2">
+    <default-actors />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="ride_wagon" duration="2">
+    <default-actors />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="runs" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="rocks" duration="3">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+  </clip>
+  <clip id="seeks" duration="2">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="sits" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="sneaks" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="sleeps" duration="2">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="sleep_walks" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="stands" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="steals" duration="2" joint="true">
+    <default-locations />
+    <actor id="edgar" />
+    <actor id="eva" />
+    <actor id="thirteen" />
+    <actee id="edgar" />
+    <actee id="eva" />
+    <actee id="thirteen" />
+    <default-locations />
+    <prop id="camera" />
+    <prop id="potion" />
+    <prop id="trophy" />
+    <prop id="present" />
+    <prop id="crystal" />
+    <prop id="mystery_box" />
+    <prop id="bunny" />
+    <prop id="book" />
+    <prop id="helmet" />
+    <prop id="flowers" />
+    <prop id="idol" />
+    <prop id="letter" />
+    <prop id="card" />
+    <prop id="map" />
+    <prop id="newspaper" />
+  </clip>
+  <clip id="struts" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="teleports" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="teleports_out" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="texts" duration="2">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="throws" duration="2">
+    <default-actors />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="uses_computer" duration="3">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="wakes" duration="2">
+    <default-actors />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="walks" duration="2">
+    <default-actors />
+    <default-actees />
+    <default-locations />
+    <default-props />
+  </clip>
+  <clip id="watches_tv" duration="2">
+    <default-actors />
+    <default-actees />
+    <location id="couch" />
+    <default-props />
+  </clip>
+  <clip id="cooking" duration="2">
+    <default-actors />
+    <default-locations />
+  </clip>
+  
+  <!-- Clip Settings: Closeup -->
+  <clip id="agrees" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="angry" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="bored" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="calls" duration="3">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="confused" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="crying" duration="3">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="disagrees" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="dizzy" duration="2">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="happy" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="impressed" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="plots" duration="2">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="plugs_ears" duration="2">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="preens" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="relieved" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="scared" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="surprised" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="suspicious" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="tease" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="writes" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  <clip id="zimmerizes" duration="1">
+    <default-actors />
+    <default-locations />
+  </clip>
+  
+  <!-- Clip Settings: Other -->
+  <clip id="alien" duration="2">
+    <text id="alien_txt" />
+  </clip>
+  <clip id="blimp" duration="2">
+    <text id="blimp_txt" />
+  </clip>
+  <clip id="boom" duration="1" />
+  <clip id="clapboard" duration="1">
+    <text id="clapboard_txt" />
+  </clip>
+  <clip id="card" duration="2">
+    <text id="card_txt" />
+  </clip>
+  <clip id="cellphone" duration="2">
+    <text id="cellphone_txt" />
+  </clip>
+  <clip id="changing_channels" duration="3" />
+  <clip id="clock" duration="1" />
+  <clip id="computer" duration="2">
+    <text id="computer_txt" />
+  </clip>
+  <clip id="cookie" duration="2">
+    <text id="cookie_txt" />
+  </clip>
+  <clip id="crash" duration="2" />
+  <clip id="crowd" duration="2" />
+  <clip id="crystalball" duration="2">
+    <text id="crystalball_txt" />
+  </clip>
+    <clip id="deliveryboy" duration="2">
+    <text id="deliveryboy_txt" />
+  </clip>
+  <clip id="earlier" duration="2" />
+  <clip id="idolbase" duration="2">
+    <text id="idolbase_txt" />
+  </clip>
+  <clip id="later" duration="2" />
+  <clip id="map" duration="2">
+    <text id="map_txt" />
+  </clip>
+  <clip id="meanwhile" duration="2" />
+  <clip id="mmepsycho" duration="2">
+    <text id="mmepsycho_txt" />
+  </clip>
+  <clip id="newspaper" duration="2">
+    <text id="newspaper_txt" />
+  </clip>
+  <clip id="notepad" duration="2">
+    <text id="notepad_txt" />
+  </clip>
+  <clip id="package" duration="2">
+    <text id="package_txt" />
+  </clip>
+  <clip id="poster" duration="2">
+    <text id="poster_txt" />
+  </clip>
+  <clip id="sandwich" duration="2">
+    <text id="sandwich_txt" />
+  </clip>
+  <clip id="textcard1" duration="2">
+    <text id="textcard_txt" />
+  </clip>
+  <clip id="textcard2" duration="2">
+    <text id="textcard_txt" />
+  </clip>
+  <clip id="textcard3" duration="2">
+    <text id="textcard_txt" />
+  </clip>
+  <clip id="ticket" duration="2">
+    <text id="ticket_txt" />
+  </clip>
+  <clip id="topsecret" duration="2">
+    <text id="topsecret_txt" />
+  </clip>
+  <clip id="tv" duration="2">
+    <text id="tv_txt" />
+  </clip>
+  <clip id="wizard" duration="2">
+    <text id="wizard_txt" />
+  </clip>
+  <clip id="zimmercircles" duration="1" />
+  
+  <!-- Clip Settings: Starters -->
+  <clip id="13talks" duration="11" />
+  <clip id="charming13" duration="10" />
+  <clip id="foiled" duration="29" />
+  <clip id="joyride" duration="49" />
+  <clip id="kitty-dreams" duration="36" />
+  <clip id="misfortune" duration="49" />
+  <clip id="mystery-box" duration="38" />
+  <clip id="rock-contest" duration="11" />
+  <clip id="zapped" duration="45" />
+  <clip id="fortune" duration="12" />
+  <clip id="gemjest" duration="13" />
+  <clip id="run" duration="11" />
+  <clip id="idolhands" duration="10" />
+  <clip id="surprise" duration="13" />
+  <clip id="wheres13" duration="12" />
+  <clip id="goldenidols" duration="19" />
+  <clip id="teststarter" duration="10" />
+  
+  <!-- Clip Settings: Title Slate -->
+  <clip id="title" duration="5">
+    <text id="title_txt" />
+    <text id="shadow_txt" />
+    <text id="author_txt" />
+  </clip>
+  
+  <!-- Clip Settings: Help -->
+  <clip id="help_en" duration="160" />
+  
+</api>
