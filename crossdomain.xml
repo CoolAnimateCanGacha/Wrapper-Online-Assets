@@ -16,6 +16,7 @@
    <allow-access-from domain="d3l3i46hwjinat.cloudfront.net" secure="false" />
    <allow-access-from domain="dgny9w8h2biiq.cloudfront.net" secure="false" />
    <allow-access-from domain="www4.goanimate.com" secure="false" />
+   <allow-access-from domain="cdn.discordapp.com" secure="false" />
    
    <allow-http-request-headers-from domain="demo.cdn.goanimate.com" headers="*" secure="false"/>
    <allow-http-request-headers-from domain="dgny9w8h2biiq.cloudfront.net" headers="*" secure="false"/>
@@ -25,4 +26,5 @@
    <allow-http-request-headers-from domain="d2qrjeyl4jwu9j.cloudfront.net" headers="*" secure="false"/>
    <allow-http-request-headers-from domain="lightspeed.edplatform.goanimate.com" headers="*" secure="false"/>
    <allow-http-request-headers-from domain="d3l3i46hwjinat.cloudfront.net" headers="*" secure="false"/>
+   <allow-http-request-headers-from domain="cdn.discordapp.com" headers="*" secure="false"/>
 </cross-domain-policy>
