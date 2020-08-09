@@ -42,7 +42,8 @@
     <color r="ccGlassesLens" component_type="glasses" enable="Y">
         <choice>0x1F6490</choice>
         <choice>0x846116</choice>
-        <choice>0x872914</choice>
+        <choice>0x872914</choice>        <choice>0x872914</choice>
+
         <choice>0x562A0C</choice>
         <choice>0xD8E8E8</choice>
         <choice>0xB7B7B7</choice>
