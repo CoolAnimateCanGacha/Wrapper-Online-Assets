@@ -5,7 +5,7 @@
 <char id="327068788" name="the benson apparition" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 <tags>family,every,copy,of,wrapper,offline,is,_free,software,but,is,also,_cat:personalized</tags>
 </char>
-<prop id="Design-Fancy-Luxury-Bedroom-Bed-Set-Furniture-Hotel.png" name="Hotel Bedroom" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="0" money="0" sharing="0" />  
-<prop id="import.png" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1" money="0" sharing="0" />  
+<prop id="Design-Fancy-Luxury-Bedroom-Bed-Set-Furniture-Hotel.png" name="Hotel Bedroom" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="0" money="0" sharing="0" />
+<prop id="import.png" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1" money="0" sharing="0" />
 </prop>  
 </theme>
