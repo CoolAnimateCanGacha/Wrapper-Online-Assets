@@ -5,7 +5,22 @@
 <char id="327068788" name="the benson apparition" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 <tags>family,every,copy,of,wrapper,offline,is,_free,software,but,is,also,_cat:personalized</tags>
 </char>
-<prop id="Design-Fancy-Luxury-Bedroom-Bed-Set-Furniture-Hotel.png" name="Hotel Bedroom" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="0" money="0" sharing="0" />
-<prop id="import.png" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1" money="0" sharing="0" />
-</prop>  
+<prop id="Design-Fancy-Luxury-Bedroom-Bed-Set-Furniture-Hotel.png" name="Hotel Bedroom" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="import.png" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2008-2011_watermark.swf" name="2008 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />'
+<prop id="2009-2011_cartoon_network_watermark.swf" name="2009 Cartoon Network Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2009-2014_domoanimate_watermark.swf" name="2009 DomoAnimate Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2009-2014_powered_by_watermark.swf" name="2009 Powered by Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2011-2013_RWTV_watemark.swf" name="2011 RWTV Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2011-2013_watermark.swf" name="2011 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2013-2014_watermark.swf" name="2013 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2013-2015_unused_watermark.swf" name="2013 Unused Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2014-2015_watermark.swf" name="2014 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2015-2018_free_trial_watermark.swf" name="2015 Free Trial Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2015-2018_fullscreen_watermark.swf" name="2015 Fullscreen Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2015-2018_watermark.swf" name="2015 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2015-2019_school_watermark.swf" name="2015 School Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2018-2020_free_trial_watermark.swf" name="2018 Free Trial Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2018-2020_fullscreen_watermark.swf" name="2018 Fullscreen Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+<prop id="2018-2020_watermark.swf" name="2018 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
 </theme>
