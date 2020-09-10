@@ -3771,6 +3771,24 @@
 	<prop id="battlefield_boxes.swf" name="Boxes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9677" money="0" sharing="0"/>
 	<prop id="changing_room_bench01.swf" name="Bench" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9678" money="0" sharing="0"/>
 	<prop id="changing_room_bench02.swf" name="Bench" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9679" money="0" sharing="0"/>
+	<prop id="Design-Fancy-Luxury-Bedroom-Bed-Set-Furniture-Hotel.png" name="Hotel Bedroom" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="import.png" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2008-2011_watermark.swf" name="2008 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />'
+	<prop id="2009-2011_cartoon_network_watermark.swf" name="2009 Cartoon Network Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2009-2014_domoanimate_watermark.swf" name="2009 DomoAnimate Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2009-2014_powered_by_watermark.swf" name="2009 Powered by Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2011-2013_RWTV_watemark.swf" name="2011 RWTV Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2011-2013_watermark.swf" name="2011 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2013-2014_watermark.swf" name="2013 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2013-2015_unused_watermark.swf" name="2013 Unused Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2014-2015_watermark.swf" name="2014 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2015-2018_free_trial_watermark.swf" name="2015 Free Trial Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2015-2018_fullscreen_watermark.swf" name="2015 Fullscreen Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2015-2018_watermark.swf" name="2015 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2015-2019_school_watermark.swf" name="2015 School Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2018-2020_free_trial_watermark.swf" name="2018 Free Trial Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2018-2020_fullscreen_watermark.swf" name="2018 Fullscreen Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
+	<prop id="2018-2020_watermark.swf" name="2018 Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4602" money="0" sharing="0" />
 	<prop id="msp_changingrm_door" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_changingrm_door_changing_room_door01.swf" enable="Y" is_premium="N" aid="9680" money="0" sharing="0">
 		<state id="msp_changingrm_door_changing_room_door01.swf" name="Open" enable="Y"/>
 		<state id="msp_changingrm_door_changing_room_door02.swf" name="Closed" enable="Y" default="Y"/>
