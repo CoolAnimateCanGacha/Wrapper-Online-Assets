@@ -1,186 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cc_theme xmlns:xi="http://alvin.goanimate.org/store" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="anime" studio_theme_id="anime" name="Anime" version="2.0" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd">
 
-    <color r="ccSkinColor" component_type="bodyshape" enable="Y">
-        <choice>0xF9DDD1</choice>
+	<color r="ccSkinColor" component_type="bodyshape" enable="Y">
+		<choice>0xF9DDD1</choice>
 		<choice>0xFEEDD3</choice>
-        <choice>0xEAD2B0</choice>
-        <choice>0xEBC9AF</choice>
-        <choice>0xE2C294</choice>
-        <choice>0xCE9D7D</choice>
-        <choice>0xAC8151</choice>
-        <choice>0x8d6850</choice>
-    </color>
-    <color r="ccFaceHairColor" component_type="bodyshape" enable="Y">
-        <choice>0xF2E784</choice>
-        <choice>0xE3EEF4</choice>
-        <choice>0x7E4D1B</choice>
-        <choice>0x321F1B</choice>
-        <choice>0x9AB03E</choice>
-        <choice>0xC48888</choice>
-        <choice>0xBA4545</choice>
-        <choice>0x6C5E91</choice>
-    </color>
-    <color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="Y">
-        <choice>0x5F3F29</choice>
-        <choice>0xBD8764</choice>
-        <choice>0x80DCE6</choice>
-        <choice>0x99CC00</choice>
-        <choice>0x1E447B</choice>
-        <choice>0x996666</choice>
-        <choice>0xE47070</choice>
-        <choice>0x4B0156</choice>
-    </color>
-    <color r="ccEyeIris" component_type="eye" enable="Y">
-        <choice>0x988986</choice>
-        <choice>0x229188</choice>
-        <choice>0x7D551C</choice>
-        <choice>0x9966CC</choice>
-        <choice>0x7892C6</choice>
-        <choice>0x993333</choice>
-        <choice>0x669900</choice>
-        <choice>0xEA7B9D</choice>
-    </color>
-    <color r="ccGlassesFrame" component_type="glasses" enable="Y">
-        <choice>0xAE0057</choice>
-        <choice>0x53A8DF</choice>
-        <choice>0xEC9EC5</choice>
-        <choice>0x360202</choice>
-        <choice>0xC1BFB8</choice>
-        <choice>0x5F4929</choice>
-        <choice>0x4A6028</choice>
-        <choice>0x000000</choice>
-    </color>
-    <color r="ccGlassesLens" component_type="glasses" enable="Y">
-        <choice>0xFFFFFF</choice>
-        <choice>0x555555</choice>
-        <choice>0xBC6A70</choice>
-        <choice>0x360202</choice>
-        <choice>0xC1BFB8</choice>
-        <choice>0xFFCC00</choice>
-        <choice>0x640F0F</choice>
-        <choice>0x000000</choice>
-    </color>
-    <color r="ccMouthLip" component_type="mouth" enable="Y">
-        <choice>0xB7796A</choice>
-        <choice>0x9A6C46</choice>
-        <choice>0xCA3030</choice>
-        <choice>0x73263E</choice>
-        <choice>0xE47070</choice>
-        <choice>0x891212</choice>
-        <choice>0x7D5134</choice>
-        <choice>0xEB8369</choice>
-    </color>
-    <color r="ccHairMajor" component_type="hair" enable="Y">
-        <choice>0xFFFEFF</choice>
-        <choice>0xEB704E</choice>
-        <choice>0x4C96B3</choice>
-        <choice>0x6BBE8F</choice>
-        <choice>0xFF86A3</choice>
-        <choice>0x534339</choice>
-        <choice>0xE8D257</choice>
-        <choice>0x3C3C3C</choice>
-    </color>
-    <color r="ccHairMinor" component_type="hair" enable="Y">
-        <choice>0xFFFEFF</choice>
-        <choice>0xDC613F</choice>
-        <choice>0x2F9BC5</choice>
-        <choice>0x3DD17D</choice>
-        <choice>0xF24492</choice>
-        <choice>0x634F3E</choice>
-        <choice>0xD2A12C</choice>
-        <choice>0x3C3C3C</choice>
-    </color>
-    <color r="ccUpperMain" component_type="GoUpper" enable="Y">
-        <choice>0xFFF3FF</choice>
-        <choice>0xFFFFAA</choice>
-        <choice>0x6A944F</choice>
-        <choice>0x93D6E4</choice>
-        <choice>0xFF87A3</choice>
-        <choice>0xCC9966</choice>
-        <choice>0x3D8075</choice>
-        <choice>0x3C3C3C</choice>
-    </color>
-    <color r="ccUpperMinor" component_type="GoUpper" enable="Y">
-        <choice>0xFFFEFF</choice>
-        <choice>0xC6C648</choice>
-        <choice>0x3A5529</choice>
-        <choice>0x48BAD2</choice>
-        <choice>0xFF4052</choice>
-        <choice>0xA47A4F</choice>
-        <choice>0x0C594C</choice>
-        <choice>0x3C3C3C</choice>
-    </color>
-    <color r="ccLowerMain" component_type="GoLower" enable="Y">
-        <choice>0xFFFEFF</choice>
-        <choice>0x4F5157</choice>
-        <choice>0xA4A4A4</choice>
-        <choice>0x5E5F34</choice>
-        <choice>0xFF87A3</choice>
-        <choice>0xCC9966</choice>
-        <choice>0x65503B</choice>
-        <choice>0x3C3C3C</choice>
-    </color>
-    <color r="ccLowerMinor" component_type="GoLower" enable="Y">
-        <choice>0xFFF3FF</choice>
-        <choice>0x4F5157</choice>
-        <choice>0xA4A4A4</choice>
-        <choice>0x99DAD8</choice>
-        <choice>0xFCD0DA</choice>
-        <choice>0x9474A8</choice>
-        <choice>0x65503B</choice>
-        <choice>0x3C3C3C</choice>
-    </color>
-    <color r="ccDecMajor" component_type="facedecoration" enable="Y">
-        <choice>0xAE0057</choice>
-        <choice>0x53A8DF</choice>
-        <choice>0xEC9EC5</choice>
-        <choice>0x360202</choice>
-        <choice>0xC1BFB8</choice>
-        <choice>0x5F4929</choice>
-        <choice>0x4A6028</choice>
-        <choice>0x000000</choice>
-    </color>
-    <color r="ccDecMinor" component_type="facedecoration" enable="Y">
-        <choice>0xFFFFFF</choice>
-        <choice>0x555555</choice>
-        <choice>0xBC6A70</choice>
-        <choice>0x360202</choice>
-        <choice>0xC1BFB8</choice>
-        <choice>0xFFCC00</choice>
-        <choice>0x640F0F</choice>
-        <choice>0x000000</choice>
-    </color>
-    <color r="ccBackMajor" component_type="GoBehindBody" enable="Y">
-        <choice>0xAE0057</choice>
-        <choice>0x53A8DF</choice>
-        <choice>0xEC9EC5</choice>
-        <choice>0x360202</choice>
-        <choice>0xC1BFB8</choice>
-        <choice>0x5F4929</choice>
-        <choice>0x4A6028</choice>
-        <choice>0x000000</choice>
-    </color>
-    <color r="ccBackMinor" component_type="GoBehindBody" enable="Y">
-        <choice>0xFFFFFF</choice>
-        <choice>0x555555</choice>
-        <choice>0xBC6A70</choice>
-        <choice>0x360202</choice>
-        <choice>0xC1BFB8</choice>
-        <choice>0xFFCC00</choice>
-        <choice>0x640F0F</choice>
-        <choice>0x000000</choice>
-    </color>
-    <color r="ccHandMain" component_type="GoHands" enable="Y">
-        <choice>0x2F2F2F</choice>
-        <choice>0xB80303</choice>
-        <choice>0x5B88B5</choice>
-        <choice>0x94C422</choice>
-        <choice>0xE8E9E2</choice>
-        <choice>0x67564B</choice>
-        <choice>0xBE5A30</choice>
-        <choice>0xE797B6</choice>
-    </color>
+		<choice>0xEAD2B0</choice>
+		<choice>0xEBC9AF</choice>
+		<choice>0xE2C294</choice>
+		<choice>0xCE9D7D</choice>
+		<choice>0xAC8151</choice>
+		<choice>0x8d6850</choice>
+	</color>
+	<color r="ccFaceHairColor" component_type="bodyshape" enable="N">
+		<choice>0xF2E784</choice>
+		<choice>0xE3EEF4</choice>
+		<choice>0x7E4D1B</choice>
+		<choice>0x321F1B</choice>
+		<choice>0x9AB03E</choice>
+		<choice>0xC48888</choice>
+		<choice>0xBA4545</choice>
+		<choice>0x6C5E91</choice>
+	</color>
+	<color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="N">
+		<choice>0x5F3F29</choice>
+		<choice>0xBD8764</choice>
+		<choice>0x80DCE6</choice>
+		<choice>0x99CC00</choice>
+		<choice>0x1E447B</choice>
+		<choice>0x996666</choice>
+		<choice>0xE47070</choice>
+		<choice>0x4B0156</choice>
+	</color>
+	<color r="ccEyeIris" component_type="eye" enable="N">
+		<choice>0x988986</choice>
+		<choice>0x229188</choice>
+		<choice>0x7D551C</choice>
+		<choice>0x9966CC</choice>
+		<choice>0x7892C6</choice>
+		<choice>0x993333</choice>
+		<choice>0x669900</choice>
+		<choice>0xEA7B9D</choice>
+	</color>
+	<color r="ccGlassesFrame" component_type="glasses" enable="N">
+		<choice>0xAE0057</choice>
+		<choice>0x53A8DF</choice>
+		<choice>0xEC9EC5</choice>
+		<choice>0x360202</choice>
+		<choice>0xC1BFB8</choice>
+		<choice>0x5F4929</choice>
+		<choice>0x4A6028</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccGlassesLens" component_type="glasses" enable="N">
+		<choice>0xFFFFFF</choice>
+		<choice>0x555555</choice>
+		<choice>0xBC6A70</choice>
+		<choice>0x360202</choice>
+		<choice>0xC1BFB8</choice>
+		<choice>0xFFCC00</choice>
+		<choice>0x640F0F</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccMouthLip" component_type="mouth" enable="N">
+		<choice>0xB7796A</choice>
+		<choice>0x9A6C46</choice>
+		<choice>0xCA3030</choice>
+		<choice>0x73263E</choice>
+		<choice>0xE47070</choice>
+		<choice>0x891212</choice>
+		<choice>0x7D5134</choice>
+		<choice>0xEB8369</choice>
+	</color>
+	<color r="ccHairMajor" component_type="hair" enable="Y">
+		<choice>0xFFFEFF</choice>
+		<choice>0xEB704E</choice>
+		<choice>0x4C96B3</choice>
+		<choice>0x6BBE8F</choice>
+		<choice>0xFF86A3</choice>
+		<choice>0x534339</choice>
+		<choice>0xE8D257</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccHairMinor" component_type="hair" enable="Y">
+		<choice>0xFFFEFF</choice>
+		<choice>0xDC613F</choice>
+		<choice>0x2F9BC5</choice>
+		<choice>0x3DD17D</choice>
+		<choice>0xF24492</choice>
+		<choice>0x634F3E</choice>
+		<choice>0xD2A12C</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccUpperMain" component_type="GoUpper" enable="N">
+		<choice>0xFFF3FF</choice>
+		<choice>0xFFFFAA</choice>
+		<choice>0x6A944F</choice>
+		<choice>0x93D6E4</choice>
+		<choice>0xFF87A3</choice>
+		<choice>0xCC9966</choice>
+		<choice>0x3D8075</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccUpperMinor" component_type="GoUpper" enable="N">
+		<choice>0xFFFEFF</choice>
+		<choice>0xC6C648</choice>
+		<choice>0x3A5529</choice>
+		<choice>0x48BAD2</choice>
+		<choice>0xFF4052</choice>
+		<choice>0xA47A4F</choice>
+		<choice>0x0C594C</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccLowerMain" component_type="GoLower" enable="N">
+		<choice>0xFFFEFF</choice>
+		<choice>0x4F5157</choice>
+		<choice>0xA4A4A4</choice>
+		<choice>0x5E5F34</choice>
+		<choice>0xFF87A3</choice>
+		<choice>0xCC9966</choice>
+		<choice>0x65503B</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccLowerMinor" component_type="GoLower" enable="N">
+		<choice>0xFFF3FF</choice>
+		<choice>0x4F5157</choice>
+		<choice>0xA4A4A4</choice>
+		<choice>0x99DAD8</choice>
+		<choice>0xFCD0DA</choice>
+		<choice>0x9474A8</choice>
+		<choice>0x65503B</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccDecMajor" component_type="facedecoration" enable="N">
+		<choice>0xAE0057</choice>
+		<choice>0x53A8DF</choice>
+		<choice>0xEC9EC5</choice>
+		<choice>0x360202</choice>
+		<choice>0xC1BFB8</choice>
+		<choice>0x5F4929</choice>
+		<choice>0x4A6028</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccDecMinor" component_type="facedecoration" enable="N">
+		<choice>0xFFFFFF</choice>
+		<choice>0x555555</choice>
+		<choice>0xBC6A70</choice>
+		<choice>0x360202</choice>
+		<choice>0xC1BFB8</choice>
+		<choice>0xFFCC00</choice>
+		<choice>0x640F0F</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccBackMajor" component_type="GoBehindBody" enable="N">
+		<choice>0xAE0057</choice>
+		<choice>0x53A8DF</choice>
+		<choice>0xEC9EC5</choice>
+		<choice>0x360202</choice>
+		<choice>0xC1BFB8</choice>
+		<choice>0x5F4929</choice>
+		<choice>0x4A6028</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccBackMinor" component_type="GoBehindBody" enable="N">
+		<choice>0xFFFFFF</choice>
+		<choice>0x555555</choice>
+		<choice>0xBC6A70</choice>
+		<choice>0x360202</choice>
+		<choice>0xC1BFB8</choice>
+		<choice>0xFFCC00</choice>
+		<choice>0x640F0F</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccHandMain" component_type="GoHands" enable="N">
+		<choice>0x2F2F2F</choice>
+		<choice>0xB80303</choice>
+		<choice>0x5B88B5</choice>
+		<choice>0x94C422</choice>
+		<choice>0xE8E9E2</choice>
+		<choice>0x67564B</choice>
+		<choice>0xBE5A30</choice>
+		<choice>0xE797B6</choice>
+	</color>
 
 	<facial id="head_neutral" name="Neutral" enable="Y">
 		<selection type="ear" state_id="side_default" />
@@ -496,7 +496,7 @@
 			<action id="guy_cry" name="Crying" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry" />
 			</action>
-			<action id="guy_desperate" name="Desperate" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="guy_desperate" name="Desperate" loop="Y" totalframe="60" enable="N" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_desperate" />
 			</action>
 			<action id="guy_confused" name="Confused" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -514,7 +514,7 @@
 			<action id="guy_sitting01" name="Sitting on the floor" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="guy_sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 			<action id="guy_sitting03" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
@@ -611,102 +611,102 @@
 		</actionpack>
 
 		<actionpack id="ninja" name="Ninja" money="0" sharing="0" enable="Y">
-            <action id="guy_nja_run01" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
+			<action id="guy_nja_run01" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="guy_nja_run02" name="Run-Combat" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-				<prop id="02sword01.swf" theme="anime" aid="99999"/>
-			</action>
-            <action id="guy_nja_appear01" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_run02" name="Run-Combat" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_appear02" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_appear01" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_disappear01" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_appear02" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_disappear02" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_disappear01" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_fight_stand01" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_disappear02" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_fight_stand02" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_fight_stand01" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_stand" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="guy_nja_prepare01" name="Prepare Spell" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="guy_nja_prepare02" name="Prepare Spell" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="guy_nja_vanish_disappear01" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="guy_nja_vanish_disappear02" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="guy_nja_vanish_disappear03" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="guy_nja_focus_energy" name="Focus Energy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="guy_nja_super" name="Super Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_fight_stand02" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_thunder01" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_stand" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="guy_nja_thunder02" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_prepare01" name="Prepare Spell" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="guy_nja_vanish_appear" name="Vanish - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_prepare02" name="Prepare Spell" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="guy_nja_strike01" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_vanish_disappear01" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="guy_nja_vanish_disappear02" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="guy_nja_vanish_disappear03" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="guy_nja_focus_energy" name="Focus Energy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="guy_nja_super" name="Super Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_strike02" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_thunder01" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="guy_nja_thunder02" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="guy_nja_vanish_appear" name="Vanish - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="guy_nja_strike01" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_get_hit01" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_strike02" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+				<prop id="02sword01.swf" theme="anime" aid="99999"/>
+			</action>
+			<action id="guy_nja_get_hit01" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_desperate" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_get_hit02" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_get_hit02" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_desperate" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_shuriken01" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_shuriken01" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="guy_nja_shuriken02" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_shuriken02" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="guy_nja_jump01" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-				<prop id="02sword01.swf" theme="anime" aid="99999"/>
-			</action>
-            <action id="guy_nja_jump02" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_jump01" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="guy_nja_kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="guy_nja_jump02" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+				<prop id="02sword01.swf" theme="anime" aid="99999"/>
+			</action>
+			<action id="guy_nja_kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
 		</actionpack>
@@ -715,7 +715,7 @@
 			<action id="guy_b2_stand01" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="guy_b2_stand02" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_stand02" name="Stand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 			<action id="guy_b2_stand03" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
@@ -788,11 +788,11 @@
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 			<action id="guy_b2_hifive01" name="High five" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-                <selection type="facial" facial_id="head_happy" />
-            </action>
+				<selection type="facial" facial_id="head_happy" />
+			</action>
 			<action id="guy_b2_hifive02" name="High five" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-                <selection type="facial" facial_id="head_happy" />
-            </action>
+				<selection type="facial" facial_id="head_happy" />
+			</action>
 		</actionpack>
 
 		<actionpack id="dailylife" name="Daily Life" money="0" sharing="0" enable="Y">
@@ -1212,7 +1212,7 @@
 			<tag>_sticky_filter_guy</tag>
 			<apply-template ref="F010" />
 		</library>
-		<library type="GoLower" id="011" path="011" name="011" thumb="011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+		<library type="GoLower" id="011" path="011" name="011" thumb="011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
 			<tag>_sticky_filter_guy</tag>
 			<apply-template ref="F001" />
 		</library>
@@ -1403,7 +1403,7 @@
 			<action id="cry" name="Crying" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry" />
 			</action>
-			<action id="desperate" name="Desperate" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="desperate" name="Desperate" loop="Y" totalframe="60" enable="N" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_desperate" />
 			</action>
 			<action id="confused" name="Confused" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -1421,7 +1421,7 @@
 			<action id="sitting01" name="Sitting on the floor" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 			<action id="sitting03" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
@@ -1518,102 +1518,102 @@
 		</actionpack>
 
 		<actionpack id="ninja" name="Ninja" money="0" sharing="0" enable="Y">
-            <action id="nja_run01" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
+			<action id="nja_run01" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="nja_run02" name="Run-Combat" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-				<prop id="02sword01.swf" theme="anime" aid="99999"/>
-			</action>
-            <action id="nja_appear01" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_run02" name="Run-Combat" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_appear02" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_appear01" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_disappear01" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_appear02" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_disappear02" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_disappear01" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_fight_stand01" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_disappear02" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_fight_stand02" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_fight_stand01" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_stand" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="nja_prepare01" name="Prepare Spell" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="nja_prepare02" name="Prepare Spell" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="nja_vanish_disappear01" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="nja_vanish_disappear02" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="nja_vanish_disappear03" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="nja_focus_energy" name="Focus Energy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-			</action>
-            <action id="nja_super" name="Super Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_fight_stand02" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_thunder01" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_stand" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="nja_thunder02" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_prepare01" name="Prepare Spell" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="nja_vanish_appear" name="Vanish - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_prepare02" name="Prepare Spell" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="nja_strike01" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_vanish_disappear01" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="nja_vanish_disappear02" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="nja_vanish_disappear03" name="Vanish - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="nja_focus_energy" name="Focus Energy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="nja_super" name="Super Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_strike02" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_thunder01" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="nja_thunder02" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="nja_vanish_appear" name="Vanish - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+			</action>
+			<action id="nja_strike01" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_get_hit01" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_strike02" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+				<prop id="02sword01.swf" theme="anime" aid="99999"/>
+			</action>
+			<action id="nja_get_hit01" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_desperate" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_get_hit02" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_get_hit02" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_desperate" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_shuriken01" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_shuriken01" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="nja_shuriken02" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_shuriken02" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
-            <action id="nja_jump01" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
-				<selection type="facial" facial_id="head_serious" />
-				<prop id="02sword01.swf" theme="anime" aid="99999"/>
-			</action>
-            <action id="nja_jump02" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_jump01" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 				<prop id="02sword01.swf" theme="anime" aid="99999"/>
 			</action>
-            <action id="nja_kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+			<action id="nja_jump02" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
+				<selection type="facial" facial_id="head_serious" />
+				<prop id="02sword01.swf" theme="anime" aid="99999"/>
+			</action>
+			<action id="nja_kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious" />
 			</action>
 		</actionpack>
@@ -1622,7 +1622,7 @@
 			<action id="b2_stand01" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="b2_stand02" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_stand02" name="Stand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 			<action id="b2_stand03" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
@@ -1695,11 +1695,11 @@
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 			<action id="b2_hifive01" name="High five" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-                <selection type="facial" facial_id="head_happy" />
-            </action>
+				<selection type="facial" facial_id="head_happy" />
+			</action>
 			<action id="b2_hifive02" name="High five" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-                <selection type="facial" facial_id="head_happy" />
-            </action>
+				<selection type="facial" facial_id="head_happy" />
+			</action>
 		</actionpack>
 
 		<actionpack id="dailylife" name="Daily Life" money="0" sharing="0" enable="Y">
@@ -2345,387 +2345,387 @@
 
 	<!-- Eyes -->
 	<component type="eye" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="eye" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 	</component>
 	<component type="eye" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="eye" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 	</component>
 	<component type="eye" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="eye" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 	</component>
 	<component type="eye" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="eye" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="eye" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="eye" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="eye" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 	</component>
 
 
 	<!-- Eyebrows -->
 	<component type="eyebrow" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 
 	<component type="eyebrow" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 	</component>
 
 	<component type="eyebrow" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
@@ -2909,183 +2909,183 @@
 
 	<!-- Mouth -->
 	<component type="mouth" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="mouth" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="mouth" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="mouth" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_angry" filename="side_angry.swf"/>
-        <state id="side_closed" filename="side_closed.swf"/>
-        <state id="side_confindence" filename="side_confindence.swf"/>
-        <state id="side_confused" filename="side_confused.swf"/>
-        <state id="side_cry" filename="side_cry.swf"/>
-        <state id="side_default" filename="side_default.swf"/>
-        <state id="side_desperate" filename="side_desperate.swf"/>
-        <state id="side_embarrass" filename="side_embarrass.swf"/>
-        <state id="side_happy" filename="side_happy.swf"/>
-        <state id="side_inlove" filename="side_inlove.swf"/>
-        <state id="side_lookcam" filename="side_lookcam.swf"/>
-        <state id="side_lookdown" filename="side_lookdown.swf"/>
-        <state id="side_lookup" filename="side_lookup.swf"/>
-        <state id="side_pleased" filename="side_pleased.swf"/>
-        <state id="side_sad" filename="side_sad.swf"/>
-        <state id="side_serious" filename="side_serious.swf"/>
-        <state id="side_shock" filename="side_shock.swf"/>
-        <state id="side_surprised" filename="side_surprised.swf"/>
-        <state id="side_talk" filename="side_talk.swf"/>
-        <state id="side_thinking" filename="side_thinking.swf"/>
-        <state id="side_touched" filename="side_touched.swf"/>
-        <state id="side_wink" filename="side_wink.swf"/>
-        <state id="side_talk_happy" filename="side_talk_happy.swf"/>
-        <state id="side_talk_angry" filename="side_talk_angry.swf"/>
+		<state id="side_angry" filename="side_angry.swf"/>
+		<state id="side_closed" filename="side_closed.swf"/>
+		<state id="side_confindence" filename="side_confindence.swf"/>
+		<state id="side_confused" filename="side_confused.swf"/>
+		<state id="side_cry" filename="side_cry.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
+		<state id="side_desperate" filename="side_desperate.swf"/>
+		<state id="side_embarrass" filename="side_embarrass.swf"/>
+		<state id="side_happy" filename="side_happy.swf"/>
+		<state id="side_inlove" filename="side_inlove.swf"/>
+		<state id="side_lookcam" filename="side_lookcam.swf"/>
+		<state id="side_lookdown" filename="side_lookdown.swf"/>
+		<state id="side_lookup" filename="side_lookup.swf"/>
+		<state id="side_pleased" filename="side_pleased.swf"/>
+		<state id="side_sad" filename="side_sad.swf"/>
+		<state id="side_serious" filename="side_serious.swf"/>
+		<state id="side_shock" filename="side_shock.swf"/>
+		<state id="side_surprised" filename="side_surprised.swf"/>
+		<state id="side_talk" filename="side_talk.swf"/>
+		<state id="side_thinking" filename="side_thinking.swf"/>
+		<state id="side_touched" filename="side_touched.swf"/>
+		<state id="side_wink" filename="side_wink.swf"/>
+		<state id="side_talk_happy" filename="side_talk_happy.swf"/>
+		<state id="side_talk_angry" filename="side_talk_angry.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 
 	<!-- Nose -->
 	<component type="nose" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_default" filename="side_default.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="nose" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_default" filename="side_default.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="nose" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_default" filename="side_default.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 	</component>
 
 	<!-- Glasses -->
-    <component type="glasses" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_default" filename="default.swf"/>
+	<component type="glasses" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+		<state id="side_default" filename="default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
-    </component>
-    <component type="glasses" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+		<state id="side_default" filename="default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
-    </component>
-    <component type="glasses" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+		<state id="side_default" filename="default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
-    </component>
-    <component type="glasses" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+		<state id="side_default" filename="default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
-    </component>
-    <component type="glasses" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+		<state id="side_default" filename="default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
-    </component>
-    <component type="glasses" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
-        <state id="side_default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+		<state id="side_default" filename="default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
-    </component>
+	</component>
 
 	<!-- Face decoration -->
 	<component type="facedecoration" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_default" filename="side_default.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="facedecoration" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_default" filename="side_default.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="facedecoration" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_default" filename="side_default.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
 	<component type="facedecoration" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="side_default" filename="side_default.swf"/>
+		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
