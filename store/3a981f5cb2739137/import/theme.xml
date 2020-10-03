@@ -32,5 +32,8 @@
 <prop id="characters_ginger21.png" name="Ginger " holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 <prop id="Design-Fancy-Luxury-Bedroom-Bed-Set-Furniture-Hotel.png" name="Design-Fancy-Luxury-Bedroom-Bed-Set-Furniture-Hotel" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 <prop id="import.png" name="import" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+<prop id="cartoonclassicscaillouwalking.swf" name="Smirks caillou walking" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+<prop id="cartoonclassicscailloustanding.swf" name="Smirks caillou standing" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+<prop id="cartoonclassicscailloutalking.swf" name="Smirks caillou talking" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 
 </theme>
