@@ -541,27 +541,21 @@
 			</action>
 			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_desperate" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_neutral" />
@@ -981,27 +975,21 @@
 			</action>
 			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_desperate" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_neutral" />
@@ -1424,27 +1412,21 @@
 			</action>
 			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_desperate" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_neutral" />
