@@ -35,5 +35,6 @@
 <prop id="cartoonclassicscaillouwalking.swf" name="Smirks caillou walking" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 <prop id="cartoonclassicscailloustanding.swf" name="Smirks caillou standing" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 <prop id="cartoonclassicscailloutalking.swf" name="Smirks caillou talking" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+<prop id="Brett_Ortho.png" name="Benson" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 
 </theme>
