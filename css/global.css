@@ -22,7 +22,7 @@ header
 **/
 header {
 	/* style */
-	background: #1e1e1e;
+	background: linear-gradient(90deg, rgba(0,181,255,1) 0%, rgba(255,0,155,1) 100%);
 	color: #fff;
 	text-align: center;
 	/* layout */
@@ -53,12 +53,10 @@ header {
 	cursor: pointer;
 }
 /* small buttons */
-.button_small       { background: #333 }
-.button_small:hover { background: #444; color: #d85e27 }
+.button_small       { background: #3330 }
+.button_small:hover { background: #fff4; color: #fff }
 /* big buttons */
-.button_big {
-	background-color: #d85e27;
-	width: 160px;
+.button_big { background: #fff; width: 160px; color: #ff009b }
 }
 .button_big:hover {
 	text-decoration: underline;
@@ -102,7 +100,7 @@ header dropdowns
 }
 .dropdown_menu>a:hover {
 	background: #222;
-	color: #d85e27;
+	color: #27A0D9;
 	cursor: pointer;
 }
 /* dropdown header and separation */
@@ -119,15 +117,12 @@ header dropdowns
 	margin: 10px 0;
 }
 
-main {
-	padding:20px 40px
-}
 
 /**
 footer
 **/
 footer{
-	background: #1e1e1e;
+	background: #e0e0e0;
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between
@@ -135,7 +130,7 @@ footer{
 footer nav { margin:5px 10px}
 /* links */
 footer a {
-	color: #fff;
+	color: #141414;
 	text-decoration:none;
 	margin: 0 10px;
 	font-weight: bold;
@@ -150,70 +145,37 @@ font importing
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 100;
-	src: url('Sailec-Thin.woff') format('woff');
+	src: url('.../fonts/Sailec-Thin.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 200;
-	src: url('Sailec-Light.woff') format('woff');
+	src: url('../fonts/Sailec-Light.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 400;
-	src: url('Sailec-Regular.woff') format('woff');
+	src: url('../fonts/Sailec-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 500;
-	src: url('Sailec-Medium.woff') format('woff');
+	src: url('../fonts/Sailec-Medium.woff') format('woff');
 }
 
 /* font weight 500 and font weight 700 (bold) are the same for better integration support */
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 700;
-	src: url('Sailec-Medium.woff') format('woff');
+	src: url('../fonts/Sailec-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'GlyphiconsRegular';
-	src: url('glyphicons-regular.woff') format('woff');
+	src: url('../fonts/glyphicons-regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-}
-
-/* ... */
-
-tr>:nth-child(4) {
-	font-family: 'GlyphiconsRegular';
-	text-decoration: none;
-	padding-top: 5px;
-	font-size: 14px;
-	width: 80px;
-}
-
-tr>:nth-child(4)>a {
-	display: inline-block;
-	text-decoration: none;
-	padding-right: 10px;
-	color: #474747;
-}
-
-tr>:nth-child(4)>a:hover {
-	color: #d85e27;
-}
-
-tr>:nth-child(4)>:nth-child(1)::before {
-	content: '\E174';
-}
-
-tr>:nth-child(4)>:nth-child(2)::before {
-	content: '\E235';
-}
-
-tr>:nth-child(4)>:nth-child(3)::before {
-	content: '\E182';
 }
