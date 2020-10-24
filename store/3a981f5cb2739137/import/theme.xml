@@ -121,5 +121,7 @@
 <prop id="Image_50.png" name="Image_50" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 <prop id="Image_75.png" name="Image_75" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 <prop id="Qosie_Gets_In_Dead_Meat_Thumbnail.png" name="Qosie_Gets_In_Dead_Meat_Thumbnail" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+<prop id="dance-gif-dad-in-jeans_1.swf" name="papa" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+<prop id="TenseAgreeableGardensnake-max-1mb_1.swf" name="baby" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 
 </theme>
