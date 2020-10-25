@@ -121,10 +121,6 @@
 <prop id="dance-gif-dad-in-jeans_1.swf" name="papa" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 <prop id="TenseAgreeableGardensnake-max-1mb_1.swf" name="baby" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
 
-<!-- EFFECTS -->
-<effect id="328995073.swf" name="bubbles" type="ANIME" resize="false" move="false" published="1"><tags></tags></effect><effect id="328993953.swf" name="bubbles" type="ANIME" resize="false" move="false" published="1"><tags></tags></effect><effect id="823760.swf" name="warpspeed" type="ANIME" resize="false" move="false" published="1"><tags></tags></effect><effect id="1211151.swf" name="arrowfx" type="ANIME" resize="false" move="false" published="1"><tags></tags></effect>
-
-
 <!-- CHARACTERS -->
 <char id="585035" name="Ham Polo by PaulToon" published="1" facing="left" thumb="585036.swf" default="585036.swf"><tags>paultoon,star wars,han solo</tag00000000000000000s><action id="585036.swf" name="Han solo default"/><action id="585037.swf" name="Han Solo talk"/><action id="640941.swf" name="Han Solo Draw Gun"/><action id="640943.swf" name="Han Solo Shoot Gun"/></char>
 <char id="585038" name="Munchy by PaulToon" published="1" facing="left" thumb="585039.swf" default="585039.swf"><tags>chewbacca,chewy,paultoon,star wars</tags><action id="585039.swf" name="Chewy default"/><action id="585041.swf" name="Chewy roar"/><action id="646385.swf" name="Munchy Draw Gun"/><action id="646386.swf" name="Muncy Stand with Gun"/><action id="646387.swf" name="Munchy Shoot Gun"/></char>
