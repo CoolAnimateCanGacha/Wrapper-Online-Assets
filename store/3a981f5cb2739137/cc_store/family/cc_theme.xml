@@ -133,6 +133,7 @@
         <choice>0x2D5F0C</choice>
         <choice>0x116BA4</choice>
     </color>
+<!--
     <color r="ccUpperMain" oc="0x456789" component_type="upper_body" enable="Y">
         <choice>0xADC62E</choice>
         <choice>0xCC5A2F</choice>
@@ -157,6 +158,7 @@
         <choice>0x756C85</choice>
         <choice>0x43342C</choice>
     </color>
+-->
     <color r="ccDecMajor" component_type="facedecoration" enable="Y">
         <choice>0xFFFFFF</choice>
         <choice>0xC1BFB8</choice>
@@ -1884,6 +1886,30 @@
             <selection type="skeleton" state_id="bend"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
+        <action id="nodding" name="Nodding" loop="Y" totalframe="6" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="nodding"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>		
+        <action id="turn_head" name="Turn Head" loop="Y" totalframe="6" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="turn_head"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>		
+        <action id="turn_head" name="Turn Head" loop="Y" totalframe="6" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="turn_head"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>	
+        <action id="jump" name="Jump" loop="Y" totalframe="6" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="jump"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="jump"/>
+        </action>			
         <action id="walk" name="Walk 1" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="walk"/>
@@ -1926,6 +1952,12 @@
             <selection type="skeleton" state_id="look_down"/>
             <selection type="upper_body" state_id="default"/>
         </action>
+        <action id="walky" name="Walk - Look at sky" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="walk"/>
+            <selection type="skeleton" state_id="look_up"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>			
         <action id="walkpoint" name="Walk - Point at" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="walk"/>
@@ -4907,6 +4939,24 @@
             <selection type="skeleton" state_id="taunt"/>
             <selection type="upper_body" state_id="sit"/>
         </action>
+        <action id="look_up" name="Look up" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="look_up"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>		
+        <action id="look_up2" name="Look up - Crossed arms" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="look_up"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>				
+        <action id="look_up3" name="Look up - Sit" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="look_up"/>
+            <selection type="upper_body" state_id="sit"/>
+        </action>	
         <action id="walk" name="Walk 1" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="walk"/>
